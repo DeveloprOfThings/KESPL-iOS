@@ -98,9 +98,12 @@ jobs:
           git add ${{ env.PACKAGE_FILE }}
           git commit -m "Update Package.swift with binary targets for ${{ github.event.release.tag_name }}"
           
-          # Push the commit to the branch
-          git push origin HEAD
+          # 1. Push the new commit to the main branch
+          # CHANGE 'main' BELOW if your default branch is named 'master'
+          git push origin HEAD:refs/heads/main
           
-          # Force move the tag to include the updated Package.swift
+          # 2. Force move the tag to point to this new commit
           git tag -f ${{ github.event.release.tag_name }}
           git push origin ${{ github.event.release.tag_name }} --force
+          
+          
