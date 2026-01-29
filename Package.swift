@@ -10,18 +10,9 @@ let package = Package(
         // Expose a primary library product that makes the individual targets available
         .library(
             name: "KESPLFrameworkPackage",
-            targets: ["KESPLKitWrapper", "KESPLCallbacksKitWrapper"]),
+            targets: ["KESPLKit", "KESPLCallbacksKit"]),
     ],
     targets: [
-        // Define a wrapper target for KESPLKit to allow for potential future source code
-        .target(
-            name: "KESPLKitWrapper",
-            dependencies: ["KESPLKit"]),
-        // Define a wrapper target for KESPLCallbacksKit
-        .target(
-            name: "KESPLCallbacksKitWrapper",
-            dependencies: ["KESPLCallbacksKit"]),
-
         // Declare the actual binary targets
         .binaryTarget(
             name: "KESPLKit",

@@ -5,7 +5,8 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 !*.code-workspace
-
+.build/
+.build/*
 # Built Visual Studio Code Extensions
 *.vsix
 
