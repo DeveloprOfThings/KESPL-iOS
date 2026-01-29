@@ -1,0 +1,106 @@
+name: Release Binary Package
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write # Required to upload assets and commit changes
+
+jobs:
+  release-frameworks:
+    runs-on: ubuntu-latest
+    env:
+      # -------------------------------------------------------
+      # CONFIGURATION: Update these to match your directory/names
+      # -------------------------------------------------------
+      FRAMEWORK_1_NAME: "KESPLKit"
+      FRAMEWORK_2_NAME: "KESPLCallbacksKit"
+      PACKAGE_FILE: "Package.swift"
+      # -------------------------------------------------------
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Zip Frameworks
+        run: |
+          # -r: recursive, -y: store symlinks as links (critical for frameworks)
+          zip -r -y ${{ env.FRAMEWORK_1_NAME }}.xcframework.zip ${{ env.FRAMEWORK_1_NAME }}.xcframework
+          zip -r -y ${{ env.FRAMEWORK_2_NAME }}.xcframework.zip ${{ env.FRAMEWORK_2_NAME }}.xcframework
+
+      - name: Calculate Checksums
+        id: calc_checksums
+        run: |
+          # Calculate SHA256 and grab the first word (the hash)
+          CHECKSUM1=$(sha256sum ${{ env.FRAMEWORK_1_NAME }}.xcframework.zip | awk '{print $1}')
+          CHECKSUM2=$(sha256sum ${{ env.FRAMEWORK_2_NAME }}.xcframework.zip | awk '{print $1}')
+          
+          # Output to GitHub Actions variables
+          echo "CHECKSUM1=$CHECKSUM1" >> $GITHUB_ENV
+          echo "CHECKSUM2=$CHECKSUM2" >> $GITHUB_ENV
+          
+          # Construct Release URLs
+          RELEASE_URL_BASE="https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}"
+          echo "URL1=${RELEASE_URL_BASE}/${{ env.FRAMEWORK_1_NAME }}.xcframework.zip" >> $GITHUB_ENV
+          echo "URL2=${RELEASE_URL_BASE}/${{ env.FRAMEWORK_2_NAME }}.xcframework.zip" >> $GITHUB_ENV
+
+      - name: Upload Assets to Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ${{ env.FRAMEWORK_1_NAME }}.xcframework.zip
+            ${{ env.FRAMEWORK_2_NAME }}.xcframework.zip
+
+      - name: Update Package.swift
+        run: |
+          # We use a small Python script to reliably regex replace the values
+          python3 -c "
+          import re
+          import os
+
+          # Read file
+          with open('${{ env.PACKAGE_FILE }}', 'r') as f:
+              content = f.read()
+
+          # Configuration for replacement
+          updates = [
+              {
+                  'name': os.environ['FRAMEWORK_1_NAME'], 
+                  'url': os.environ['URL1'], 
+                  'checksum': os.environ['CHECKSUM1']
+              },
+              {
+                  'name': os.environ['FRAMEWORK_2_NAME'], 
+                  'url': os.environ['URL2'], 
+                  'checksum': os.environ['CHECKSUM2']
+              }
+          ]
+
+          for item in updates:
+              # Regex to find .binaryTarget(name: 'NAME', url: 'OLD', checksum: 'OLD')
+              # Handles standard formatting variations
+              pattern = r'(binaryTarget\s*\(\s*name\s*:\s*\"' + item['name'] + r'\"\s*,\s*url\s*:\s*)\"[^\"]*\"(,\s*checksum\s*:\s*)\"[^\"]*\"'
+              replacement = r'\1\"' + item['url'] + r'\"\2\"' + item['checksum'] + r'\"'
+              
+              content = re.sub(pattern, replacement, content)
+
+          # Write back
+          with open('${{ env.PACKAGE_FILE }}', 'w') as f:
+              f.write(content)
+          "
+
+      - name: Commit and Update Tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add ${{ env.PACKAGE_FILE }}
+          git commit -m "Update Package.swift with binary targets for ${{ github.event.release.tag_name }}"
+          
+          # Push the commit to the branch
+          git push origin HEAD
+          
+          # Force move the tag to include the updated Package.swift
+          git tag -f ${{ github.event.release.tag_name }}
+          git push origin ${{ github.event.release.tag_name }} --force
