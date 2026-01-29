@@ -1,0 +1,2761 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -module-name KESPLKit
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CoreBluetooth
+import Foundation
+@_exported import KESPLKit
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum Skie {
+  public enum RuntimeKotlin {
+    public enum SkieColdFlowIterator {
+      public typealias __Kotlin = KESPLKit.SkieColdFlowIterator
+    }
+    public enum SkieKotlinFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinFlow
+    }
+    public enum SkieKotlinMutableSharedFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinMutableSharedFlow
+    }
+    public enum SkieKotlinMutableStateFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinMutableStateFlow
+    }
+    public enum SkieKotlinOptionalFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinOptionalFlow
+    }
+    public enum SkieKotlinOptionalMutableSharedFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinOptionalMutableSharedFlow
+    }
+    public enum SkieKotlinOptionalMutableStateFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinOptionalMutableStateFlow
+    }
+    public enum SkieKotlinOptionalSharedFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinOptionalSharedFlow
+    }
+    public enum SkieKotlinOptionalStateFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinOptionalStateFlow
+    }
+    public enum SkieKotlinSharedFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinSharedFlow
+    }
+    public enum SkieKotlinStateFlow {
+      public typealias __Kotlin = KESPLKit.SkieKotlinStateFlow
+    }
+    public enum Skie_CancellationHandler {
+      public typealias __Kotlin = KESPLKit.Skie_CancellationHandler
+    }
+    public enum Skie_DispatcherDelegate {
+      public typealias __Kotlin = KESPLKit.Skie_DispatcherDelegate
+    }
+    public enum Skie_SuspendHandler {
+      public typealias __Kotlin = KESPLKit.Skie_SuspendHandler
+    }
+    public enum Skie_SuspendResult {
+      public typealias __Kotlin = KESPLKit.Skie_SuspendResult
+      public enum Success {
+        public typealias __Kotlin = KESPLKit.Skie_SuspendResult.Success
+      }
+      public enum Error {
+        public typealias __Kotlin = KESPLKit.Skie_SuspendResult.Error
+      }
+      public enum Canceled {
+        public typealias __Kotlin = KESPLKit.Skie_SuspendResult.Canceled
+      }
+    }
+  }
+  public typealias co_touchlab_skie__runtime_kotlin = KESPLKit.Skie.RuntimeKotlin
+  public enum KotlinxCoroutinesCore {
+    public enum Flow {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreFlow
+    }
+    public enum StateFlow {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreStateFlow
+    }
+    public enum SharedFlow {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreSharedFlow
+    }
+    public enum MutableSharedFlow {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreMutableSharedFlow
+    }
+    public enum MutableStateFlow {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreMutableStateFlow
+    }
+    public enum Runnable {
+      public typealias __Kotlin = KESPLKit.Kotlinx_coroutines_coreRunnable
+    }
+    public enum SelectClause0 {
+    }
+    public enum SelectClause {
+    }
+    public enum SelectInstance {
+    }
+    public enum SelectClause1 {
+    }
+    public enum SelectClause2 {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_coroutines_core = KESPLKit.Skie.KotlinxCoroutinesCore
+  public enum Kespl {
+    public enum ESPDevice {
+      public enum ValentineOne {
+      }
+    }
+    public enum ESPPacketId {
+    }
+    public enum ESPResponse {
+    }
+    public enum ESPFailure {
+    }
+    public enum SAVVYThumbwheelOverride {
+    }
+    public enum V1connection {
+    }
+    public enum V1Mode {
+    }
+    public enum ESPCoreBluetoothEvent {
+    }
+    public enum ESPCBCharacteristicEvent {
+    }
+    public enum UserSettings {
+    }
+  }
+  public typealias HelloV1__kespl = KESPLKit.Skie.Kespl
+  public enum KotlinxSerializationCore {
+    public enum SerialKind {
+    }
+    public enum SerializersModule {
+    }
+    public enum PolymorphicKind {
+    }
+    public enum PrimitiveKind {
+    }
+    public enum StructureKind {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_serialization_core = KESPLKit.Skie.KotlinxSerializationCore
+  public enum KotlinxIoCore {
+    public enum Source {
+    }
+    public enum Sink {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_io_core = KESPLKit.Skie.KotlinxIoCore
+}
+@_hasMissingDesignatedInitializers public class SkieSwiftFlowIterator<T> : _Concurrency.AsyncIteratorProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func next() async -> T?
+  #endif
+  @objc deinit
+  public typealias Element = T
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = Swift.Never
+}
+public protocol SkieSwiftFlowProtocol<Element> : _Concurrency.AsyncSequence {
+  associatedtype Element
+  associatedtype Delegate : KESPLKit.Kotlinx_coroutines_coreFlow
+  @_spi(SKIE) var delegate: Self.Delegate { get }
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinOptionalFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinOptionalFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftSharedFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreSharedFlow
+  final public var replayCache: [T] {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinSharedFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalSharedFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreSharedFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinOptionalSharedFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinOptionalSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftMutableSharedFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreMutableSharedFlow
+  final public var subscriptionCount: KESPLKit.SkieSwiftStateFlow<KESPLKit.KotlinInt> {
+    get
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T) async throws
+  final public func tryEmit(value: T) -> Swift.Bool
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftMutableSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftMutableSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinMutableSharedFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinMutableSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreMutableSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalMutableSharedFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreMutableSharedFlow
+  final public var subscriptionCount: KESPLKit.SkieSwiftStateFlow<KESPLKit.KotlinInt> {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func tryEmit(value: T?) -> Swift.Bool
+  #endif
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreMutableSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftStateFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreStateFlow
+  final public var value: T {
+    get
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinStateFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinStateFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalStateFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreStateFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var value: T? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinOptionalStateFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinOptionalStateFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftMutableStateFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreMutableStateFlow
+  final public var value: T {
+    get
+    set(value)
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  final public var subscriptionCount: KESPLKit.SkieSwiftStateFlow<KESPLKit.KotlinInt> {
+    get
+  }
+  final public func compareAndSet(expect: T, update: T) -> Swift.Bool
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T) async throws
+  final public func tryEmit(value: T) -> Swift.Bool
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftMutableStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftMutableStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinMutableStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinMutableStateFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinMutableStateFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreMutableStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalMutableStateFlow<T> : KESPLKit.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  @_spi(SKIE) final public let delegate: any KESPLKit.Kotlinx_coroutines_coreMutableStateFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var value: T? {
+    get
+    set(value)
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  final public var subscriptionCount: KESPLKit.SkieSwiftStateFlow<KESPLKit.KotlinInt> {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func compareAndSet(expect: T?, update: T?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func tryEmit(value: T?) -> Swift.Bool
+  #endif
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalMutableStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>, result: inout KESPLKit.SkieSwiftOptionalMutableStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> KESPLKit.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> KESPLKit.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = KESPLKit.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = KESPLKit.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>
+  public typealias Delegate = any KESPLKit.Kotlinx_coroutines_coreMutableStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func collect<Flow>(flow: Flow, into binding: SwiftUICore.Binding<Flow.Element>) -> some SwiftUICore.View where Flow : KESPLKit.SkieSwiftFlowProtocol
+  
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func collect<Flow, U>(flow: Flow, into binding: SwiftUICore.Binding<U>, transform: @escaping (Flow.Element) async -> U?) -> some SwiftUICore.View where Flow : KESPLKit.SkieSwiftFlowProtocol
+  
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func collect<Flow>(flow: Flow, perform: @escaping (Flow.Element) async -> Swift.Void) -> some SwiftUICore.View where Flow : KESPLKit.SkieSwiftFlowProtocol
+  
+}
+public protocol SkieSwiftFlowWithInitialValue<Flow> {
+  associatedtype Flow : KESPLKit.SkieSwiftFlowProtocol
+  associatedtype Element where Self.Element == Self.Flow.Element
+  @_spi(SKIE) var flow: Self.Flow { get }
+  @_spi(SKIE) var initialValue: Self.Element { get }
+}
+extension KESPLKit.SkieSwiftStateFlow : KESPLKit.SkieSwiftFlowWithInitialValue {
+  @_spi(SKIE) final public var flow: KESPLKit.SkieSwiftStateFlow<T> {
+    @_spi(SKIE) get
+  }
+  @_spi(SKIE) final public var initialValue: KESPLKit.SkieSwiftStateFlow<T>.Element {
+    @_spi(SKIE) get
+  }
+  public typealias Flow = KESPLKit.SkieSwiftStateFlow<T>
+}
+extension KESPLKit.SkieSwiftOptionalStateFlow : KESPLKit.SkieSwiftFlowWithInitialValue {
+  @_spi(SKIE) final public var flow: KESPLKit.SkieSwiftOptionalStateFlow<T> {
+    @_spi(SKIE) get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_spi(SKIE) final public var initialValue: KESPLKit.SkieSwiftOptionalStateFlow<T>.Element {
+    @_spi(SKIE) get
+  }
+  #endif
+  public typealias Flow = KESPLKit.SkieSwiftOptionalStateFlow<T>
+}
+extension KESPLKit.SkieSwiftMutableStateFlow : KESPLKit.SkieSwiftFlowWithInitialValue {
+  @_spi(SKIE) final public var flow: KESPLKit.SkieSwiftMutableStateFlow<T> {
+    @_spi(SKIE) get
+  }
+  @_spi(SKIE) final public var initialValue: KESPLKit.SkieSwiftMutableStateFlow<T>.Element {
+    @_spi(SKIE) get
+  }
+  public typealias Flow = KESPLKit.SkieSwiftMutableStateFlow<T>
+}
+extension KESPLKit.SkieSwiftOptionalMutableStateFlow : KESPLKit.SkieSwiftFlowWithInitialValue {
+  @_spi(SKIE) final public var flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T> {
+    @_spi(SKIE) get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_spi(SKIE) final public var initialValue: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>.Element {
+    @_spi(SKIE) get
+  }
+  #endif
+  public typealias Flow = KESPLKit.SkieSwiftOptionalMutableStateFlow<T>
+}
+extension KESPLKit.SkieSwiftFlow {
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftFlow<T>>
+  
+}
+extension KESPLKit.SkieSwiftOptionalFlow {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftOptionalFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftOptionalFlow<T>>
+  
+  #endif
+}
+extension KESPLKit.SkieSwiftSharedFlow {
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftSharedFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftSharedFlow<T>>
+  
+}
+extension KESPLKit.SkieSwiftOptionalSharedFlow {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftOptionalSharedFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftOptionalSharedFlow<T>>
+  
+  #endif
+}
+extension KESPLKit.SkieSwiftMutableSharedFlow {
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftMutableSharedFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftMutableSharedFlow<T>>
+  
+}
+extension KESPLKit.SkieSwiftOptionalMutableSharedFlow {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func withInitialValue(_ initialValue: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>.Element) -> some KESPLKit.SkieSwiftFlowWithInitialValue<KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>>
+  
+  #endif
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+@_Concurrency.MainActor @preconcurrency public struct Observing<Values, InitialContent, Content> : SwiftUICore.View where InitialContent : SwiftUICore.View, Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let flows: [any KESPLKit.SkieSwiftFlowProtocol]
+  @_Concurrency.MainActor @preconcurrency public let flowIds: [Swift.ObjectIdentifier]
+  @_Concurrency.MainActor @preconcurrency public let initialContent: () -> InitialContent
+  @_Concurrency.MainActor @preconcurrency public let content: (Values) -> Content
+  @_Concurrency.MainActor @preconcurrency public let extractValues: ([Any?]) -> Values?
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_spi(SKIE) @_Concurrency.MainActor @preconcurrency public init(flows: [any KESPLKit.SkieSwiftFlowProtocol], flowIds: [Swift.ObjectIdentifier], @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Values) -> Content, extractValues: @escaping ([Any?]) -> Values?)
+  #endif
+  @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s8KESPLKit9ObservingV4bodyQrvp", 0) __<Values, InitialContent, Content>
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+extension KESPLKit.Observing {
+  @_Concurrency.MainActor @preconcurrency public init<Flow1>(_ flow1: Flow1, @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element) -> Content) where Values == Flow1.Element, Flow1 : KESPLKit.SkieSwiftFlowProtocol
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2>(_ flow1: Flow1, _ flow2: Flow2, @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element) -> Content) where Values == (Flow1.Element, Flow2.Element), Flow1 : KESPLKit.SkieSwiftFlowProtocol, Flow2 : KESPLKit.SkieSwiftFlowProtocol
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element), Flow1 : KESPLKit.SkieSwiftFlowProtocol, Flow2 : KESPLKit.SkieSwiftFlowProtocol, Flow3 : KESPLKit.SkieSwiftFlowProtocol
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element), Flow1 : KESPLKit.SkieSwiftFlowProtocol, Flow2 : KESPLKit.SkieSwiftFlowProtocol, Flow3 : KESPLKit.SkieSwiftFlowProtocol, Flow4 : KESPLKit.SkieSwiftFlowProtocol
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4, Flow5>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, _ flow5: Flow5, @SwiftUICore.ViewBuilder initialContent: @escaping () -> InitialContent, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element), Flow1 : KESPLKit.SkieSwiftFlowProtocol, Flow2 : KESPLKit.SkieSwiftFlowProtocol, Flow3 : KESPLKit.SkieSwiftFlowProtocol, Flow4 : KESPLKit.SkieSwiftFlowProtocol, Flow5 : KESPLKit.SkieSwiftFlowProtocol
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+extension KESPLKit.Observing where InitialContent == SwiftUICore.EmptyView {
+  @_Concurrency.MainActor @preconcurrency public init<Flow1>(_ flow1: Flow1, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element) -> Content) where Values == Flow1.Element, Flow1 : KESPLKit.SkieSwiftFlowWithInitialValue
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2>(_ flow1: Flow1, _ flow2: Flow2, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element) -> Content) where Values == (Flow1.Element, Flow2.Element), Flow1 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLKit.SkieSwiftFlowWithInitialValue
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element), Flow1 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow3 : KESPLKit.SkieSwiftFlowWithInitialValue
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element), Flow1 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow3 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow4 : KESPLKit.SkieSwiftFlowWithInitialValue
+  @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4, Flow5>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, _ flow5: Flow5, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element), Flow1 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow3 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow4 : KESPLKit.SkieSwiftFlowWithInitialValue, Flow5 : KESPLKit.SkieSwiftFlowWithInitialValue
+}
+extension KESPLKit.ESPByteArrayFlowExtKt {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func waitForMatchingInfDisplayDataObserveRequestFeedback(_ receiver: KESPLKit.SkieSwiftFlow<KESPLKit.KotlinByteArray>, requestDestination: KESPLKit.ESPDevice, requestPacketId: KESPLKit.ESPPacketId, v1: KESPLKit.ESPDevice.ValentineOne, timeout: Swift.Int64, maxBusyPackets: Swift.Int32, infDisplayDataPredicate: @escaping (KESPLKit.KotlinByteArray) -> KESPLKit.KotlinBoolean) async throws -> any KESPLKit.ESPResponse
+}
+extension KESPLKit.Skie.RuntimeKotlin.SkieColdFlowIterator {
+  public struct __Suspend<E> where E : AnyObject {
+    public let __kotlinObject: KESPLKit.SkieColdFlowIterator<E>
+    public init(_ __kotlinObject: KESPLKit.SkieColdFlowIterator<E>)
+  }
+}
+public func skie<E>(_ kotlinObject: KESPLKit.SkieColdFlowIterator<E>) -> KESPLKit.Skie.RuntimeKotlin.SkieColdFlowIterator.__Suspend<E> where E : AnyObject
+extension KESPLKit.Skie.RuntimeKotlin.SkieColdFlowIterator.__Suspend {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func hasNext() async throws -> KESPLKit.KotlinBoolean
+}
+extension KESPLKit.Kotlinx_coroutines_coreFlow {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func collect(collector: any KESPLKit.Kotlinx_coroutines_coreFlowCollector) async throws
+}
+extension KESPLKit.Kotlinx_coroutines_coreFlowCollector {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func emit(value: Any?) async throws
+  #endif
+}
+extension KESPLKit.IESPClient {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func abortAudioDelay(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func canPersistLastDevices(persist: Swift.Bool) async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func changeMode(mode: KESPLKit.V1Mode, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func clearPersistedLastDevices() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(connectionStrategy: KESPLKit.ConnectionStrategy, scanDurationMillis: Swift.Int64) async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(v1c: any KESPLKit.V1connection, directConnect: Swift.Bool) async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func disconnect() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func displayCurrentVolume(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func enableAlertTable(enable: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func hasPreviousV1connection() async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func mute(muted: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func mute(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(speed: Swift.Int32, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(speed: Swift.Int8, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(override: KESPLKit.SAVVYThumbwheelOverride, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestAllVolumes(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestBatteryVoltage(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestCurrentVolume(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDefaultSweepDefinitions(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDeviceSerialNumber(destination: KESPLKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDeviceVersion(destination: KESPLKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestMaxSweepIndex(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSAVVYStatus(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepData(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepDefinitions(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepSections(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserBytes(destination: KESPLKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserSettings(destination: KESPLKit.ESPDevice, forceVersionRequest: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1SerialNumber(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1UserSettings(forceVersionRequest: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1Version(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestVehicleSpeed(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreDefaultSweeps(verify: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreFactoryDefaults(destination: KESPLKit.ESPDevice, verify: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func setMainDisplay(on: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func turnOffMainDisplay(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func turnOnMainDisplay(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func unmute(timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func unmuteSAVVY(enableUnmuting: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeSweepDefinitions(sweepDefinitions: [KESPLKit.SweepDefinition], timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeUserBytes(destination: KESPLKit.ESPDevice, userBytes: KESPLKit.KotlinByteArray, verifyBytes: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeV1UserBytes(userBytes: KESPLKit.KotlinByteArray, verifyBytes: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeVolume(volume: KESPLKit.V1Volume, provideUserFeedback: Swift.Bool, skipFeedbackWhenNoChange: Swift.Bool, saveVolume: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+}
+extension KESPLKit.Kotlinx_coroutines_coreJob {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func join() async throws
+}
+extension KESPLKit.Kotlinx_coroutines_coreDeferred {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func await() async throws -> Any?
+  #endif
+}
+extension KESPLKit.IESPClientCompanion {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func querySystemBluetoothLESupport() async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func querySystemBluetoothSupport() async throws -> KESPLKit.KotlinBoolean
+}
+extension KESPLKit.V1connectionDemo.Companion {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func fromInputStream(is: any KESPLKit.Kotlinx_io_coreRawSource) async throws -> any KESPLKit.V1connection
+}
+extension KESPLKit.BaseConnection {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func cleanupForDisconnection() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func onConnectionLost() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func onDisconnected() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func performConnection(v1c: any KESPLKit.V1connection, directConnect: Swift.Bool) async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func performDisconnect() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func processESPData(espData: KESPLKit.KotlinByteArray) async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeBytes(bytes: KESPLKit.KotlinByteArray) async throws -> KESPLKit.KotlinBoolean
+}
+extension KESPLKit.IConnection {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(v1c: any KESPLKit.V1connection, directConnect: Swift.Bool) async throws -> KESPLKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func disconnect() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func scan(scanMode: KESPLKit.ESPScanMode) async throws -> any KESPLKit.Kotlinx_coroutines_coreFlow
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeRequest(request: KESPLKit.ESPRequest, waitForV1TypeDuration: Swift.Int64) async throws -> any KESPLKit.ESPResponse
+}
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftFlow<T>) -> KESPLKit.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftFlow<T>) -> KESPLKit.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftOptionalFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftOptionalFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftSharedFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftOptionalSharedFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftOptionalSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftMutableSharedFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+}
+extension KESPLKit.SkieSwiftMutableSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+}
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftOptionalMutableSharedFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+}
+extension KESPLKit.SkieSwiftOptionalMutableSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableSharedFlow<T>)
+}
+public func SkieKotlinStateFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinStateFlow<T> where T : AnyObject
+public func SkieKotlinStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinStateFlow<T> where T : AnyObject
+public func SkieKotlinStateFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftStateFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftOptionalStateFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftOptionalStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftMutableStateFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftMutableStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>) -> KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension KESPLKit.SkieSwiftOptionalMutableStateFlow where T : AnyObject {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension KESPLKit.SkieSwiftOptionalMutableStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: KESPLKit.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: KESPLKit.SkieSwiftOptionalMutableStateFlow<T>)
+}
+@frozen public enum KotlinLazyThreadSafetyMode : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case synchronized
+  case publication
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__KotlinLazyThreadSafetyMode, result: inout KESPLKit.KotlinLazyThreadSafetyMode?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__KotlinLazyThreadSafetyMode, result: inout KESPLKit.KotlinLazyThreadSafetyMode?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__KotlinLazyThreadSafetyMode?) -> KESPLKit.KotlinLazyThreadSafetyMode
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__KotlinLazyThreadSafetyMode
+  public typealias _ObjectiveCType = KESPLKit.__KotlinLazyThreadSafetyMode
+  public static func == (a: KESPLKit.KotlinLazyThreadSafetyMode, b: KESPLKit.KotlinLazyThreadSafetyMode) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.KotlinLazyThreadSafetyMode]
+  nonisolated public static var allCases: [KESPLKit.KotlinLazyThreadSafetyMode] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.KotlinLazyThreadSafetyMode {
+  public func toKotlinEnum() -> KESPLKit.__KotlinLazyThreadSafetyMode
+}
+extension KESPLKit.__KotlinLazyThreadSafetyMode {
+  public func toSwiftEnum() -> KESPLKit.KotlinLazyThreadSafetyMode
+}
+@frozen public enum V1cType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case legacy
+  case le
+  case demo
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__V1cType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__V1cType, result: inout KESPLKit.V1cType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__V1cType, result: inout KESPLKit.V1cType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__V1cType?) -> KESPLKit.V1cType
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__V1cType
+  public typealias _ObjectiveCType = KESPLKit.__V1cType
+  public typealias Companion = KESPLKit.__V1cType.Companion
+  public static func == (a: KESPLKit.V1cType, b: KESPLKit.V1cType) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.V1cType]
+  nonisolated public static var allCases: [KESPLKit.V1cType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.V1cType {
+  public func toKotlinEnum() -> KESPLKit.__V1cType
+}
+extension KESPLKit.__V1cType {
+  public func toSwiftEnum() -> KESPLKit.V1cType
+}
+@frozen public enum ConnectionStrategy : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case first
+  case strongest
+  case last
+  case lastThenStrongest
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__ConnectionStrategy, result: inout KESPLKit.ConnectionStrategy?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ConnectionStrategy, result: inout KESPLKit.ConnectionStrategy?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ConnectionStrategy?) -> KESPLKit.ConnectionStrategy
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__ConnectionStrategy
+  public typealias _ObjectiveCType = KESPLKit.__ConnectionStrategy
+  public static func == (a: KESPLKit.ConnectionStrategy, b: KESPLKit.ConnectionStrategy) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.ConnectionStrategy]
+  nonisolated public static var allCases: [KESPLKit.ConnectionStrategy] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.ConnectionStrategy {
+  public func toKotlinEnum() -> KESPLKit.__ConnectionStrategy
+}
+extension KESPLKit.__ConnectionStrategy {
+  public func toSwiftEnum() -> KESPLKit.ConnectionStrategy
+}
+@frozen public enum V1ConnectionTypePreference : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case auto
+  case le
+  case legacy
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__V1ConnectionTypePreference, result: inout KESPLKit.V1ConnectionTypePreference?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__V1ConnectionTypePreference, result: inout KESPLKit.V1ConnectionTypePreference?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__V1ConnectionTypePreference?) -> KESPLKit.V1ConnectionTypePreference
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__V1ConnectionTypePreference
+  public typealias _ObjectiveCType = KESPLKit.__V1ConnectionTypePreference
+  public static func == (a: KESPLKit.V1ConnectionTypePreference, b: KESPLKit.V1ConnectionTypePreference) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.V1ConnectionTypePreference]
+  nonisolated public static var allCases: [KESPLKit.V1ConnectionTypePreference] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.V1ConnectionTypePreference {
+  public func toKotlinEnum() -> KESPLKit.__V1ConnectionTypePreference
+}
+extension KESPLKit.__V1ConnectionTypePreference {
+  public func toSwiftEnum() -> KESPLKit.V1ConnectionTypePreference
+}
+@frozen public enum ESPConnectionStatus : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case disconnected
+  case connecting
+  case connectionFailed
+  case connected
+  case disconnecting
+  case connectionLost
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__ESPConnectionStatus, result: inout KESPLKit.ESPConnectionStatus?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ESPConnectionStatus, result: inout KESPLKit.ESPConnectionStatus?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ESPConnectionStatus?) -> KESPLKit.ESPConnectionStatus
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__ESPConnectionStatus
+  public typealias _ObjectiveCType = KESPLKit.__ESPConnectionStatus
+  public static func == (a: KESPLKit.ESPConnectionStatus, b: KESPLKit.ESPConnectionStatus) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.ESPConnectionStatus]
+  nonisolated public static var allCases: [KESPLKit.ESPConnectionStatus] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.ESPConnectionStatus {
+  public func toKotlinEnum() -> KESPLKit.__ESPConnectionStatus
+}
+extension KESPLKit.__ESPConnectionStatus {
+  public func toSwiftEnum() -> KESPLKit.ESPConnectionStatus
+}
+@frozen public enum IOSCentralManagerState : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case poweredOff
+  case poweredOn
+  case resetting
+  case unauthorized
+  case unknown
+  case unsupported
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Int64 {
+    get
+  }
+  public static var companion: KESPLKit.__IOSCentralManagerState.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__IOSCentralManagerState, result: inout KESPLKit.IOSCentralManagerState?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__IOSCentralManagerState, result: inout KESPLKit.IOSCentralManagerState?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__IOSCentralManagerState?) -> KESPLKit.IOSCentralManagerState
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__IOSCentralManagerState
+  public typealias _ObjectiveCType = KESPLKit.__IOSCentralManagerState
+  public typealias Companion = KESPLKit.__IOSCentralManagerState.Companion
+  public static func == (a: KESPLKit.IOSCentralManagerState, b: KESPLKit.IOSCentralManagerState) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.IOSCentralManagerState]
+  nonisolated public static var allCases: [KESPLKit.IOSCentralManagerState] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.IOSCentralManagerState {
+  public func toKotlinEnum() -> KESPLKit.__IOSCentralManagerState
+}
+extension KESPLKit.__IOSCentralManagerState {
+  public func toSwiftEnum() -> KESPLKit.IOSCentralManagerState
+}
+@frozen public enum ESPScanMode : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case opportunistic
+  case lowPower
+  case balanced
+  case lowLatency
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__ESPScanMode, result: inout KESPLKit.ESPScanMode?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ESPScanMode, result: inout KESPLKit.ESPScanMode?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__ESPScanMode?) -> KESPLKit.ESPScanMode
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__ESPScanMode
+  public typealias _ObjectiveCType = KESPLKit.__ESPScanMode
+  public static func == (a: KESPLKit.ESPScanMode, b: KESPLKit.ESPScanMode) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.ESPScanMode]
+  nonisolated public static var allCases: [KESPLKit.ESPScanMode] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.ESPScanMode {
+  public func toKotlinEnum() -> KESPLKit.__ESPScanMode
+}
+extension KESPLKit.__ESPScanMode {
+  public func toSwiftEnum() -> KESPLKit.ESPScanMode
+}
+@frozen public enum CoreBluetoothOperation : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case discoverServices
+  case discoverServiceCharacteristics
+  case remoteRssi
+  case characteristicWrite
+  case characteristicNotifications
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__CoreBluetoothOperation, result: inout KESPLKit.CoreBluetoothOperation?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__CoreBluetoothOperation, result: inout KESPLKit.CoreBluetoothOperation?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__CoreBluetoothOperation?) -> KESPLKit.CoreBluetoothOperation
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__CoreBluetoothOperation
+  public typealias _ObjectiveCType = KESPLKit.__CoreBluetoothOperation
+  public static func == (a: KESPLKit.CoreBluetoothOperation, b: KESPLKit.CoreBluetoothOperation) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.CoreBluetoothOperation]
+  nonisolated public static var allCases: [KESPLKit.CoreBluetoothOperation] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.CoreBluetoothOperation {
+  public func toKotlinEnum() -> KESPLKit.__CoreBluetoothOperation
+}
+extension KESPLKit.__CoreBluetoothOperation {
+  public func toSwiftEnum() -> KESPLKit.CoreBluetoothOperation
+}
+@frozen public enum AlertArrow : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case front
+  case side
+  case rear
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__AlertArrow.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__AlertArrow, result: inout KESPLKit.AlertArrow?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AlertArrow, result: inout KESPLKit.AlertArrow?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AlertArrow?) -> KESPLKit.AlertArrow
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__AlertArrow
+  public typealias _ObjectiveCType = KESPLKit.__AlertArrow
+  public typealias Companion = KESPLKit.__AlertArrow.Companion
+  public static func == (a: KESPLKit.AlertArrow, b: KESPLKit.AlertArrow) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.AlertArrow]
+  nonisolated public static var allCases: [KESPLKit.AlertArrow] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.AlertArrow {
+  public func toKotlinEnum() -> KESPLKit.__AlertArrow
+}
+extension KESPLKit.__AlertArrow {
+  public func toSwiftEnum() -> KESPLKit.AlertArrow
+}
+@frozen public enum AlertBand : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case laser
+  case ka
+  case k
+  case x
+  case ku
+  case photo
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__AlertBand.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__AlertBand, result: inout KESPLKit.AlertBand?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AlertBand, result: inout KESPLKit.AlertBand?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AlertBand?) -> KESPLKit.AlertBand
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__AlertBand
+  public typealias _ObjectiveCType = KESPLKit.__AlertBand
+  public typealias Companion = KESPLKit.__AlertBand.Companion
+  public static func == (a: KESPLKit.AlertBand, b: KESPLKit.AlertBand) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.AlertBand]
+  nonisolated public static var allCases: [KESPLKit.AlertBand] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.AlertBand {
+  public func toKotlinEnum() -> KESPLKit.__AlertBand
+}
+extension KESPLKit.__AlertBand {
+  public func toSwiftEnum() -> KESPLKit.AlertBand
+}
+@frozen public enum PhotoRadar : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case mrct
+  case driveSafeType1
+  case driveSafeType2
+  case redflexHalo
+  case redflexNk7
+  case ekin
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__PhotoRadar.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__PhotoRadar, result: inout KESPLKit.PhotoRadar?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__PhotoRadar, result: inout KESPLKit.PhotoRadar?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__PhotoRadar?) -> KESPLKit.PhotoRadar
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__PhotoRadar
+  public typealias _ObjectiveCType = KESPLKit.__PhotoRadar
+  public typealias Companion = KESPLKit.__PhotoRadar.Companion
+  public static func == (a: KESPLKit.PhotoRadar, b: KESPLKit.PhotoRadar) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.PhotoRadar]
+  nonisolated public static var allCases: [KESPLKit.PhotoRadar] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.PhotoRadar {
+  public func toKotlinEnum() -> KESPLKit.__PhotoRadar
+}
+extension KESPLKit.__PhotoRadar {
+  public func toSwiftEnum() -> KESPLKit.PhotoRadar
+}
+@frozen public enum BarGraphSensitive : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case normal
+  case responsive
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__BarGraphSensitive, result: inout KESPLKit.BarGraphSensitive?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BarGraphSensitive, result: inout KESPLKit.BarGraphSensitive?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BarGraphSensitive?) -> KESPLKit.BarGraphSensitive
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__BarGraphSensitive
+  public typealias _ObjectiveCType = KESPLKit.__BarGraphSensitive
+  public static func == (a: KESPLKit.BarGraphSensitive, b: KESPLKit.BarGraphSensitive) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.BarGraphSensitive]
+  nonisolated public static var allCases: [KESPLKit.BarGraphSensitive] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.BarGraphSensitive {
+  public func toKotlinEnum() -> KESPLKit.__BarGraphSensitive
+}
+extension KESPLKit.__BarGraphSensitive {
+  public func toSwiftEnum() -> KESPLKit.BarGraphSensitive
+}
+@frozen public enum MuteVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case lever
+  case zero
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__MuteVolumeControl, result: inout KESPLKit.MuteVolumeControl?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__MuteVolumeControl, result: inout KESPLKit.MuteVolumeControl?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__MuteVolumeControl?) -> KESPLKit.MuteVolumeControl
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__MuteVolumeControl
+  public typealias _ObjectiveCType = KESPLKit.__MuteVolumeControl
+  public static func == (a: KESPLKit.MuteVolumeControl, b: KESPLKit.MuteVolumeControl) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.MuteVolumeControl]
+  nonisolated public static var allCases: [KESPLKit.MuteVolumeControl] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.MuteVolumeControl {
+  public func toKotlinEnum() -> KESPLKit.__MuteVolumeControl
+}
+extension KESPLKit.__MuteVolumeControl {
+  public func toSwiftEnum() -> KESPLKit.MuteVolumeControl
+}
+@frozen public enum BogeyLockVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case lever
+  case knob
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__BogeyLockVolumeControl, result: inout KESPLKit.BogeyLockVolumeControl?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BogeyLockVolumeControl, result: inout KESPLKit.BogeyLockVolumeControl?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BogeyLockVolumeControl?) -> KESPLKit.BogeyLockVolumeControl
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__BogeyLockVolumeControl
+  public typealias _ObjectiveCType = KESPLKit.__BogeyLockVolumeControl
+  public static func == (a: KESPLKit.BogeyLockVolumeControl, b: KESPLKit.BogeyLockVolumeControl) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.BogeyLockVolumeControl]
+  nonisolated public static var allCases: [KESPLKit.BogeyLockVolumeControl] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.BogeyLockVolumeControl {
+  public func toKotlinEnum() -> KESPLKit.__BogeyLockVolumeControl
+}
+extension KESPLKit.__BogeyLockVolumeControl {
+  public func toSwiftEnum() -> KESPLKit.BogeyLockVolumeControl
+}
+@frozen public enum KTimer : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case _10
+  case _30
+  case _20
+  case _15
+  case _7
+  case _5
+  case _4
+  case _3
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__KTimer, result: inout KESPLKit.KTimer?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__KTimer, result: inout KESPLKit.KTimer?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__KTimer?) -> KESPLKit.KTimer
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__KTimer
+  public typealias _ObjectiveCType = KESPLKit.__KTimer
+  public static func == (a: KESPLKit.KTimer, b: KESPLKit.KTimer) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.KTimer]
+  nonisolated public static var allCases: [KESPLKit.KTimer] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.KTimer {
+  public func toKotlinEnum() -> KESPLKit.__KTimer
+}
+extension KESPLKit.__KTimer {
+  public func toSwiftEnum() -> KESPLKit.KTimer
+}
+@frozen public enum AutoMute : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case off
+  case muteAllSignals
+  case muteAllSignalsWithUnmute
+  case invalid
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__AutoMute.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__AutoMute, result: inout KESPLKit.AutoMute?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AutoMute, result: inout KESPLKit.AutoMute?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__AutoMute?) -> KESPLKit.AutoMute
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__AutoMute
+  public typealias _ObjectiveCType = KESPLKit.__AutoMute
+  public typealias Companion = KESPLKit.__AutoMute.Companion
+  public static func == (a: KESPLKit.AutoMute, b: KESPLKit.AutoMute) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.AutoMute]
+  nonisolated public static var allCases: [KESPLKit.AutoMute] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.AutoMute {
+  public func toKotlinEnum() -> KESPLKit.__AutoMute
+}
+extension KESPLKit.__AutoMute {
+  public func toSwiftEnum() -> KESPLKit.AutoMute
+}
+@frozen public enum BandSensitivity : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case full
+  case original
+  case relaxed
+  case invalid
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLKit.__BandSensitivity.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__BandSensitivity, result: inout KESPLKit.BandSensitivity?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BandSensitivity, result: inout KESPLKit.BandSensitivity?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__BandSensitivity?) -> KESPLKit.BandSensitivity
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__BandSensitivity
+  public typealias _ObjectiveCType = KESPLKit.__BandSensitivity
+  public typealias Companion = KESPLKit.__BandSensitivity.Companion
+  public static func == (a: KESPLKit.BandSensitivity, b: KESPLKit.BandSensitivity) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.BandSensitivity]
+  nonisolated public static var allCases: [KESPLKit.BandSensitivity] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.BandSensitivity {
+  public func toKotlinEnum() -> KESPLKit.__BandSensitivity
+}
+extension KESPLKit.__BandSensitivity {
+  public func toSwiftEnum() -> KESPLKit.BandSensitivity
+}
+@frozen public enum Koin_coreLevel : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case debug
+  case info
+  case warning
+  case error
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreLevel, result: inout KESPLKit.Koin_coreLevel?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreLevel, result: inout KESPLKit.Koin_coreLevel?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreLevel?) -> KESPLKit.Koin_coreLevel
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__Koin_coreLevel
+  public typealias _ObjectiveCType = KESPLKit.__Koin_coreLevel
+  public static func == (a: KESPLKit.Koin_coreLevel, b: KESPLKit.Koin_coreLevel) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.Koin_coreLevel]
+  nonisolated public static var allCases: [KESPLKit.Koin_coreLevel] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.Koin_coreLevel {
+  public func toKotlinEnum() -> KESPLKit.__Koin_coreLevel
+}
+extension KESPLKit.__Koin_coreLevel {
+  public func toSwiftEnum() -> KESPLKit.Koin_coreLevel
+}
+@frozen public enum Koin_coreKoinOption : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case viewmodelScopeFactory
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKoinOption, result: inout KESPLKit.Koin_coreKoinOption?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKoinOption, result: inout KESPLKit.Koin_coreKoinOption?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKoinOption?) -> KESPLKit.Koin_coreKoinOption
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__Koin_coreKoinOption
+  public typealias _ObjectiveCType = KESPLKit.__Koin_coreKoinOption
+  public static func == (a: KESPLKit.Koin_coreKoinOption, b: KESPLKit.Koin_coreKoinOption) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.Koin_coreKoinOption]
+  nonisolated public static var allCases: [KESPLKit.Koin_coreKoinOption] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.Koin_coreKoinOption {
+  public func toKotlinEnum() -> KESPLKit.__Koin_coreKoinOption
+}
+extension KESPLKit.__Koin_coreKoinOption {
+  public func toSwiftEnum() -> KESPLKit.Koin_coreKoinOption
+}
+@frozen public enum Koin_coreKind : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case singleton
+  case factory
+  case scoped
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKind, result: inout KESPLKit.Koin_coreKind?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKind, result: inout KESPLKit.Koin_coreKind?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLKit.__Koin_coreKind?) -> KESPLKit.Koin_coreKind
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLKit.__Koin_coreKind
+  public typealias _ObjectiveCType = KESPLKit.__Koin_coreKind
+  public static func == (a: KESPLKit.Koin_coreKind, b: KESPLKit.Koin_coreKind) -> Swift.Bool
+  public typealias AllCases = [KESPLKit.Koin_coreKind]
+  nonisolated public static var allCases: [KESPLKit.Koin_coreKind] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLKit.Koin_coreKind {
+  public func toKotlinEnum() -> KESPLKit.__Koin_coreKind
+}
+extension KESPLKit.__Koin_coreKind {
+  public func toSwiftEnum() -> KESPLKit.Koin_coreKind
+}
+extension KESPLKit.Skie.RuntimeKotlin.Skie_SuspendResult {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case canceled(KESPLKit.Skie_SuspendResult.Canceled)
+    case error(KESPLKit.Skie_SuspendResult.Error)
+    case success(KESPLKit.Skie_SuspendResult.Success)
+    public static func == (a: KESPLKit.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed, b: KESPLKit.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed where __Sealed : KESPLKit.Skie_SuspendResult
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed? where __Sealed : KESPLKit.Skie_SuspendResult
+#endif
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed, b: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause0
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed? where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause0
+#endif
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause {
+  @frozen public enum __Sealed {
+    case selectClause0(any KESPLKit.Kotlinx_coroutines_coreSelectClause0)
+    case selectClause1(any KESPLKit.Kotlinx_coroutines_coreSelectClause1)
+    case selectClause2(any KESPLKit.Kotlinx_coroutines_coreSelectClause2)
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed? where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause
+#endif
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed, b: KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectInstance
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed? where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectInstance
+#endif
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed, b: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause1
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed? where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause1
+#endif
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed, b: KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause2
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed? where __Sealed : KESPLKit.Kotlinx_coroutines_coreSelectClause2
+#endif
+extension KESPLKit.Skie.Kespl.ESPDevice {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case custom(KESPLKit.ESPDevice.Custom)
+    case generalBroadcast(KESPLKit.ESPDevice.GeneralBroadcast)
+    case remoteAudio(KESPLKit.ESPDevice.RemoteAudio)
+    case remoteDisplay(KESPLKit.ESPDevice.RemoteDisplay)
+    case reserved(KESPLKit.ESPDevice.Reserved)
+    case sAVVY(KESPLKit.ESPDevice.SAVVY)
+    case thirdParty1(KESPLKit.ESPDevice.ThirdParty1)
+    case thirdParty2(KESPLKit.ESPDevice.ThirdParty2)
+    case thirdParty3(KESPLKit.ESPDevice.ThirdParty3)
+    case unknownDevice(KESPLKit.ESPDevice.UnknownDevice)
+    case v1connection(KESPLKit.ESPDevice.V1connection)
+    case valentineOne(KESPLKit.ESPDevice.ValentineOne)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPDevice.__Sealed, b: KESPLKit.Skie.Kespl.ESPDevice.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPDevice.__Sealed where __Sealed : KESPLKit.ESPDevice
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPDevice.__Sealed? where __Sealed : KESPLKit.ESPDevice
+#endif
+extension KESPLKit.Skie.Kespl.ESPDevice.ValentineOne {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case checksum(KESPLKit.ESPDevice.ValentineOneChecksum)
+    case legacy(KESPLKit.ESPDevice.ValentineOneLegacy)
+    case noChecksum(KESPLKit.ESPDevice.ValentineOneNoChecksum)
+    case unknown(KESPLKit.ESPDevice.ValentineOneUnknown)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPDevice.ValentineOne.__Sealed, b: KESPLKit.Skie.Kespl.ESPDevice.ValentineOne.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPDevice.ValentineOne.__Sealed where __Sealed : KESPLKit.ESPDevice.ValentineOne
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPDevice.ValentineOne.__Sealed? where __Sealed : KESPLKit.ESPDevice.ValentineOne
+#endif
+extension KESPLKit.Skie.Kespl.ESPPacketId {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case infDisplayData(KESPLKit.ESPPacketId.InfDisplayData)
+    case infV1Busy(KESPLKit.ESPPacketId.InfV1Busy)
+    case reqAbortAudioDelay(KESPLKit.ESPPacketId.ReqAbortAudioDelay)
+    case reqAllSweepDefinitions(KESPLKit.ESPPacketId.ReqAllSweepDefinitions)
+    case reqAllVolume(KESPLKit.ESPPacketId.ReqAllVolume)
+    case reqBatteryVoltage(KESPLKit.ESPPacketId.ReqBatteryVoltage)
+    case reqChangeMode(KESPLKit.ESPPacketId.ReqChangeMode)
+    case reqCurrentVolume(KESPLKit.ESPPacketId.ReqCurrentVolume)
+    case reqDefaultSweepDefinitions(KESPLKit.ESPPacketId.ReqDefaultSweepDefinitions)
+    case reqDefaultSweeps(KESPLKit.ESPPacketId.ReqDefaultSweeps)
+    case reqDisplayCurrentVolume(KESPLKit.ESPPacketId.ReqDisplayCurrentVolume)
+    case reqFactoryDefault(KESPLKit.ESPPacketId.ReqFactoryDefault)
+    case reqMaxSweepIndex(KESPLKit.ESPPacketId.ReqMaxSweepIndex)
+    case reqMuteOff(KESPLKit.ESPPacketId.ReqMuteOff)
+    case reqMuteOn(KESPLKit.ESPPacketId.ReqMuteOn)
+    case reqOverrideThumbwheel(KESPLKit.ESPPacketId.ReqOverrideThumbwheel)
+    case reqSavvyStatus(KESPLKit.ESPPacketId.ReqSavvyStatus)
+    case reqSerialNumber(KESPLKit.ESPPacketId.ReqSerialNumber)
+    case reqSetSavvyUnmuteEnable(KESPLKit.ESPPacketId.ReqSetSavvyUnmuteEnable)
+    case reqStartAlertData(KESPLKit.ESPPacketId.ReqStartAlertData)
+    case reqStopAlertData(KESPLKit.ESPPacketId.ReqStopAlertData)
+    case reqSweepSections(KESPLKit.ESPPacketId.ReqSweepSections)
+    case reqTurnOffMainDisplay(KESPLKit.ESPPacketId.ReqTurnOffMainDisplay)
+    case reqTurnOnMainDisplay(KESPLKit.ESPPacketId.ReqTurnOnMainDisplay)
+    case reqUserBytes(KESPLKit.ESPPacketId.ReqUserBytes)
+    case reqVehicleSpeed(KESPLKit.ESPPacketId.ReqVehicleSpeed)
+    case reqVersion(KESPLKit.ESPPacketId.ReqVersion)
+    case reqWriteSweepDefinition(KESPLKit.ESPPacketId.ReqWriteSweepDefinition)
+    case reqWriteUserBytes(KESPLKit.ESPPacketId.ReqWriteUserBytes)
+    case reqWriteVolume(KESPLKit.ESPPacketId.ReqWriteVolume)
+    case respAlertData(KESPLKit.ESPPacketId.RespAlertData)
+    case respAllVolume(KESPLKit.ESPPacketId.RespAllVolume)
+    case respBatteryVoltage(KESPLKit.ESPPacketId.RespBatteryVoltage)
+    case respCurrentVolume(KESPLKit.ESPPacketId.RespCurrentVolume)
+    case respDataError(KESPLKit.ESPPacketId.RespDataError)
+    case respDataReceived(KESPLKit.ESPPacketId.RespDataReceived)
+    case respDefaultSweepDefinitions(KESPLKit.ESPPacketId.RespDefaultSweepDefinitions)
+    case respMaxSweepIndex(KESPLKit.ESPPacketId.RespMaxSweepIndex)
+    case respRequestNotProcessed(KESPLKit.ESPPacketId.RespRequestNotProcessed)
+    case respSavvyStatus(KESPLKit.ESPPacketId.RespSavvyStatus)
+    case respSerialNumber(KESPLKit.ESPPacketId.RespSerialNumber)
+    case respSweepDefinition(KESPLKit.ESPPacketId.RespSweepDefinition)
+    case respSweepSections(KESPLKit.ESPPacketId.RespSweepSections)
+    case respSweepWriteResult(KESPLKit.ESPPacketId.RespSweepWriteResult)
+    case respUnsupportedPacket(KESPLKit.ESPPacketId.RespUnsupportedPacket)
+    case respUserBytes(KESPLKit.ESPPacketId.RespUserBytes)
+    case respVehicleSpeed(KESPLKit.ESPPacketId.RespVehicleSpeed)
+    case respVersion(KESPLKit.ESPPacketId.RespVersion)
+    case unknownPacketType(KESPLKit.ESPPacketId.UnknownPacketType)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPPacketId.__Sealed, b: KESPLKit.Skie.Kespl.ESPPacketId.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPPacketId.__Sealed where __Sealed : KESPLKit.ESPPacketId
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPPacketId.__Sealed? where __Sealed : KESPLKit.ESPPacketId
+#endif
+extension KESPLKit.Skie.Kespl.ESPResponse {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case failure(KESPLKit.ESPResponseFailure<Swift.AnyObject>)
+    case success(KESPLKit.ESPResponseSuccess<Swift.AnyObject>)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPResponse.__Sealed, b: KESPLKit.Skie.Kespl.ESPResponse.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPResponse.__Sealed where __Sealed : KESPLKit.ESPResponse
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPResponse.__Sealed? where __Sealed : KESPLKit.ESPResponse
+#endif
+extension KESPLKit.ESPResponse {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func onFailure(onFailure: @escaping (any KESPLKit.ESPFailure) -> Any?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func onSuccess(onSuccess: @escaping (Any?) -> any KESPLKit.ESPResponse) -> any KESPLKit.ESPResponse
+  #endif
+  public func onSuccessResponse(onSuccess: @escaping (KESPLKit.ESPResponseSuccess<Swift.AnyObject>) -> any KESPLKit.ESPResponse) -> any KESPLKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func unWrap(onFailure: @escaping (any KESPLKit.ESPFailure) -> Any?, onSuccess: @escaping (Any?) -> Any?) -> Any?
+  #endif
+}
+extension KESPLKit.Skie.Kespl.ESPFailure {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case dataError(KESPLKit.ESPFailureDataError)
+    case eSPOperationFailed(KESPLKit.ESPFailureESPOperationFailed)
+    case invalidSweep(KESPLKit.ESPFailureInvalidSweep)
+    case legacyMode(KESPLKit.ESPFailureLegacyMode)
+    case notConnected(KESPLKit.ESPFailureNotConnected)
+    case notProcessed(KESPLKit.ESPFailureNotProcessed)
+    case notSupported(KESPLKit.ESPFailureNotSupported)
+    case notTimeSlicing(KESPLKit.ESPFailureNotTimeSlicing)
+    case timedOut(KESPLKit.ESPFailureTimedOut)
+    case unknown(KESPLKit.ESPFailureUnknown)
+    case v1Busy(KESPLKit.ESPFailureV1Busy)
+    case v1NotDetermined(KESPLKit.ESPFailureV1NotDetermined)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPFailure.__Sealed, b: KESPLKit.Skie.Kespl.ESPFailure.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPFailure.__Sealed where __Sealed : KESPLKit.ESPFailure
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPFailure.__Sealed? where __Sealed : KESPLKit.ESPFailure
+#endif
+extension KESPLKit.Skie.Kespl.SAVVYThumbwheelOverride {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case auto(KESPLKit.SAVVYThumbwheelOverride.Auto)
+    case custom(KESPLKit.SAVVYThumbwheelOverride.Custom)
+    case none(KESPLKit.SAVVYThumbwheelOverride.None)
+    public static func == (a: KESPLKit.Skie.Kespl.SAVVYThumbwheelOverride.__Sealed, b: KESPLKit.Skie.Kespl.SAVVYThumbwheelOverride.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.SAVVYThumbwheelOverride.__Sealed where __Sealed : KESPLKit.SAVVYThumbwheelOverride
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.SAVVYThumbwheelOverride.__Sealed? where __Sealed : KESPLKit.SAVVYThumbwheelOverride
+#endif
+extension KESPLKit.Skie.Kespl.V1connection {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case demo(KESPLKit.V1connectionDemo)
+    case remote(KESPLKit.V1connectionRemote)
+    public static func == (a: KESPLKit.Skie.Kespl.V1connection.__Sealed, b: KESPLKit.Skie.Kespl.V1connection.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.V1connection.__Sealed where __Sealed : KESPLKit.V1connection
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.V1connection.__Sealed? where __Sealed : KESPLKit.V1connection
+#endif
+extension KESPLKit.V1connection {
+  public func computeDeviceName() -> Swift.String
+}
+extension KESPLKit.Skie.Kespl.V1Mode {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case advancedLogic(KESPLKit.V1Mode.AdvancedLogic)
+    case allBogeysKKa(KESPLKit.V1Mode.AllBogeysKKa)
+    case invalid(KESPLKit.V1Mode.Invalid)
+    case logicKa(KESPLKit.V1Mode.LogicKa)
+    public static func == (a: KESPLKit.Skie.Kespl.V1Mode.__Sealed, b: KESPLKit.Skie.Kespl.V1Mode.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.V1Mode.__Sealed where __Sealed : KESPLKit.V1Mode
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.V1Mode.__Sealed? where __Sealed : KESPLKit.V1Mode
+#endif
+extension KESPLKit.Skie.Kespl.ESPCoreBluetoothEvent {
+  @frozen public enum __Sealed {
+    case centralManagerConnectionEvent(KESPLKit.CentralManagerConnectionEvent)
+    case centralManagerDiscoveryEvent(KESPLKit.CentralManagerDiscoveryEvent)
+    case eSPCBCharacteristicEvent(any KESPLKit.ESPCBCharacteristicEvent)
+    case peripheralIsReadyToSend(KESPLKit.PeripheralIsReadyToSend)
+    case readRemoteRssiEvent(KESPLKit.ReadRemoteRssiEvent)
+    case serviceCharacteristicsDiscoveredEvent(KESPLKit.ServiceCharacteristicsDiscoveredEvent)
+    case servicesDiscoveredEvent(KESPLKit.ServicesDiscoveredEvent)
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPCoreBluetoothEvent.__Sealed where __Sealed : KESPLKit.ESPCoreBluetoothEvent
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPCoreBluetoothEvent.__Sealed? where __Sealed : KESPLKit.ESPCoreBluetoothEvent
+#endif
+extension KESPLKit.ESPCoreBluetoothEvent {
+  public func isConnectionInterrupted(peripheral: CoreBluetooth.CBPeripheral) -> Swift.Bool
+}
+extension KESPLKit.Skie.Kespl.ESPCBCharacteristicEvent {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case characteristicDidUpdateNotificationState(KESPLKit.CharacteristicDidUpdateNotificationState)
+    case characteristicDidUpdateValue(KESPLKit.CharacteristicDidUpdateValue)
+    case characteristicDidWriteValue(KESPLKit.CharacteristicDidWriteValue)
+    public static func == (a: KESPLKit.Skie.Kespl.ESPCBCharacteristicEvent.__Sealed, b: KESPLKit.Skie.Kespl.ESPCBCharacteristicEvent.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.ESPCBCharacteristicEvent.__Sealed where __Sealed : KESPLKit.ESPCBCharacteristicEvent
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.ESPCBCharacteristicEvent.__Sealed? where __Sealed : KESPLKit.ESPCBCharacteristicEvent
+#endif
+extension KESPLKit.Skie.Kespl.UserSettings {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.Kespl.UserSettings.__Sealed, b: KESPLKit.Skie.Kespl.UserSettings.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.Kespl.UserSettings.__Sealed where __Sealed : KESPLKit.UserSettings
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.Kespl.UserSettings.__Sealed? where __Sealed : KESPLKit.UserSettings
+#endif
+extension KESPLKit.Skie.KotlinxSerializationCore.SerialKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case polymorphicKind(KESPLKit.Kotlinx_serialization_corePolymorphicKind)
+    case primitiveKind(KESPLKit.Kotlinx_serialization_corePrimitiveKind)
+    case cONTEXTUAL(KESPLKit.Kotlinx_serialization_coreSerialKind.CONTEXTUAL)
+    case eNUM(KESPLKit.Kotlinx_serialization_coreSerialKind.ENUM)
+    case structureKind(KESPLKit.Kotlinx_serialization_coreStructureKind)
+    public static func == (a: KESPLKit.Skie.KotlinxSerializationCore.SerialKind.__Sealed, b: KESPLKit.Skie.KotlinxSerializationCore.SerialKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxSerializationCore.SerialKind.__Sealed where __Sealed : KESPLKit.Kotlinx_serialization_coreSerialKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxSerializationCore.SerialKind.__Sealed? where __Sealed : KESPLKit.Kotlinx_serialization_coreSerialKind
+#endif
+extension KESPLKit.Skie.KotlinxSerializationCore.SerializersModule {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed, b: KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed where __Sealed : KESPLKit.Kotlinx_serialization_coreSerializersModule
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed? where __Sealed : KESPLKit.Kotlinx_serialization_coreSerializersModule
+#endif
+extension KESPLKit.Skie.KotlinxSerializationCore.PolymorphicKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case oPEN(KESPLKit.Kotlinx_serialization_corePolymorphicKind.OPEN)
+    case sEALED(KESPLKit.Kotlinx_serialization_corePolymorphicKind.SEALED)
+    public static func == (a: KESPLKit.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed, b: KESPLKit.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed where __Sealed : KESPLKit.Kotlinx_serialization_corePolymorphicKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed? where __Sealed : KESPLKit.Kotlinx_serialization_corePolymorphicKind
+#endif
+extension KESPLKit.Skie.KotlinxSerializationCore.PrimitiveKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case bOOLEAN(KESPLKit.Kotlinx_serialization_corePrimitiveKind.BOOLEAN)
+    case bYTE(KESPLKit.Kotlinx_serialization_corePrimitiveKind.BYTE)
+    case cHAR(KESPLKit.Kotlinx_serialization_corePrimitiveKind.CHAR)
+    case dOUBLE(KESPLKit.Kotlinx_serialization_corePrimitiveKind.DOUBLE)
+    case fLOAT(KESPLKit.Kotlinx_serialization_corePrimitiveKind.FLOAT)
+    case iNT(KESPLKit.Kotlinx_serialization_corePrimitiveKind.INT)
+    case lONG(KESPLKit.Kotlinx_serialization_corePrimitiveKind.LONG)
+    case sHORT(KESPLKit.Kotlinx_serialization_corePrimitiveKind.SHORT)
+    case sTRING(KESPLKit.Kotlinx_serialization_corePrimitiveKind.STRING)
+    public static func == (a: KESPLKit.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed, b: KESPLKit.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed where __Sealed : KESPLKit.Kotlinx_serialization_corePrimitiveKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed? where __Sealed : KESPLKit.Kotlinx_serialization_corePrimitiveKind
+#endif
+extension KESPLKit.Skie.KotlinxSerializationCore.StructureKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case cLASS(KESPLKit.Kotlinx_serialization_coreStructureKind.CLASS)
+    case lIST(KESPLKit.Kotlinx_serialization_coreStructureKind.LIST)
+    case mAP(KESPLKit.Kotlinx_serialization_coreStructureKind.MAP)
+    case oBJECT(KESPLKit.Kotlinx_serialization_coreStructureKind.OBJECT)
+    public static func == (a: KESPLKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed, b: KESPLKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed where __Sealed : KESPLKit.Kotlinx_serialization_coreStructureKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed? where __Sealed : KESPLKit.Kotlinx_serialization_coreStructureKind
+#endif
+extension KESPLKit.Skie.KotlinxIoCore.Source {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case buffer(KESPLKit.Kotlinx_io_coreBuffer)
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxIoCore.Source.__Sealed, b: KESPLKit.Skie.KotlinxIoCore.Source.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxIoCore.Source.__Sealed where __Sealed : KESPLKit.Kotlinx_io_coreSource
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxIoCore.Source.__Sealed? where __Sealed : KESPLKit.Kotlinx_io_coreSource
+#endif
+extension KESPLKit.Skie.KotlinxIoCore.Sink {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case buffer(KESPLKit.Kotlinx_io_coreBuffer)
+    case `else`
+    public static func == (a: KESPLKit.Skie.KotlinxIoCore.Sink.__Sealed, b: KESPLKit.Skie.KotlinxIoCore.Sink.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLKit.Skie.KotlinxIoCore.Sink.__Sealed where __Sealed : KESPLKit.Kotlinx_io_coreSink
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLKit.Skie.KotlinxIoCore.Sink.__Sealed? where __Sealed : KESPLKit.Kotlinx_io_coreSink
+#endif
+extension Foundation.Data {
+  public func toByteArray() -> KESPLKit.KotlinByteArray
+}
+extension Foundation.UUID {
+  public func toUuid() -> KESPLKit.KotlinUuid
+}
+extension CoreBluetooth.CBUUID {
+  public func toUuid() -> KESPLKit.KotlinUuid
+}
+public var DATA_LINK_ESCAPE_BYTE_5D: Swift.Int8 {
+  get
+}
+public var DATA_LINK_ESCAPE_BYTE_5F: Swift.Int8 {
+  get
+}
+public var DATA_LINK_ESCAPE_BYTE_7D: Swift.Int8 {
+  get
+}
+public var DEST_IDX: Swift.Int32 {
+  get
+}
+public var DEST_INDENTIFIER_BASE_CONST: Swift.Int8 {
+  get
+}
+public var ESP_PACKET_EOF: Swift.Int8 {
+  get
+}
+public var ESP_PACKET_SOF: Swift.Int8 {
+  get
+}
+public var LEGACY_FRAMING_BYTES: Swift.Int32 {
+  get
+}
+public var ORIG_IDX: Swift.Int32 {
+  get
+}
+public var ORIG_INDENTIFIER_BASE_CONST: Swift.Int8 {
+  get
+}
+public var PACKET_DELIMITER_BYTE: Swift.Int8 {
+  get
+}
+public var PACK_ID_IDX: Swift.Int32 {
+  get
+}
+public var PAYLOAD_LEN_IDX: Swift.Int32 {
+  get
+}
+public var PAYLOAD_START_IDX: Swift.Int32 {
+  get
+}
+public var SEVEN_SEG_VALUE_0: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_1: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_2: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_3: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_4: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_5: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_6: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_7: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_8: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_9: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_A: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_C: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_E: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_F: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_J: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_L: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_POUND: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_U: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_b: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_c: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_d: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_l: Swift.Int8 {
+  get
+}
+public var SEVEN_SEG_VALUE_u: Swift.Int8 {
+  get
+}
+public var SOF_IDX: Swift.Int32 {
+  get
+}
+public func getValentineOne(origin: Swift.Int8) -> KESPLKit.ESPDevice.ValentineOne
+public func getPacketId(packetIdByte: Swift.Int8) -> KESPLKit.ESPPacketId
+public var defaultLongRequestTimeout: Swift.Int64 {
+  get
+}
+public var defaultRequestTimeout: Swift.Int64 {
+  get
+}
+public var defaultScanDuration: Swift.Int64 {
+  get
+}
+public var LEGACY_V1C_NAME_PREFIX: Swift.String {
+  get
+}
+public var V1C_NAME_PREFIX: Swift.String {
+  get
+}
+public func getLEV1CName(address: Swift.String) -> Swift.String
+public func getLegacyV1CName(address: Swift.String) -> Swift.String
+public func isV1Connection(name: Swift.String) -> Swift.Bool
+public func supportedTypes() -> [KESPLKit.V1cType]
+public func checkBluetoothAddress(address: Swift.String) -> Swift.Bool
+public var defaultWriteTimeout: Swift.Int64 {
+  get
+}
+public var staleDataWatchDogTimeout: Swift.Int64 {
+  get
+}
+public func doNewLength(oldLength: Swift.Int32, minGrowth: Swift.Int32, prefGrowth: Swift.Int32) -> Swift.Int32
+extension ObjectiveC.NSObject {
+  public var isAlertData_: Swift.Bool {
+    get
+  }
+  public var isAllVolume: Swift.Bool {
+    get
+  }
+  public var isDataError_: Swift.Bool {
+    get
+  }
+  public var isForMe_: Swift.Bool {
+    get
+  }
+  public var isInfDisplayData_: Swift.Bool {
+    get
+  }
+  public var isMaxSweepIndex: Swift.Bool {
+    get
+  }
+  public var isRequestNotProcessed_: Swift.Bool {
+    get
+  }
+  public var isSweepSection: Swift.Bool {
+    get
+  }
+  public var isUnsupportedPacket_: Swift.Bool {
+    get
+  }
+  public var isUserBytes_: Swift.Bool {
+    get
+  }
+  public var isV1Busy_: Swift.Bool {
+    get
+  }
+  public var isV1Version_: Swift.Bool {
+    get
+  }
+  public var isVersion: Swift.Bool {
+    get
+  }
+  public var isVolume: Swift.Bool {
+    get
+  }
+  public var speed_: Swift.Int32 {
+    get
+  }
+  public var count_: Swift.Int32 {
+    get
+  }
+  public var index_: Swift.Int32 {
+    get
+  }
+  public var indexZB: Swift.Int32 {
+    get
+  }
+  public var bogeyCounterMode_: KESPLKit.V1Mode {
+    get
+  }
+  public var isCustomSweep: Swift.Bool {
+    get
+  }
+  public var isDisplayActive: Swift.Bool {
+    get
+  }
+  public var isDisplayOn_: Swift.Bool {
+    get
+  }
+  public var isEuro: Swift.Bool {
+    get
+  }
+  public var isLegacy_: Swift.Bool {
+    get
+  }
+  public var isSearchingForAlerts: Swift.Bool {
+    get
+  }
+  public var isSoft_: Swift.Bool {
+    get
+  }
+  public var isTimeSlicing_: Swift.Bool {
+    get
+  }
+  public var mode_: KESPLKit.V1Mode {
+    get
+  }
+  public var maxSweepIndex_: Swift.Int32 {
+    get
+  }
+  public var writeResult_: Swift.Int32 {
+    get
+  }
+  public func batteryVoltage_() -> Swift.String
+  public func busyPacketIdBytes_() -> KESPLKit.KotlinByteArray
+  public func busyPacketIds() -> [KESPLKit.ESPPacketId]
+  public func notProcessedPacketId() -> KESPLKit.ESPPacketId
+  public func status_() -> KESPLKit.SAVVYStatus
+  public func isSerialNumberResponse() -> Swift.Bool
+  public func serialNumber_() -> Swift.String
+  public func version_() -> Swift.String
+  public func versionDouble() -> Swift.Double
+  public func allVolumes_() -> KESPLKit.V1Volumes
+  public func currentVolume_() -> KESPLKit.V1Volume
+  public func alertData_() -> Any
+  public func displayData_() -> Any
+  public func sweepDefinition_() -> KESPLKit.SweepDefinition
+  public func sweepSections_() -> [KESPLKit.SweepSection]
+  public func techDisplayUserBytes_(version: Swift.Double) -> any KESPLKit.UserSettings
+  public func valentineOneUserBytes_(version: Swift.Double) -> any KESPLKit.UserSettings
+}
+public func assemblePayload(useChecksum: Swift.Bool, destinationByte: Swift.Int8, originIdByte: Swift.Int8, packetIdByte: Swift.Int8, payload: KESPLKit.KotlinByteArray) -> KESPLKit.KotlinByteArray
+extension Swift.Int32 {
+  public func toKPH() -> Swift.Int32
+  public func toMPH() -> Swift.Int32
+}
+extension Swift.String {
+  public func asDouble() -> Swift.Double
+}
+public var emptyAlert: Any {
+  get
+}
+extension Swift.Int8 {
+  public var mode: KESPLKit.V1Mode {
+    get
+  }
+  public var front: Swift.Bool {
+    get
+  }
+  public var rear: Swift.Bool {
+    get
+  }
+  public var side: Swift.Bool {
+    get
+  }
+  public var decimalPoint: Swift.Bool {
+    get
+  }
+  public var mode_: KESPLKit.V1Mode {
+    get
+  }
+  public var first: Swift.Bool {
+    get
+  }
+  public var isFromV1: Swift.Bool {
+    get
+  }
+  public var last: Swift.Bool {
+    get
+  }
+  public func get(index: Swift.Int32) -> Swift.Bool
+  public func isBitSet(index: Swift.Int32) -> Swift.Bool
+  public func set(index: Swift.Int32, value: Swift.Bool) -> Swift.Int8
+  public func shl(bitCount: Swift.Int32) -> Swift.Int8
+  public func shr(bitCount: Swift.Int32) -> Swift.Int8
+  public func toBoolean() -> Swift.Bool
+}
+public var AUX_0_INDEX: Swift.Int32 {
+  get
+}
+public var AUX_1_INDEX: Swift.Int32 {
+  get
+}
+public var AUX_2_INDEX: Swift.Int32 {
+  get
+}
+public var BAND_ARROW_IMG_1_INDEX: Swift.Int32 {
+  get
+}
+public var BAND_ARROW_IMG_2_INDEX: Swift.Int32 {
+  get
+}
+public var BOGEY_COUNTER_IMG_1_INDEX: Swift.Int32 {
+  get
+}
+public var BOGEY_COUNTER_IMG_2_INDEX: Swift.Int32 {
+  get
+}
+public var SIGNAL_STRENGTH_BARGRAPH_INDEX: Swift.Int32 {
+  get
+}
+public var modes: [KESPLKit.V1Mode] {
+  get
+}
+public func SweepSection(index: Swift.Int32, count: Swift.Int32, lowerEdge: Swift.Int32, upperEdge: Swift.Int32) -> KESPLKit.SweepSection
+#if compiler(>=5.3) && $NonescapableTypes
+public func getDefaultScope(dispatcher: KESPLKit.Kotlinx_coroutines_coreCoroutineDispatcher, parent: (any KESPLKit.Kotlinx_coroutines_coreJob)?) -> any KESPLKit.Kotlinx_coroutines_coreCoroutineScope
+#endif
+public var V1_GEN2_AUTO_MUTE_SETTING_VERSION: Swift.Double {
+  get
+}
+public var V1_GEN2_PHOTO_RADAR_VERSION: Swift.Double {
+  get
+}
+public var V1_GEN_2_PLATFORM_BASELINE_VERSION: Swift.Double {
+  get
+}
+public var V1_GEN_2_PLATFORM_MAX_VERSION: Swift.Double {
+  get
+}
+public func createLogger(enabled: Swift.Bool) -> any KESPLKit.PlatformLogger
+extension Swift.Bool {
+  public func toByte() -> Swift.Int8
+}
+public var _KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryIV1cScanner_Q_V1C_LE_QUALIFER: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplBluetoothIBluetoothManager: KESPLKit.KotlinUnit {
+  get
+}
+public var io_github_developrofthings_kespl_di_PlatformNativeModule: KESPLKit.Koin_coreModule {
+  get
+}
+public var io_github_developrofthings_kespl_di_ESPModule: KESPLKit.Koin_coreModule {
+  get
+}
+public var _KSP_AndroidxDatastoreCoreDataStore: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionIConnection_Q_DEMO_CONNECTION_QUALIFIER: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionIConnection_Q_LE_CONNECTION_QUALIFIER: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryIV1cScanner_Q_V1C_DEMO_QUALIFER: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplESPFlowController: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplMutableESPFlowController: KESPLKit.KotlinUnit {
+  get
+}
+public var _KSP_IoGithubDeveloprofthingsKesplPreferencesIESPPreferencesManager: KESPLKit.KotlinUnit {
+  get
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+extension KESPLKit.Observing : Swift.Sendable {}
+extension KESPLKit.KotlinLazyThreadSafetyMode : Swift.Sendable {}
+extension KESPLKit.KotlinLazyThreadSafetyMode : Swift.BitwiseCopyable {}
+extension KESPLKit.V1cType : Swift.Sendable {}
+extension KESPLKit.V1cType : Swift.BitwiseCopyable {}
+extension KESPLKit.ConnectionStrategy : Swift.Sendable {}
+extension KESPLKit.ConnectionStrategy : Swift.BitwiseCopyable {}
+extension KESPLKit.V1ConnectionTypePreference : Swift.Sendable {}
+extension KESPLKit.V1ConnectionTypePreference : Swift.BitwiseCopyable {}
+extension KESPLKit.ESPConnectionStatus : Swift.Sendable {}
+extension KESPLKit.ESPConnectionStatus : Swift.BitwiseCopyable {}
+extension KESPLKit.IOSCentralManagerState : Swift.Sendable {}
+extension KESPLKit.IOSCentralManagerState : Swift.BitwiseCopyable {}
+extension KESPLKit.ESPScanMode : Swift.Sendable {}
+extension KESPLKit.ESPScanMode : Swift.BitwiseCopyable {}
+extension KESPLKit.CoreBluetoothOperation : Swift.Sendable {}
+extension KESPLKit.CoreBluetoothOperation : Swift.BitwiseCopyable {}
+extension KESPLKit.AlertArrow : Swift.Sendable {}
+extension KESPLKit.AlertArrow : Swift.BitwiseCopyable {}
+extension KESPLKit.AlertBand : Swift.Sendable {}
+extension KESPLKit.AlertBand : Swift.BitwiseCopyable {}
+extension KESPLKit.PhotoRadar : Swift.Sendable {}
+extension KESPLKit.PhotoRadar : Swift.BitwiseCopyable {}
+extension KESPLKit.BarGraphSensitive : Swift.Sendable {}
+extension KESPLKit.BarGraphSensitive : Swift.BitwiseCopyable {}
+extension KESPLKit.MuteVolumeControl : Swift.Sendable {}
+extension KESPLKit.MuteVolumeControl : Swift.BitwiseCopyable {}
+extension KESPLKit.BogeyLockVolumeControl : Swift.Sendable {}
+extension KESPLKit.BogeyLockVolumeControl : Swift.BitwiseCopyable {}
+extension KESPLKit.KTimer : Swift.Sendable {}
+extension KESPLKit.KTimer : Swift.BitwiseCopyable {}
+extension KESPLKit.AutoMute : Swift.Sendable {}
+extension KESPLKit.AutoMute : Swift.BitwiseCopyable {}
+extension KESPLKit.BandSensitivity : Swift.Sendable {}
+extension KESPLKit.BandSensitivity : Swift.BitwiseCopyable {}
+extension KESPLKit.Koin_coreLevel : Swift.Sendable {}
+extension KESPLKit.Koin_coreLevel : Swift.BitwiseCopyable {}
+extension KESPLKit.Koin_coreKoinOption : Swift.Sendable {}
+extension KESPLKit.Koin_coreKoinOption : Swift.BitwiseCopyable {}
+extension KESPLKit.Koin_coreKind : Swift.Sendable {}
+extension KESPLKit.Koin_coreKind : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.Kespl.UserSettings.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.Kespl.UserSettings.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.Sendable {}
+extension KESPLKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.BitwiseCopyable {}
