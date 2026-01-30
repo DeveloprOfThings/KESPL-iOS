@@ -2,16 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "KESPLFrameworkPackage",
+    name: "KESPL-iOS",
     platforms: [
      .iOS(.v15),
     ],
     products: [
-        // Expose a primary library product that makes the individual targets available
+        // Now you have two distinct products to choose from
         .library(
-            name: "KESPLFrameworkPackage",
-            targets: ["KESPLKit", "KESPLCallbacksKit"]),
+            name: "KESPLKit",
+            targets: ["KESPLKit"]),
+        .library(
+            name: "KESPLCallbacksKit",
+            targets: ["KESPLCallbacksKit"]),
     ],
+    
     targets: [
         // Declare the actual binary targets
         .binaryTarget(
