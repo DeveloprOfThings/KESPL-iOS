@@ -21,12 +21,12 @@ let package = Package(
         .binaryTarget(
             name: "KESPLKit",
             url: "https://github.com/DeveloprOfThings/KESPL-iOS/releases/download/v0.9.5/KESPLKit.xcframework.zip",
-            checksum: "3785223047860e77fdf8171b50d38b537e924253cd4d71fb987331ce8a6067c2"
+            checksum: "4b16e801a4b254ebeaa918c477a34339ea5ffba627d17660db94bf1e59b2a81c"
         ),
         .binaryTarget(
             name: "KESPLCallbacksKit",
             url: "https://github.com/DeveloprOfThings/KESPL-iOS/releases/download/v0.9.5/KESPLCallbacksKit.xcframework.zip",
-            checksum: "e9173fd3374aac508c655311d5020127f00eaaabaeafedfc91559bb787891f21"
+            checksum: "5c75c648eac1b82943e437a1314681f6c54360504a39d250e658ada48f259b0c"
         )
     ]
 )
