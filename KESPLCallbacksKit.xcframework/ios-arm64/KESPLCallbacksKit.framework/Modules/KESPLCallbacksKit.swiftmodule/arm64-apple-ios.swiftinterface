@@ -24,11 +24,11 @@ public enum Skie {
     public enum MutableSharedFlow {
       public typealias __Kotlin = KESPLCallbacksKit.Kotlinx_coroutines_coreMutableSharedFlow
     }
-    public enum MutableStateFlow {
-      public typealias __Kotlin = KESPLCallbacksKit.Kotlinx_coroutines_coreMutableStateFlow
-    }
     public enum Runnable {
       public typealias __Kotlin = KESPLCallbacksKit.Kotlinx_coroutines_coreRunnable
+    }
+    public enum MutableStateFlow {
+      public typealias __Kotlin = KESPLCallbacksKit.Kotlinx_coroutines_coreMutableStateFlow
     }
     public enum SelectClause0 {
     }
@@ -545,6 +545,116 @@ extension KESPLCallbacksKit.Observing where InitialContent == SwiftUICore.EmptyV
   @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element), Flow1 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow3 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow4 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue
   @_Concurrency.MainActor @preconcurrency public init<Flow1, Flow2, Flow3, Flow4, Flow5>(_ flow1: Flow1, _ flow2: Flow2, _ flow3: Flow3, _ flow4: Flow4, _ flow5: Flow5, @SwiftUICore.ViewBuilder content: @escaping (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element) -> Content) where Values == (Flow1.Element, Flow2.Element, Flow3.Element, Flow4.Element, Flow5.Element), Flow1 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow2 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow3 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow4 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue, Flow5 : KESPLCallbacksKit.SkieSwiftFlowWithInitialValue
 }
+extension KESPLCallbacksKit.IESPClient_iosKt {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func abortAudioDelay(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func changeMode(_ receiver: any KESPLCallbacksKit.IESPClient, mode: KESPLCallbacksKit.V1Mode) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func connect(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> KESPLCallbacksKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func connect(_ receiver: any KESPLCallbacksKit.IESPClient, connectionStrategy: KESPLCallbacksKit.ConnectionStrategy) async throws -> KESPLCallbacksKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func connect(_ receiver: any KESPLCallbacksKit.IESPClient, scanDurationMillis: Swift.Int64) async throws -> KESPLCallbacksKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func connect(_ receiver: any KESPLCallbacksKit.IESPClient, v1c: any KESPLCallbacksKit.V1connection) async throws -> KESPLCallbacksKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func displayCurrentVolume(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func enableAlertTable(_ receiver: any KESPLCallbacksKit.IESPClient, enable: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func mute(_ receiver: any KESPLCallbacksKit.IESPClient, muted: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func mute(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func overrideSAVVYThumbWheel(_ receiver: any KESPLCallbacksKit.IESPClient, speed: Swift.Int32) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func overrideSAVVYThumbWheel(_ receiver: any KESPLCallbacksKit.IESPClient, speed: Swift.Int8) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func overrideSAVVYThumbWheel(_ receiver: any KESPLCallbacksKit.IESPClient, override: KESPLCallbacksKit.SAVVYThumbwheelOverride) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestAllVolumes(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestBatteryVoltage(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestCurrentVolume(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestDefaultSweepDefinitions(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestDeviceSerialNumber(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestDeviceVersion(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestMaxSweepIndex(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestSAVVYStatus(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestSweepData(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestSweepDefinitions(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestSweepSections(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestUserBytes(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestUserSettings(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestUserSettings(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, forceVersionRequest: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestUserSettings(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestV1SerialNumber(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestV1UserSettings(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestV1UserSettings(_ receiver: any KESPLCallbacksKit.IESPClient, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestV1UserSettings(_ receiver: any KESPLCallbacksKit.IESPClient, forceVersionRequest: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestV1Version(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func requestVehicleSpeed(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func restoreDefaultSweeps(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func restoreDefaultSweeps(_ receiver: any KESPLCallbacksKit.IESPClient, verify: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func restoreFactoryDefaults(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func restoreFactoryDefaults(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func restoreFactoryDefaults(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, verify: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func setMainDisplay(_ receiver: any KESPLCallbacksKit.IESPClient, on: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func turnOffMainDisplay(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func turnOnMainDisplay(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func unmute(_ receiver: any KESPLCallbacksKit.IESPClient) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func unmuteSAVVY(_ receiver: any KESPLCallbacksKit.IESPClient, enableUnmuting: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeSweepDefinitions(_ receiver: any KESPLCallbacksKit.IESPClient, sweepDefinitions: [KESPLCallbacksKit.SweepDefinition]) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeUserBytes(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeUserBytes(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeUserBytes(_ receiver: any KESPLCallbacksKit.IESPClient, destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeV1UserBytes(_ receiver: any KESPLCallbacksKit.IESPClient, userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeVolume(_ receiver: any KESPLCallbacksKit.IESPClient, volume: KESPLCallbacksKit.V1Volume, provideUserFeedback: Swift.Bool, skipFeedbackWhenNoChange: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+}
+extension KESPLCallbacksKit.IConnection_iosKt {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func connect(_ receiver: any KESPLCallbacksKit.IConnection, v1c: any KESPLCallbacksKit.V1connection) async throws -> KESPLCallbacksKit.KotlinBoolean
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func scan(_ receiver: any KESPLCallbacksKit.IConnection) async throws -> any KESPLCallbacksKit.Kotlinx_coroutines_coreFlow
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public static func writeRequest(_ receiver: any KESPLCallbacksKit.IConnection, request: KESPLCallbacksKit.ESPRequest) async throws -> any KESPLCallbacksKit.ESPResponse
+}
 extension KESPLCallbacksKit.ESPByteArrayFlowExtKt {
   @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
   public static func waitForMatchingInfDisplayDataObserveRequestFeedback(_ receiver: KESPLCallbacksKit.SkieSwiftFlow<KESPLCallbacksKit.KotlinByteArray>, requestDestination: KESPLCallbacksKit.ESPDevice, requestPacketId: KESPLCallbacksKit.ESPPacketId, v1: KESPLCallbacksKit.ESPDevice.ValentineOne, timeout: Swift.Int64, maxBusyPackets: Swift.Int32, infDisplayDataPredicate: @escaping (KESPLCallbacksKit.KotlinByteArray) -> KESPLCallbacksKit.KotlinBoolean) async throws -> any KESPLCallbacksKit.ESPResponse
@@ -636,6 +746,260 @@ extension KESPLCallbacksKit.IESPClient {
   public func writeV1UserBytes(userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
   @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
   public func writeVolume(volume: KESPLCallbacksKit.V1Volume, provideUserFeedback: Swift.Bool, skipFeedbackWhenNoChange: Swift.Bool, saveVolume: Swift.Bool, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __abortAudioDelay(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func abortAudioDelay() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __changeMode(mode: KESPLCallbacksKit.V1Mode, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func changeMode(mode: KESPLCallbacksKit.V1Mode) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __connect(completionHandler: @escaping (KESPLCallbacksKit.KotlinBoolean?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect() async throws -> KESPLCallbacksKit.KotlinBoolean
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __connect(connectionStrategy: KESPLCallbacksKit.ConnectionStrategy, completionHandler: @escaping (KESPLCallbacksKit.KotlinBoolean?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(connectionStrategy: KESPLCallbacksKit.ConnectionStrategy) async throws -> KESPLCallbacksKit.KotlinBoolean
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __connect(scanDurationMillis: Swift.Int64, completionHandler: @escaping (KESPLCallbacksKit.KotlinBoolean?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(scanDurationMillis: Swift.Int64) async throws -> KESPLCallbacksKit.KotlinBoolean
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __connect(v1c: any KESPLCallbacksKit.V1connection, completionHandler: @escaping (KESPLCallbacksKit.KotlinBoolean?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(v1c: any KESPLCallbacksKit.V1connection) async throws -> KESPLCallbacksKit.KotlinBoolean
+  public func connectAsync() -> any KESPLCallbacksKit.Kotlinx_coroutines_coreDeferred
+  public func connectAsync(connectionStrategy: KESPLCallbacksKit.ConnectionStrategy) -> any KESPLCallbacksKit.Kotlinx_coroutines_coreDeferred
+  public func connectAsync(scanDurationMillis: Swift.Int64) -> any KESPLCallbacksKit.Kotlinx_coroutines_coreDeferred
+  public func connectAsync(v1c: any KESPLCallbacksKit.V1connection) -> any KESPLCallbacksKit.Kotlinx_coroutines_coreDeferred
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __displayCurrentVolume(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func displayCurrentVolume() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __enableAlertTable(enable: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func enableAlertTable(enable: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __mute(muted: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func mute(muted: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __mute(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func mute() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __overrideSAVVYThumbWheel(speed: Swift.Int32, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(speed: Swift.Int32) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __overrideSAVVYThumbWheel(speed: Swift.Int8, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(speed: Swift.Int8) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __overrideSAVVYThumbWheel(override: KESPLCallbacksKit.SAVVYThumbwheelOverride, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func overrideSAVVYThumbWheel(override: KESPLCallbacksKit.SAVVYThumbwheelOverride) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestAllVolumes(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestAllVolumes() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestBatteryVoltage(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestBatteryVoltage() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestCurrentVolume(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestCurrentVolume() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestDefaultSweepDefinitions(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDefaultSweepDefinitions() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestDeviceSerialNumber(destination: KESPLCallbacksKit.ESPDevice, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDeviceSerialNumber(destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestDeviceVersion(destination: KESPLCallbacksKit.ESPDevice, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestDeviceVersion(destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestMaxSweepIndex(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestMaxSweepIndex() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestSAVVYStatus(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSAVVYStatus() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestSweepData(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepData() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestSweepDefinitions(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepDefinitions() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestSweepSections(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestSweepSections() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestUserBytes(destination: KESPLCallbacksKit.ESPDevice, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserBytes(destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestUserSettings(destination: KESPLCallbacksKit.ESPDevice, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserSettings(destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestUserSettings(destination: KESPLCallbacksKit.ESPDevice, forceVersionRequest: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserSettings(destination: KESPLCallbacksKit.ESPDevice, forceVersionRequest: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestUserSettings(destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestUserSettings(destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestV1SerialNumber(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1SerialNumber() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestV1UserSettings(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1UserSettings() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestV1UserSettings(timeout: Swift.Int64, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1UserSettings(timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestV1UserSettings(forceVersionRequest: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1UserSettings(forceVersionRequest: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestV1Version(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestV1Version() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __requestVehicleSpeed(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func requestVehicleSpeed() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __restoreDefaultSweeps(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreDefaultSweeps() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __restoreDefaultSweeps(verify: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreDefaultSweeps(verify: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice, verify: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func restoreFactoryDefaults(destination: KESPLCallbacksKit.ESPDevice, verify: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __setMainDisplay(on: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func setMainDisplay(on: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __turnOffMainDisplay(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func turnOffMainDisplay() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __turnOnMainDisplay(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func turnOnMainDisplay() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __unmute(completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func unmute() async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __unmuteSAVVY(enableUnmuting: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func unmuteSAVVY(enableUnmuting: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeSweepDefinitions(sweepDefinitions: [KESPLCallbacksKit.SweepDefinition], completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeSweepDefinitions(sweepDefinitions: [KESPLCallbacksKit.SweepDefinition]) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, timeout: Swift.Int64, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeUserBytes(destination: KESPLCallbacksKit.ESPDevice, userBytes: KESPLCallbacksKit.KotlinByteArray, timeout: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeV1UserBytes(userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeV1UserBytes(userBytes: KESPLCallbacksKit.KotlinByteArray, verifyBytes: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeVolume(volume: KESPLCallbacksKit.V1Volume, provideUserFeedback: Swift.Bool, skipFeedbackWhenNoChange: Swift.Bool, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeVolume(volume: KESPLCallbacksKit.V1Volume, provideUserFeedback: Swift.Bool, skipFeedbackWhenNoChange: Swift.Bool) async throws -> any KESPLCallbacksKit.ESPResponse
   public func registerAlertTableListener(listener: any KESPLCallbacksKit.AlertTableListener)
   public func registerConnectionListener(listener: any KESPLCallbacksKit.ESPConnectionStatusListener)
   public func registerDisplayDataListener(listener: any KESPLCallbacksKit.DisplayDataListener)
@@ -710,6 +1074,21 @@ extension KESPLCallbacksKit.IConnection {
   public func scan(scanMode: KESPLCallbacksKit.ESPScanMode) async throws -> any KESPLCallbacksKit.Kotlinx_coroutines_coreFlow
   @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
   public func writeRequest(request: KESPLCallbacksKit.ESPRequest, waitForV1TypeDuration: Swift.Int64) async throws -> any KESPLCallbacksKit.ESPResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __connect(v1c: any KESPLCallbacksKit.V1connection, completionHandler: @escaping (KESPLCallbacksKit.KotlinBoolean?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func connect(v1c: any KESPLCallbacksKit.V1connection) async throws -> KESPLCallbacksKit.KotlinBoolean
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __scan(completionHandler: @escaping (KESPLCallbacksKit.SkieSwiftFlow<KESPLCallbacksKit.V1connectionScanResult>?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func scan() async throws -> any KESPLCallbacksKit.Kotlinx_coroutines_coreFlow
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func __writeRequest(request: KESPLCallbacksKit.ESPRequest, completionHandler: @escaping ((any KESPLCallbacksKit.ESPResponse)?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeRequest(request: KESPLCallbacksKit.ESPRequest) async throws -> any KESPLCallbacksKit.ESPResponse
 }
 extension KESPLCallbacksKit.Skie.RuntimeKotlin.SkieColdFlowIterator {
   public struct __Suspend<E> where E : AnyObject {
@@ -1352,48 +1731,6 @@ extension KESPLCallbacksKit.CoreBluetoothOperation {
 extension KESPLCallbacksKit.__CoreBluetoothOperation {
   public func toSwiftEnum() -> KESPLCallbacksKit.CoreBluetoothOperation
 }
-@frozen public enum AlertArrow : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
-  case front
-  case side
-  case rear
-  case none
-  public var name: Swift.String {
-    get
-  }
-  public var ordinal: Swift.Int32 {
-    get
-  }
-  public static var companion: KESPLCallbacksKit.__AlertArrow.Companion {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow, result: inout KESPLCallbacksKit.AlertArrow?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow, result: inout KESPLCallbacksKit.AlertArrow?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow?) -> KESPLCallbacksKit.AlertArrow
-  #endif
-  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__AlertArrow
-  public typealias _ObjectiveCType = KESPLCallbacksKit.__AlertArrow
-  public typealias Companion = KESPLCallbacksKit.__AlertArrow.Companion
-  public static func == (a: KESPLCallbacksKit.AlertArrow, b: KESPLCallbacksKit.AlertArrow) -> Swift.Bool
-  public typealias AllCases = [KESPLCallbacksKit.AlertArrow]
-  nonisolated public static var allCases: [KESPLCallbacksKit.AlertArrow] {
-    get
-  }
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension KESPLCallbacksKit.AlertArrow {
-  public func toKotlinEnum() -> KESPLCallbacksKit.__AlertArrow
-}
-extension KESPLCallbacksKit.__AlertArrow {
-  public func toSwiftEnum() -> KESPLCallbacksKit.AlertArrow
-}
 @frozen public enum AlertBand : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
   case laser
   case ka
@@ -1484,32 +1821,35 @@ extension KESPLCallbacksKit.PhotoRadar {
 extension KESPLCallbacksKit.__PhotoRadar {
   public func toSwiftEnum() -> KESPLCallbacksKit.PhotoRadar
 }
-@frozen public enum BarGraphSensitive : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
-  case normal
-  case responsive
+@frozen public enum AlertArrow : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case front
+  case side
+  case rear
+  case none
   public var name: Swift.String {
     get
   }
   public var ordinal: Swift.Int32 {
     get
   }
-  public var value: Swift.Bool {
+  public static var companion: KESPLCallbacksKit.__AlertArrow.Companion {
     get
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive, result: inout KESPLCallbacksKit.BarGraphSensitive?)
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow, result: inout KESPLCallbacksKit.AlertArrow?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive, result: inout KESPLCallbacksKit.BarGraphSensitive?) -> Swift.Bool
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow, result: inout KESPLCallbacksKit.AlertArrow?) -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive?) -> KESPLCallbacksKit.BarGraphSensitive
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AlertArrow?) -> KESPLCallbacksKit.AlertArrow
   #endif
-  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__BarGraphSensitive
-  public typealias _ObjectiveCType = KESPLCallbacksKit.__BarGraphSensitive
-  public static func == (a: KESPLCallbacksKit.BarGraphSensitive, b: KESPLCallbacksKit.BarGraphSensitive) -> Swift.Bool
-  public typealias AllCases = [KESPLCallbacksKit.BarGraphSensitive]
-  nonisolated public static var allCases: [KESPLCallbacksKit.BarGraphSensitive] {
+  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__AlertArrow
+  public typealias _ObjectiveCType = KESPLCallbacksKit.__AlertArrow
+  public typealias Companion = KESPLCallbacksKit.__AlertArrow.Companion
+  public static func == (a: KESPLCallbacksKit.AlertArrow, b: KESPLCallbacksKit.AlertArrow) -> Swift.Bool
+  public typealias AllCases = [KESPLCallbacksKit.AlertArrow]
+  nonisolated public static var allCases: [KESPLCallbacksKit.AlertArrow] {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
@@ -1517,89 +1857,11 @@ extension KESPLCallbacksKit.__PhotoRadar {
     get
   }
 }
-extension KESPLCallbacksKit.BarGraphSensitive {
-  public func toKotlinEnum() -> KESPLCallbacksKit.__BarGraphSensitive
+extension KESPLCallbacksKit.AlertArrow {
+  public func toKotlinEnum() -> KESPLCallbacksKit.__AlertArrow
 }
-extension KESPLCallbacksKit.__BarGraphSensitive {
-  public func toSwiftEnum() -> KESPLCallbacksKit.BarGraphSensitive
-}
-@frozen public enum MuteVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
-  case lever
-  case zero
-  public var name: Swift.String {
-    get
-  }
-  public var ordinal: Swift.Int32 {
-    get
-  }
-  public var value: Swift.Bool {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl, result: inout KESPLCallbacksKit.MuteVolumeControl?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl, result: inout KESPLCallbacksKit.MuteVolumeControl?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl?) -> KESPLCallbacksKit.MuteVolumeControl
-  #endif
-  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__MuteVolumeControl
-  public typealias _ObjectiveCType = KESPLCallbacksKit.__MuteVolumeControl
-  public static func == (a: KESPLCallbacksKit.MuteVolumeControl, b: KESPLCallbacksKit.MuteVolumeControl) -> Swift.Bool
-  public typealias AllCases = [KESPLCallbacksKit.MuteVolumeControl]
-  nonisolated public static var allCases: [KESPLCallbacksKit.MuteVolumeControl] {
-    get
-  }
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension KESPLCallbacksKit.MuteVolumeControl {
-  public func toKotlinEnum() -> KESPLCallbacksKit.__MuteVolumeControl
-}
-extension KESPLCallbacksKit.__MuteVolumeControl {
-  public func toSwiftEnum() -> KESPLCallbacksKit.MuteVolumeControl
-}
-@frozen public enum BogeyLockVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
-  case lever
-  case knob
-  public var name: Swift.String {
-    get
-  }
-  public var ordinal: Swift.Int32 {
-    get
-  }
-  public var value: Swift.Bool {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl, result: inout KESPLCallbacksKit.BogeyLockVolumeControl?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl, result: inout KESPLCallbacksKit.BogeyLockVolumeControl?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl?) -> KESPLCallbacksKit.BogeyLockVolumeControl
-  #endif
-  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__BogeyLockVolumeControl
-  public typealias _ObjectiveCType = KESPLCallbacksKit.__BogeyLockVolumeControl
-  public static func == (a: KESPLCallbacksKit.BogeyLockVolumeControl, b: KESPLCallbacksKit.BogeyLockVolumeControl) -> Swift.Bool
-  public typealias AllCases = [KESPLCallbacksKit.BogeyLockVolumeControl]
-  nonisolated public static var allCases: [KESPLCallbacksKit.BogeyLockVolumeControl] {
-    get
-  }
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension KESPLCallbacksKit.BogeyLockVolumeControl {
-  public func toKotlinEnum() -> KESPLCallbacksKit.__BogeyLockVolumeControl
-}
-extension KESPLCallbacksKit.__BogeyLockVolumeControl {
-  public func toSwiftEnum() -> KESPLCallbacksKit.BogeyLockVolumeControl
+extension KESPLCallbacksKit.__AlertArrow {
+  public func toSwiftEnum() -> KESPLCallbacksKit.AlertArrow
 }
 @frozen public enum KTimer : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
   case _10
@@ -1643,35 +1905,32 @@ extension KESPLCallbacksKit.KTimer {
 extension KESPLCallbacksKit.__KTimer {
   public func toSwiftEnum() -> KESPLCallbacksKit.KTimer
 }
-@frozen public enum AutoMute : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
-  case off
-  case muteAllSignals
-  case muteAllSignalsWithUnmute
-  case invalid
+@frozen public enum MuteVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case lever
+  case zero
   public var name: Swift.String {
     get
   }
   public var ordinal: Swift.Int32 {
     get
   }
-  public static var companion: KESPLCallbacksKit.__AutoMute.Companion {
+  public var value: Swift.Bool {
     get
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute, result: inout KESPLCallbacksKit.AutoMute?)
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl, result: inout KESPLCallbacksKit.MuteVolumeControl?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute, result: inout KESPLCallbacksKit.AutoMute?) -> Swift.Bool
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl, result: inout KESPLCallbacksKit.MuteVolumeControl?) -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute?) -> KESPLCallbacksKit.AutoMute
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__MuteVolumeControl?) -> KESPLCallbacksKit.MuteVolumeControl
   #endif
-  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__AutoMute
-  public typealias _ObjectiveCType = KESPLCallbacksKit.__AutoMute
-  public typealias Companion = KESPLCallbacksKit.__AutoMute.Companion
-  public static func == (a: KESPLCallbacksKit.AutoMute, b: KESPLCallbacksKit.AutoMute) -> Swift.Bool
-  public typealias AllCases = [KESPLCallbacksKit.AutoMute]
-  nonisolated public static var allCases: [KESPLCallbacksKit.AutoMute] {
+  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__MuteVolumeControl
+  public typealias _ObjectiveCType = KESPLCallbacksKit.__MuteVolumeControl
+  public static func == (a: KESPLCallbacksKit.MuteVolumeControl, b: KESPLCallbacksKit.MuteVolumeControl) -> Swift.Bool
+  public typealias AllCases = [KESPLCallbacksKit.MuteVolumeControl]
+  nonisolated public static var allCases: [KESPLCallbacksKit.MuteVolumeControl] {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
@@ -1679,11 +1938,89 @@ extension KESPLCallbacksKit.__KTimer {
     get
   }
 }
-extension KESPLCallbacksKit.AutoMute {
-  public func toKotlinEnum() -> KESPLCallbacksKit.__AutoMute
+extension KESPLCallbacksKit.MuteVolumeControl {
+  public func toKotlinEnum() -> KESPLCallbacksKit.__MuteVolumeControl
 }
-extension KESPLCallbacksKit.__AutoMute {
-  public func toSwiftEnum() -> KESPLCallbacksKit.AutoMute
+extension KESPLCallbacksKit.__MuteVolumeControl {
+  public func toSwiftEnum() -> KESPLCallbacksKit.MuteVolumeControl
+}
+@frozen public enum BarGraphSensitive : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case normal
+  case responsive
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive, result: inout KESPLCallbacksKit.BarGraphSensitive?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive, result: inout KESPLCallbacksKit.BarGraphSensitive?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BarGraphSensitive?) -> KESPLCallbacksKit.BarGraphSensitive
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__BarGraphSensitive
+  public typealias _ObjectiveCType = KESPLCallbacksKit.__BarGraphSensitive
+  public static func == (a: KESPLCallbacksKit.BarGraphSensitive, b: KESPLCallbacksKit.BarGraphSensitive) -> Swift.Bool
+  public typealias AllCases = [KESPLCallbacksKit.BarGraphSensitive]
+  nonisolated public static var allCases: [KESPLCallbacksKit.BarGraphSensitive] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLCallbacksKit.BarGraphSensitive {
+  public func toKotlinEnum() -> KESPLCallbacksKit.__BarGraphSensitive
+}
+extension KESPLCallbacksKit.__BarGraphSensitive {
+  public func toSwiftEnum() -> KESPLCallbacksKit.BarGraphSensitive
+}
+@frozen public enum BogeyLockVolumeControl : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case lever
+  case knob
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl, result: inout KESPLCallbacksKit.BogeyLockVolumeControl?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl, result: inout KESPLCallbacksKit.BogeyLockVolumeControl?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__BogeyLockVolumeControl?) -> KESPLCallbacksKit.BogeyLockVolumeControl
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__BogeyLockVolumeControl
+  public typealias _ObjectiveCType = KESPLCallbacksKit.__BogeyLockVolumeControl
+  public static func == (a: KESPLCallbacksKit.BogeyLockVolumeControl, b: KESPLCallbacksKit.BogeyLockVolumeControl) -> Swift.Bool
+  public typealias AllCases = [KESPLCallbacksKit.BogeyLockVolumeControl]
+  nonisolated public static var allCases: [KESPLCallbacksKit.BogeyLockVolumeControl] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLCallbacksKit.BogeyLockVolumeControl {
+  public func toKotlinEnum() -> KESPLCallbacksKit.__BogeyLockVolumeControl
+}
+extension KESPLCallbacksKit.__BogeyLockVolumeControl {
+  public func toSwiftEnum() -> KESPLCallbacksKit.BogeyLockVolumeControl
 }
 @frozen public enum BandSensitivity : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
   case full
@@ -1726,6 +2063,48 @@ extension KESPLCallbacksKit.BandSensitivity {
 }
 extension KESPLCallbacksKit.__BandSensitivity {
   public func toSwiftEnum() -> KESPLCallbacksKit.BandSensitivity
+}
+@frozen public enum AutoMute : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case off
+  case muteAllSignals
+  case muteAllSignalsWithUnmute
+  case invalid
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: KESPLCallbacksKit.__AutoMute.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute, result: inout KESPLCallbacksKit.AutoMute?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute, result: inout KESPLCallbacksKit.AutoMute?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: KESPLCallbacksKit.__AutoMute?) -> KESPLCallbacksKit.AutoMute
+  #endif
+  public func _bridgeToObjectiveC() -> KESPLCallbacksKit.__AutoMute
+  public typealias _ObjectiveCType = KESPLCallbacksKit.__AutoMute
+  public typealias Companion = KESPLCallbacksKit.__AutoMute.Companion
+  public static func == (a: KESPLCallbacksKit.AutoMute, b: KESPLCallbacksKit.AutoMute) -> Swift.Bool
+  public typealias AllCases = [KESPLCallbacksKit.AutoMute]
+  nonisolated public static var allCases: [KESPLCallbacksKit.AutoMute] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KESPLCallbacksKit.AutoMute {
+  public func toKotlinEnum() -> KESPLCallbacksKit.__AutoMute
+}
+extension KESPLCallbacksKit.__AutoMute {
+  public func toSwiftEnum() -> KESPLCallbacksKit.AutoMute
 }
 @frozen public enum Koin_coreLevel : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
   case debug
@@ -2081,7 +2460,9 @@ public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.Kesp
 #endif
 extension KESPLCallbacksKit.Skie.Kespl.UserSettings {
   @frozen public enum __Sealed : Swift.Hashable {
-    case `else`
+    case techDisplayUserSettings(KESPLCallbacksKit.TechDisplayUserSettings)
+    case v18UserSettings(KESPLCallbacksKit.V18UserSettings)
+    case v19UserSettings(KESPLCallbacksKit.V19UserSettings)
     public static func == (a: KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed, b: KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -2092,73 +2473,6 @@ extension KESPLCallbacksKit.Skie.Kespl.UserSettings {
 public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed where __Sealed : KESPLCallbacksKit.UserSettings
 #if compiler(>=5.3) && $NonescapableTypes
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed? where __Sealed : KESPLCallbacksKit.UserSettings
-#endif
-extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0 {
-  @frozen public enum __Sealed : Swift.Hashable {
-    case `else`
-    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0
-#if compiler(>=5.3) && $NonescapableTypes
-@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0
-#endif
-extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause {
-  @frozen public enum __Sealed {
-    case selectClause0(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0)
-    case selectClause1(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1)
-    case selectClause2(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2)
-  }
-}
-public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause
-#if compiler(>=5.3) && $NonescapableTypes
-@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause
-#endif
-extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance {
-  @frozen public enum __Sealed : Swift.Hashable {
-    case `else`
-    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectInstance
-#if compiler(>=5.3) && $NonescapableTypes
-@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectInstance
-#endif
-extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1 {
-  @frozen public enum __Sealed : Swift.Hashable {
-    case `else`
-    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1
-#if compiler(>=5.3) && $NonescapableTypes
-@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1
-#endif
-extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2 {
-  @frozen public enum __Sealed : Swift.Hashable {
-    case `else`
-    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
-public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2
-#if compiler(>=5.3) && $NonescapableTypes
-@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2
 #endif
 extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.SerialKind {
   @frozen public enum __Sealed : Swift.Hashable {
@@ -2245,6 +2559,73 @@ extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.StructureKind {
 public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_serialization_coreStructureKind
 #if compiler(>=5.3) && $NonescapableTypes
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxSerializationCore.StructureKind.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_serialization_coreStructureKind
+#endif
+extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0
+#endif
+extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause {
+  @frozen public enum __Sealed {
+    case selectClause0(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause0)
+    case selectClause1(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1)
+    case selectClause2(any KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2)
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause
+#endif
+extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectInstance
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectInstance
+#endif
+extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause1
+#endif
+extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed, b: KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed? where __Sealed : KESPLCallbacksKit.Kotlinx_coroutines_coreSelectClause2
 #endif
 extension KESPLCallbacksKit.Skie.KotlinxIoCore.Source {
   @frozen public enum __Sealed : Swift.Hashable {
@@ -2444,130 +2825,30 @@ public var staleDataWatchDogTimeout: Swift.Int64 {
   get
 }
 public func doNewLength(oldLength: Swift.Int32, minGrowth: Swift.Int32, prefGrowth: Swift.Int32) -> Swift.Int32
-extension ObjectiveC.NSObject {
-  public var isAlertData_: Swift.Bool {
-    get
-  }
-  public var isAllVolume: Swift.Bool {
-    get
-  }
-  public var isDataError_: Swift.Bool {
-    get
-  }
-  public var isForMe_: Swift.Bool {
-    get
-  }
-  public var isInfDisplayData_: Swift.Bool {
-    get
-  }
-  public var isMaxSweepIndex: Swift.Bool {
-    get
-  }
-  public var isRequestNotProcessed_: Swift.Bool {
-    get
-  }
-  public var isSweepSection: Swift.Bool {
-    get
-  }
-  public var isUnsupportedPacket_: Swift.Bool {
-    get
-  }
-  public var isUserBytes_: Swift.Bool {
-    get
-  }
-  public var isV1Busy_: Swift.Bool {
-    get
-  }
-  public var isV1Version_: Swift.Bool {
-    get
-  }
-  public var isVersion: Swift.Bool {
-    get
-  }
-  public var isVolume: Swift.Bool {
-    get
-  }
-  public var speed_: Swift.Int32 {
-    get
-  }
-  public var count_: Swift.Int32 {
-    get
-  }
-  public var index_: Swift.Int32 {
-    get
-  }
-  public var indexZB: Swift.Int32 {
-    get
-  }
-  public var bogeyCounterMode_: KESPLCallbacksKit.V1Mode {
-    get
-  }
-  public var isCustomSweep: Swift.Bool {
-    get
-  }
-  public var isDisplayActive: Swift.Bool {
-    get
-  }
-  public var isDisplayOn_: Swift.Bool {
-    get
-  }
-  public var isEuro: Swift.Bool {
-    get
-  }
-  public var isLegacy_: Swift.Bool {
-    get
-  }
-  public var isSearchingForAlerts: Swift.Bool {
-    get
-  }
-  public var isSoft_: Swift.Bool {
-    get
-  }
-  public var isTimeSlicing_: Swift.Bool {
-    get
-  }
-  public var mode_: KESPLCallbacksKit.V1Mode {
-    get
-  }
-  public var maxSweepIndex_: Swift.Int32 {
-    get
-  }
-  public var writeResult_: Swift.Int32 {
-    get
-  }
-  public func batteryVoltage_() -> Swift.String
-  public func busyPacketIdBytes_() -> KESPLCallbacksKit.KotlinByteArray
-  public func busyPacketIds() -> [KESPLCallbacksKit.ESPPacketId]
-  public func notProcessedPacketId() -> KESPLCallbacksKit.ESPPacketId
-  public func status_() -> KESPLCallbacksKit.SAVVYStatus
-  public func isSerialNumberResponse() -> Swift.Bool
-  public func serialNumber_() -> Swift.String
-  public func version_() -> Swift.String
-  public func versionDouble() -> Swift.Double
-  public func allVolumes_() -> KESPLCallbacksKit.V1Volumes
-  public func currentVolume_() -> KESPLCallbacksKit.V1Volume
-  public func alertData_() -> Any
-  public func displayData_() -> Any
-  public func sweepDefinition_() -> KESPLCallbacksKit.SweepDefinition
-  public func sweepSections_() -> [KESPLCallbacksKit.SweepSection]
-  public func techDisplayUserBytes_(version: Swift.Double) -> any KESPLCallbacksKit.UserSettings
-  public func valentineOneUserBytes_(version: Swift.Double) -> any KESPLCallbacksKit.UserSettings
-}
 public func assemblePayload(useChecksum: Swift.Bool, destinationByte: Swift.Int8, originIdByte: Swift.Int8, packetIdByte: Swift.Int8, payload: KESPLCallbacksKit.KotlinByteArray) -> KESPLCallbacksKit.KotlinByteArray
 extension Swift.Int32 {
+  public var toDurationMicros: Swift.Int64 {
+    get
+  }
+  public var toDurationMillis: Swift.Int64 {
+    get
+  }
+  public var toDurationNanos: Swift.Int64 {
+    get
+  }
+  public var toDurationSeconds: Swift.Int64 {
+    get
+  }
   public func toKPH() -> Swift.Int32
   public func toMPH() -> Swift.Int32
 }
 extension Swift.String {
   public func asDouble() -> Swift.Double
 }
-public var emptyAlert: Any {
+public var emptyAlert: KESPLCallbacksKit.AlertData {
   get
 }
 extension Swift.Int8 {
-  public var mode: KESPLCallbacksKit.V1Mode {
-    get
-  }
   public var front: Swift.Bool {
     get
   }
@@ -2578,9 +2859,6 @@ extension Swift.Int8 {
     get
   }
   public var decimalPoint: Swift.Bool {
-    get
-  }
-  public var mode_: KESPLCallbacksKit.V1Mode {
     get
   }
   public var first: Swift.Bool {
@@ -2627,6 +2905,9 @@ public var modes: [KESPLCallbacksKit.V1Mode] {
   get
 }
 public func SweepSection(index: Swift.Int32, count: Swift.Int32, lowerEdge: Swift.Int32, upperEdge: Swift.Int32) -> KESPLCallbacksKit.SweepSection
+public var defaultESPScope: any KESPLCallbacksKit.Kotlinx_coroutines_coreCoroutineScope {
+  get
+}
 #if compiler(>=5.3) && $NonescapableTypes
 public func getDefaultScope(dispatcher: KESPLCallbacksKit.Kotlinx_coroutines_coreCoroutineDispatcher, parent: (any KESPLCallbacksKit.Kotlinx_coroutines_coreJob)?) -> any KESPLCallbacksKit.Kotlinx_coroutines_coreCoroutineScope
 #endif
@@ -2641,6 +2922,20 @@ public var V1_GEN_2_PLATFORM_BASELINE_VERSION: Swift.Double {
 }
 public var V1_GEN_2_PLATFORM_MAX_VERSION: Swift.Double {
   get
+}
+extension Swift.Int64 {
+  public var toDurationMicros: Swift.Int64 {
+    get
+  }
+  public var toDurationMillis: Swift.Int64 {
+    get
+  }
+  public var toDurationNanos: Swift.Int64 {
+    get
+  }
+  public var toDurationSeconds: Swift.Int64 {
+    get
+  }
 }
 public func createLogger(enabled: Swift.Bool) -> any KESPLCallbacksKit.PlatformLogger
 extension Swift.Bool {
@@ -2698,32 +2993,32 @@ extension KESPLCallbacksKit.ESPScanMode : Swift.Sendable {}
 extension KESPLCallbacksKit.ESPScanMode : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.CoreBluetoothOperation : Swift.Sendable {}
 extension KESPLCallbacksKit.CoreBluetoothOperation : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.AlertArrow : Swift.Sendable {}
-extension KESPLCallbacksKit.AlertArrow : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.AlertBand : Swift.Sendable {}
 extension KESPLCallbacksKit.AlertBand : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.PhotoRadar : Swift.Sendable {}
 extension KESPLCallbacksKit.PhotoRadar : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.BarGraphSensitive : Swift.Sendable {}
-extension KESPLCallbacksKit.BarGraphSensitive : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.MuteVolumeControl : Swift.Sendable {}
-extension KESPLCallbacksKit.MuteVolumeControl : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.BogeyLockVolumeControl : Swift.Sendable {}
-extension KESPLCallbacksKit.BogeyLockVolumeControl : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.AlertArrow : Swift.Sendable {}
+extension KESPLCallbacksKit.AlertArrow : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.KTimer : Swift.Sendable {}
 extension KESPLCallbacksKit.KTimer : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.AutoMute : Swift.Sendable {}
-extension KESPLCallbacksKit.AutoMute : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.MuteVolumeControl : Swift.Sendable {}
+extension KESPLCallbacksKit.MuteVolumeControl : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.BarGraphSensitive : Swift.Sendable {}
+extension KESPLCallbacksKit.BarGraphSensitive : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.BogeyLockVolumeControl : Swift.Sendable {}
+extension KESPLCallbacksKit.BogeyLockVolumeControl : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.BandSensitivity : Swift.Sendable {}
 extension KESPLCallbacksKit.BandSensitivity : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.AutoMute : Swift.Sendable {}
+extension KESPLCallbacksKit.AutoMute : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Koin_coreLevel : Swift.Sendable {}
 extension KESPLCallbacksKit.Koin_coreLevel : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Koin_coreKoinOption : Swift.Sendable {}
 extension KESPLCallbacksKit.Koin_coreKoinOption : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Koin_coreKind : Swift.Sendable {}
 extension KESPLCallbacksKit.Koin_coreKind : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed : Swift.Sendable {}
-extension KESPLCallbacksKit.Skie.Kespl.UserSettings.__Sealed : Swift.BitwiseCopyable {}
+extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.Sendable {}
+extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.Sendable {}
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed : Swift.Sendable {}
@@ -2732,5 +3027,3 @@ extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : 
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : Swift.BitwiseCopyable {}
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.Sendable {}
 extension KESPLCallbacksKit.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.BitwiseCopyable {}
-extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.Sendable {}
-extension KESPLCallbacksKit.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.BitwiseCopyable {}

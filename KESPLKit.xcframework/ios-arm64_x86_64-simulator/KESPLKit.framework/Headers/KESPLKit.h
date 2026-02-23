@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class NSUUID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSData, NSArray<ObjectType>, KESPLK__SkieTypeExportsKt, KESPLK__SkieSuspendWrappersKt, KESPLK_KSP_IoGithubDeveloprofthingsKesplPreferencesESPPreferencesManager, KESPLK_KSP_IoGithubDeveloprofthingsKesplGetFlowController, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiProvidesDataStore, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPreferencesModule, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPlatformNativeModule_Expect, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPlatformNativeModule_Actual, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiESPModule, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothIOSBluetoothManager, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryLeIOSLEV1cScanner_Q_V1C_LE_QUALIFER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryDemoV1cDemoScanner_Q_V1C_DEMO_QUALIFER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionLeLeConnection_Q_LE_CONNECTION_QUALIFIER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionDemoDemoConnection_Q_DEMO_CONNECTION_QUALIFIER, KESPLKVolumeKt, KESPLKVersionKt, KESPLKVehicleSpeedKt, KESPLKV1connectionScanResult, KESPLKV1connectionRemote, KESPLKV1connectionException, KESPLKV1connectionDemoCompanion, KESPLKV1connectionDemo, KESPLKV1cTypeKt, KESPLKV1cTypeCompanion, KESPLKV1cType, KESPLKV1Volumes, KESPLKV1Volume, KESPLKV1VersionInfoUserSettingsInfo, KESPLKV1VersionInfoSweepInfo, KESPLKV1VersionInfoKt, KESPLKV1VersionInfo, KESPLKV1ModeLogicKa, KESPLKV1ModeKt, KESPLKV1ModeInvalid, KESPLKV1ModeCompanion, KESPLKV1ModeAllBogeysKKa, KESPLKV1ModeAdvancedLogic, KESPLKV1Mode, KESPLKV1ConnectionTypePreference, KESPLKV1CapabilityInfoCompanion, KESPLKV1CapabilityInfo, KESPLKUtilKt, KESPLKUserSettingsKt, KESPLKUnknownException, KESPLKUShort, KESPLKULong, KESPLKUInt, KESPLKUByte, KESPLKSweepSectionKt, KESPLKSweepSection, KESPLKSweepDefinitionKt, KESPLKSweepDefinition, KESPLKSweepData, KESPLKSkie_SuspendResultSuccess, KESPLKSkie_SuspendResultError, KESPLKSkie_SuspendResultCanceled, KESPLKSkie_SuspendResult, KESPLKSkie_SuspendHandler, KESPLKSkie_CancellationHandler, KESPLKSkieKotlinStateFlow<T>, KESPLKSkieKotlinSharedFlow<T>, KESPLKSkieKotlinOptionalStateFlow<T>, KESPLKSkieKotlinOptionalSharedFlow<T>, KESPLKSkieKotlinOptionalMutableStateFlow<T>, KESPLKSkieKotlinOptionalMutableSharedFlow<T>, KESPLKSkieKotlinOptionalFlow<T>, KESPLKSkieKotlinMutableStateFlow<T>, KESPLKSkieKotlinMutableSharedFlow<T>, KESPLKSkieKotlinFlow<T>, KESPLKSkieColdFlowIterator<E>, KESPLKShort, KESPLKServicesDiscoveredEvent, KESPLKServiceCharacteristicsDiscoveredEvent, KESPLKSerialKt, KESPLKSavvyKt, KESPLKSAVVYThumbwheelOverrideNone, KESPLKSAVVYThumbwheelOverrideCustom, KESPLKSAVVYThumbwheelOverrideAuto, KESPLKSAVVYThumbwheelOverride, KESPLKSAVVYStatus, KESPLKReadRemoteRssiException, KESPLKReadRemoteRssiEvent, KESPLKPlatformNativeModuleGenio_github_developrofthings_kespl_diKt, KESPLKPlatformNativeModule, KESPLKPhotoRadarCompanion, KESPLKPhotoRadar, KESPLKPeripheralNotConnectedException, KESPLKPeripheralIsReadyToSend, KESPLKNumber, KESPLKNotProcessedKt, KESPLKMuteVolumeControl, KESPLKMutableSet<ObjectType>, KESPLKMutableDictionary<KeyType, ObjectType>, KESPLKLong, KESPLKLogger_iosKt, KESPLKLeUnsupported, KESPLKLeConnectionFailed, KESPLKKotlinx_serialization_coreStructureKindOBJECT, KESPLKKotlinx_serialization_coreStructureKindMAP, KESPLKKotlinx_serialization_coreStructureKindLIST, KESPLKKotlinx_serialization_coreStructureKindCLASS, KESPLKKotlinx_serialization_coreStructureKind, KESPLKKotlinx_serialization_coreSerializersModule, KESPLKKotlinx_serialization_coreSerialKindENUM, KESPLKKotlinx_serialization_coreSerialKindCONTEXTUAL, KESPLKKotlinx_serialization_coreSerialKind, KESPLKKotlinx_serialization_corePrimitiveKindSTRING, KESPLKKotlinx_serialization_corePrimitiveKindSHORT, KESPLKKotlinx_serialization_corePrimitiveKindLONG, KESPLKKotlinx_serialization_corePrimitiveKindINT, KESPLKKotlinx_serialization_corePrimitiveKindFLOAT, KESPLKKotlinx_serialization_corePrimitiveKindDOUBLE, KESPLKKotlinx_serialization_corePrimitiveKindCHAR, KESPLKKotlinx_serialization_corePrimitiveKindBYTE, KESPLKKotlinx_serialization_corePrimitiveKindBOOLEAN, KESPLKKotlinx_serialization_corePrimitiveKind, KESPLKKotlinx_serialization_corePolymorphicKindSEALED, KESPLKKotlinx_serialization_corePolymorphicKindOPEN, KESPLKKotlinx_serialization_corePolymorphicKind, KESPLKKotlinx_io_coreBuffer, KESPLKKotlinx_coroutines_coreCoroutineDispatcherKey, KESPLKKotlinx_coroutines_coreCoroutineDispatcher, KESPLKKotlinUuidCompanion, KESPLKKotlinUuid, KESPLKKotlinUnit, KESPLKKotlinThrowable, KESPLKKotlinRuntimeException, KESPLKKotlinPair<A, B>, KESPLKKotlinNothing, KESPLKKotlinLazyThreadSafetyMode, KESPLKKotlinInstantCompanion, KESPLKKotlinInstant, KESPLKKotlinIllegalStateException, KESPLKKotlinException, KESPLKKotlinError, KESPLKKotlinEnumCompanion, KESPLKKotlinEnum<E>, KESPLKKotlinCancellationException, KESPLKKotlinByteIterator, KESPLKKotlinByteArray, KESPLKKotlinArray<T>, KESPLKKotlinAbstractCoroutineContextKey<B, E>, KESPLKKotlinAbstractCoroutineContextElement, KESPLKKoin_coreTypeQualifier, KESPLKKoin_coreSingleInstanceFactory<T>, KESPLKKoin_coreScopeRegistryCompanion, KESPLKKoin_coreScopeRegistry, KESPLKKoin_coreScopeDSL, KESPLKKoin_coreScope, KESPLKKoin_coreResolutionContext, KESPLKKoin_corePropertyRegistry, KESPLKKoin_coreParametersHolder, KESPLKKoin_coreOptionRegistry, KESPLKKoin_coreModule, KESPLKKoin_coreLogger, KESPLKKoin_coreLockable, KESPLKKoin_coreLevel, KESPLKKoin_coreKoinOption, KESPLKKoin_coreKoinDefinition<R>, KESPLKKoin_coreKoinApplicationCompanion, KESPLKKoin_coreKoinApplication, KESPLKKoin_coreKoin, KESPLKKoin_coreKind, KESPLKKoin_coreInstanceRegistry, KESPLKKoin_coreInstanceFactoryCompanion, KESPLKKoin_coreInstanceFactory<T>, KESPLKKoin_coreExtensionManager, KESPLKKoin_coreCoreResolver, KESPLKKoin_coreCallbacks<T>, KESPLKKoin_coreBeanDefinition<T>, KESPLKKoinMeta_c10909c2Kt, KESPLKKoinMeta_5e440e9fKt, KESPLKKTimer, KESPLKInt, KESPLKInfV1BusyKt, KESPLKInfDisplayDataKt, KESPLKIV1cScannerCompanion, KESPLKIOSLegacyUnsupported, KESPLKIOSCentralManagerStateCompanion, KESPLKIOSCentralManagerState, KESPLKIESPClientKt, KESPLKIESPClientCompanion, KESPLKIConnectionKt, KESPLKFloat, KESPLKFailedToDiscoverServices, KESPLKFailedToDiscoverServiceCharacteristics, KESPLKEspUUID, KESPLKEnableNotificationsException, KESPLKEcho, KESPLKESPScanMode, KESPLKESPResponseSuccess<ESPResponseType>, KESPLKESPResponseKt, KESPLKESPResponseFailure<ErrorType>, KESPLKESPRequest, KESPLKESPPacketUtilsKt, KESPLKESPPacketIdUnknownPacketType, KESPLKESPPacketIdRespVersion, KESPLKESPPacketIdRespVehicleSpeed, KESPLKESPPacketIdRespUserBytes, KESPLKESPPacketIdRespUnsupportedPacket, KESPLKESPPacketIdRespSweepWriteResult, KESPLKESPPacketIdRespSweepSections, KESPLKESPPacketIdRespSweepDefinition, KESPLKESPPacketIdRespSerialNumber, KESPLKESPPacketIdRespSavvyStatus, KESPLKESPPacketIdRespRequestNotProcessed, KESPLKESPPacketIdRespMaxSweepIndex, KESPLKESPPacketIdRespDefaultSweepDefinitions, KESPLKESPPacketIdRespDataReceived, KESPLKESPPacketIdRespDataError, KESPLKESPPacketIdRespCurrentVolume, KESPLKESPPacketIdRespBatteryVoltage, KESPLKESPPacketIdRespAllVolume, KESPLKESPPacketIdRespAlertData, KESPLKESPPacketIdReqWriteVolume, KESPLKESPPacketIdReqWriteUserBytes, KESPLKESPPacketIdReqWriteSweepDefinition, KESPLKESPPacketIdReqVersion, KESPLKESPPacketIdReqVehicleSpeed, KESPLKESPPacketIdReqUserBytes, KESPLKESPPacketIdReqTurnOnMainDisplay, KESPLKESPPacketIdReqTurnOffMainDisplay, KESPLKESPPacketIdReqSweepSections, KESPLKESPPacketIdReqStopAlertData, KESPLKESPPacketIdReqStartAlertData, KESPLKESPPacketIdReqSetSavvyUnmuteEnable, KESPLKESPPacketIdReqSerialNumber, KESPLKESPPacketIdReqSavvyStatus, KESPLKESPPacketIdReqOverrideThumbwheel, KESPLKESPPacketIdReqMuteOn, KESPLKESPPacketIdReqMuteOff, KESPLKESPPacketIdReqMaxSweepIndex, KESPLKESPPacketIdReqFactoryDefault, KESPLKESPPacketIdReqDisplayCurrentVolume, KESPLKESPPacketIdReqDefaultSweeps, KESPLKESPPacketIdReqDefaultSweepDefinitions, KESPLKESPPacketIdReqCurrentVolume, KESPLKESPPacketIdReqChangeMode, KESPLKESPPacketIdReqBatteryVoltage, KESPLKESPPacketIdReqAllVolume, KESPLKESPPacketIdReqAllSweepDefinitions, KESPLKESPPacketIdReqAbortAudioDelay, KESPLKESPPacketIdKt, KESPLKESPPacketIdInfV1Busy, KESPLKESPPacketIdInfDisplayData, KESPLKESPPacketId, KESPLKESPOutOfMemoryError, KESPLKESPModuleGenio_github_developrofthings_kespl_diKt, KESPLKESPModule, KESPLKESPLeException, KESPLKESPFlowExtKt, KESPLKESPFailureV1NotDetermined, KESPLKESPFailureV1Busy, KESPLKESPFailureUnknown, KESPLKESPFailureTimedOut, KESPLKESPFailureNotTimeSlicing, KESPLKESPFailureNotSupported, KESPLKESPFailureNotProcessed, KESPLKESPFailureNotConnected, KESPLKESPFailureLegacyMode, KESPLKESPFailureInvalidSweep, KESPLKESPFailureESPOperationFailed, KESPLKESPFailureDataError, KESPLKESPDeviceValentineOneUnknown, KESPLKESPDeviceValentineOneNoChecksum, KESPLKESPDeviceValentineOneLegacy, KESPLKESPDeviceValentineOneChecksum, KESPLKESPDeviceValentineOne, KESPLKESPDeviceV1connection, KESPLKESPDeviceUnknownDevice, KESPLKESPDeviceThirdParty3, KESPLKESPDeviceThirdParty2, KESPLKESPDeviceThirdParty1, KESPLKESPDeviceSAVVY, KESPLKESPDeviceReserved, KESPLKESPDeviceRemoteDisplay, KESPLKESPDeviceRemoteAudio, KESPLKESPDeviceKt, KESPLKESPDeviceGeneralBroadcast, KESPLKESPDeviceCustom, KESPLKESPDevice, KESPLKESPCoroutineScopeKt, KESPLKESPContext, KESPLKESPConnectionStatus, KESPLKESPCentralManagerDelegateKt, KESPLKESPByteArrayFlowExtKt, KESPLKDouble, KESPLKDisplayDataKt, KESPLKCoreBluetoothOperation, KESPLKConstantsKt, KESPLKConnectionStrategy, KESPLKCharacteristicWriteException, KESPLKCharacteristicDidWriteValue, KESPLKCharacteristicDidUpdateValue, KESPLKCharacteristicDidUpdateNotificationState, KESPLKCentralManagerDiscoveryEvent, KESPLKCentralManagerConnectionEvent, KESPLKByteExtKt, KESPLKByte, KESPLKBoolean, KESPLKBogeyLockVolumeControl, KESPLKBogeyCounter7SegmentKt, KESPLKBluetooth_iosKt, KESPLKBluetoothKt, KESPLKBatteryKt, KESPLKBaseConnection, KESPLKBase, KESPLKBarGraphSensitive, KESPLKBandSensitivityCompanion, KESPLKBandSensitivity, KESPLKBandArrowIndicatorKt, KESPLKBTUnsupported, KESPLKBTDevice, KESPLKAux1Kt, KESPLKAutoMuteCompanion, KESPLKAutoMute, KESPLKArraySupportKt, KESPLKAlertKt, KESPLKAlertBandCompanion, KESPLKAlertBand, KESPLKAlertArrowCompanion, KESPLKAlertArrow, CBUUID, CBService, CBPeripheral, CBCharacteristic;
+@class NSUUID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSData, NSArray<ObjectType>, KESPLK__SkieTypeExportsKt, KESPLK__SkieSuspendWrappersKt, KESPLK_KSP_IoGithubDeveloprofthingsKesplPreferencesESPPreferencesManager, KESPLK_KSP_IoGithubDeveloprofthingsKesplGetFlowController, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiProvidesDataStore, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPreferencesModule, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPlatformNativeModule_Expect, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiPlatformNativeModule_Actual, KESPLK_KSP_IoGithubDeveloprofthingsKesplDiESPModule, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothIOSBluetoothManager, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryLeIOSLEV1cScanner_Q_V1C_LE_QUALIFER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothDiscoveryDemoV1cDemoScanner_Q_V1C_DEMO_QUALIFER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionLeLeConnection_Q_LE_CONNECTION_QUALIFIER, KESPLK_KSP_IoGithubDeveloprofthingsKesplBluetoothConnectionDemoDemoConnection_Q_DEMO_CONNECTION_QUALIFIER, KESPLKVersionKt, KESPLKV1connectionScanResult, KESPLKV1connectionRemote, KESPLKV1connectionException, KESPLKV1connectionDemoCompanion, KESPLKV1connectionDemo, KESPLKV1cTypeKt, KESPLKV1cTypeCompanion, KESPLKV1cType, KESPLKV1Volumes, KESPLKV1Volume, KESPLKV1VersionInfoUserSettingsInfo, KESPLKV1VersionInfoSweepInfo, KESPLKV1VersionInfoKt, KESPLKV1VersionInfo, KESPLKV1ModeLogicKa, KESPLKV1ModeKt, KESPLKV1ModeInvalid, KESPLKV1ModeCompanion, KESPLKV1ModeAllBogeysKKa, KESPLKV1ModeAdvancedLogic, KESPLKV1Mode, KESPLKV1ConnectionTypePreference, KESPLKV1CapabilityInfoCompanion, KESPLKV1CapabilityInfo, KESPLKV19UserSettings, KESPLKV18UserSettingsUserByte5, KESPLKV18UserSettingsUserByte4, KESPLKV18UserSettingsUserByte3, KESPLKV18UserSettingsUserByte2, KESPLKV18UserSettingsUserByte1, KESPLKV18UserSettingsUserByte0, KESPLKV18UserSettings, KESPLKUtilKt, KESPLKUserByte5, KESPLKUserByte4, KESPLKUserByte3, KESPLKUserByte2, KESPLKUserByte1, KESPLKUserByte0, KESPLKUnknownException, KESPLKUShort, KESPLKULong, KESPLKUInt, KESPLKUByte, KESPLKTechDisplayUserSettingsUserByte5, KESPLKTechDisplayUserSettingsUserByte4, KESPLKTechDisplayUserSettingsUserByte3, KESPLKTechDisplayUserSettingsUserByte2, KESPLKTechDisplayUserSettingsUserByte1, KESPLKTechDisplayUserSettingsUserByte0, KESPLKTechDisplayUserSettings, KESPLKSweepSectionKt, KESPLKSweepSection, KESPLKSweepDefinition, KESPLKSweepData, KESPLKSkie_SuspendResultSuccess, KESPLKSkie_SuspendResultError, KESPLKSkie_SuspendResultCanceled, KESPLKSkie_SuspendResult, KESPLKSkie_SuspendHandler, KESPLKSkie_CancellationHandler, KESPLKSkieKotlinStateFlow<T>, KESPLKSkieKotlinSharedFlow<T>, KESPLKSkieKotlinOptionalStateFlow<T>, KESPLKSkieKotlinOptionalSharedFlow<T>, KESPLKSkieKotlinOptionalMutableStateFlow<T>, KESPLKSkieKotlinOptionalMutableSharedFlow<T>, KESPLKSkieKotlinOptionalFlow<T>, KESPLKSkieKotlinMutableStateFlow<T>, KESPLKSkieKotlinMutableSharedFlow<T>, KESPLKSkieKotlinFlow<T>, KESPLKSkieColdFlowIterator<E>, KESPLKSignalStrengthBarGraph, KESPLKShort, KESPLKServicesDiscoveredEvent, KESPLKServiceCharacteristicsDiscoveredEvent, KESPLKSavvyKt, KESPLKSAVVYThumbwheelOverrideNone, KESPLKSAVVYThumbwheelOverrideCustom, KESPLKSAVVYThumbwheelOverrideAuto, KESPLKSAVVYThumbwheelOverride, KESPLKSAVVYStatus, KESPLKReadRemoteRssiException, KESPLKReadRemoteRssiEvent, KESPLKPlatformNativeModuleGenio_github_developrofthings_kespl_diKt, KESPLKPlatformNativeModule, KESPLKPhotoRadarCompanion, KESPLKPhotoRadar, KESPLKPeripheralNotConnectedException, KESPLKPeripheralIsReadyToSend, KESPLKNumber, KESPLKMuteVolumeControl, KESPLKMutableSet<ObjectType>, KESPLKMutableDictionary<KeyType, ObjectType>, KESPLKLong, KESPLKLogger_iosKt, KESPLKLeUnsupported, KESPLKLeConnectionFailed, KESPLKKotlinx_serialization_coreStructureKindOBJECT, KESPLKKotlinx_serialization_coreStructureKindMAP, KESPLKKotlinx_serialization_coreStructureKindLIST, KESPLKKotlinx_serialization_coreStructureKindCLASS, KESPLKKotlinx_serialization_coreStructureKind, KESPLKKotlinx_serialization_coreSerializersModule, KESPLKKotlinx_serialization_coreSerialKindENUM, KESPLKKotlinx_serialization_coreSerialKindCONTEXTUAL, KESPLKKotlinx_serialization_coreSerialKind, KESPLKKotlinx_serialization_corePrimitiveKindSTRING, KESPLKKotlinx_serialization_corePrimitiveKindSHORT, KESPLKKotlinx_serialization_corePrimitiveKindLONG, KESPLKKotlinx_serialization_corePrimitiveKindINT, KESPLKKotlinx_serialization_corePrimitiveKindFLOAT, KESPLKKotlinx_serialization_corePrimitiveKindDOUBLE, KESPLKKotlinx_serialization_corePrimitiveKindCHAR, KESPLKKotlinx_serialization_corePrimitiveKindBYTE, KESPLKKotlinx_serialization_corePrimitiveKindBOOLEAN, KESPLKKotlinx_serialization_corePrimitiveKind, KESPLKKotlinx_serialization_corePolymorphicKindSEALED, KESPLKKotlinx_serialization_corePolymorphicKindOPEN, KESPLKKotlinx_serialization_corePolymorphicKind, KESPLKKotlinx_io_coreBuffer, KESPLKKotlinx_coroutines_coreCoroutineDispatcherKey, KESPLKKotlinx_coroutines_coreCoroutineDispatcher, KESPLKKotlinUuidCompanion, KESPLKKotlinUuid, KESPLKKotlinUnit, KESPLKKotlinThrowable, KESPLKKotlinRuntimeException, KESPLKKotlinPair<A, B>, KESPLKKotlinNothing, KESPLKKotlinLazyThreadSafetyMode, KESPLKKotlinInstantCompanion, KESPLKKotlinInstant, KESPLKKotlinIllegalStateException, KESPLKKotlinException, KESPLKKotlinError, KESPLKKotlinEnumCompanion, KESPLKKotlinEnum<E>, KESPLKKotlinCancellationException, KESPLKKotlinByteIterator, KESPLKKotlinByteArray, KESPLKKotlinArray<T>, KESPLKKotlinAbstractCoroutineContextKey<B, E>, KESPLKKotlinAbstractCoroutineContextElement, KESPLKKoin_coreTypeQualifier, KESPLKKoin_coreSingleInstanceFactory<T>, KESPLKKoin_coreScopeRegistryCompanion, KESPLKKoin_coreScopeRegistry, KESPLKKoin_coreScopeDSL, KESPLKKoin_coreScope, KESPLKKoin_coreResolutionContext, KESPLKKoin_corePropertyRegistry, KESPLKKoin_coreParametersHolder, KESPLKKoin_coreOptionRegistry, KESPLKKoin_coreModule, KESPLKKoin_coreLogger, KESPLKKoin_coreLockable, KESPLKKoin_coreLevel, KESPLKKoin_coreKoinOption, KESPLKKoin_coreKoinDefinition<R>, KESPLKKoin_coreKoinApplicationCompanion, KESPLKKoin_coreKoinApplication, KESPLKKoin_coreKoin, KESPLKKoin_coreKind, KESPLKKoin_coreInstanceRegistry, KESPLKKoin_coreInstanceFactoryCompanion, KESPLKKoin_coreInstanceFactory<T>, KESPLKKoin_coreExtensionManager, KESPLKKoin_coreCoreResolver, KESPLKKoin_coreCallbacks<T>, KESPLKKoin_coreBeanDefinition<T>, KESPLKKoinMeta_c10909c2Kt, KESPLKKoinMeta_5e440e9fKt, KESPLKKTimer, KESPLKInt, KESPLKIV1cScannerCompanion, KESPLKIOSLegacyUnsupported, KESPLKIOSCentralManagerStateCompanion, KESPLKIOSCentralManagerState, KESPLKIESPClient_iosKt, KESPLKIESPClientKt, KESPLKIESPClientCompanion, KESPLKIConnection_iosKt, KESPLKIConnectionKt, KESPLKFloat, KESPLKFailedToDiscoverServices, KESPLKFailedToDiscoverServiceCharacteristics, KESPLKEspUUID, KESPLKEnableNotificationsException, KESPLKEcho, KESPLKESPScanMode, KESPLKESPResponseSuccess<ESPResponseType>, KESPLKESPResponseKt, KESPLKESPResponseFailure<ErrorType>, KESPLKESPRequest, KESPLKESPPacketUtilsKt, KESPLKESPPacketIdUnknownPacketType, KESPLKESPPacketIdRespVersion, KESPLKESPPacketIdRespVehicleSpeed, KESPLKESPPacketIdRespUserBytes, KESPLKESPPacketIdRespUnsupportedPacket, KESPLKESPPacketIdRespSweepWriteResult, KESPLKESPPacketIdRespSweepSections, KESPLKESPPacketIdRespSweepDefinition, KESPLKESPPacketIdRespSerialNumber, KESPLKESPPacketIdRespSavvyStatus, KESPLKESPPacketIdRespRequestNotProcessed, KESPLKESPPacketIdRespMaxSweepIndex, KESPLKESPPacketIdRespDefaultSweepDefinitions, KESPLKESPPacketIdRespDataReceived, KESPLKESPPacketIdRespDataError, KESPLKESPPacketIdRespCurrentVolume, KESPLKESPPacketIdRespBatteryVoltage, KESPLKESPPacketIdRespAllVolume, KESPLKESPPacketIdRespAlertData, KESPLKESPPacketIdReqWriteVolume, KESPLKESPPacketIdReqWriteUserBytes, KESPLKESPPacketIdReqWriteSweepDefinition, KESPLKESPPacketIdReqVersion, KESPLKESPPacketIdReqVehicleSpeed, KESPLKESPPacketIdReqUserBytes, KESPLKESPPacketIdReqTurnOnMainDisplay, KESPLKESPPacketIdReqTurnOffMainDisplay, KESPLKESPPacketIdReqSweepSections, KESPLKESPPacketIdReqStopAlertData, KESPLKESPPacketIdReqStartAlertData, KESPLKESPPacketIdReqSetSavvyUnmuteEnable, KESPLKESPPacketIdReqSerialNumber, KESPLKESPPacketIdReqSavvyStatus, KESPLKESPPacketIdReqOverrideThumbwheel, KESPLKESPPacketIdReqMuteOn, KESPLKESPPacketIdReqMuteOff, KESPLKESPPacketIdReqMaxSweepIndex, KESPLKESPPacketIdReqFactoryDefault, KESPLKESPPacketIdReqDisplayCurrentVolume, KESPLKESPPacketIdReqDefaultSweeps, KESPLKESPPacketIdReqDefaultSweepDefinitions, KESPLKESPPacketIdReqCurrentVolume, KESPLKESPPacketIdReqChangeMode, KESPLKESPPacketIdReqBatteryVoltage, KESPLKESPPacketIdReqAllVolume, KESPLKESPPacketIdReqAllSweepDefinitions, KESPLKESPPacketIdReqAbortAudioDelay, KESPLKESPPacketIdKt, KESPLKESPPacketIdInfV1Busy, KESPLKESPPacketIdInfDisplayData, KESPLKESPPacketId, KESPLKESPPacket, KESPLKESPOutOfMemoryError, KESPLKESPModuleGenio_github_developrofthings_kespl_diKt, KESPLKESPModule, KESPLKESPLeException, KESPLKESPFlowExtKt, KESPLKESPFailureV1NotDetermined, KESPLKESPFailureV1Busy, KESPLKESPFailureUnknown, KESPLKESPFailureTimedOut, KESPLKESPFailureNotTimeSlicing, KESPLKESPFailureNotSupported, KESPLKESPFailureNotProcessed, KESPLKESPFailureNotConnected, KESPLKESPFailureLegacyMode, KESPLKESPFailureInvalidSweep, KESPLKESPFailureESPOperationFailed, KESPLKESPFailureDataError, KESPLKESPDeviceValentineOneUnknown, KESPLKESPDeviceValentineOneNoChecksum, KESPLKESPDeviceValentineOneLegacy, KESPLKESPDeviceValentineOneChecksum, KESPLKESPDeviceValentineOne, KESPLKESPDeviceV1connection, KESPLKESPDeviceUnknownDevice, KESPLKESPDeviceThirdParty3, KESPLKESPDeviceThirdParty2, KESPLKESPDeviceThirdParty1, KESPLKESPDeviceSAVVY, KESPLKESPDeviceReserved, KESPLKESPDeviceRemoteDisplay, KESPLKESPDeviceRemoteAudio, KESPLKESPDeviceKt, KESPLKESPDeviceGeneralBroadcast, KESPLKESPDeviceCustom, KESPLKESPDevice, KESPLKESPCoroutineScopeKt, KESPLKESPContext, KESPLKESPConnectionStatus, KESPLKESPCentralManagerDelegateKt, KESPLKESPByteArrayFlowExtKt, KESPLKDuration_iosKt, KESPLKDouble, KESPLKDisplayDataKt, KESPLKDisplayData, KESPLKCoreBluetoothOperation, KESPLKConstantsKt, KESPLKConnectionStrategy, KESPLKCharacteristicWriteException, KESPLKCharacteristicDidWriteValue, KESPLKCharacteristicDidUpdateValue, KESPLKCharacteristicDidUpdateNotificationState, KESPLKCentralManagerDiscoveryEvent, KESPLKCentralManagerConnectionEvent, KESPLKByteExtKt, KESPLKByte, KESPLKBoolean, KESPLKBogeyLockVolumeControl, KESPLKBogeyCounter7SegmentKt, KESPLKBogeyCounter7Segment, KESPLKBluetooth_iosKt, KESPLKBluetoothKt, KESPLKBaseConnection, KESPLKBase, KESPLKBarGraphSensitive, KESPLKBandSensitivityCompanion, KESPLKBandSensitivity, KESPLKBandArrowIndicatorKt, KESPLKBandArrowIndicator, KESPLKBandArrow, KESPLKBTUnsupported, KESPLKBTDevice, KESPLKAux2, KESPLKAux1, KESPLKAux0_, KESPLKAux0, KESPLKAutoMuteCompanion, KESPLKAutoMute, KESPLKArraySupportKt, KESPLKAlertKt, KESPLKAlertIndexCount, KESPLKAlertData, KESPLKAlertBandCompanion, KESPLKAlertBand, KESPLKAlertArrowCompanion, KESPLKAlertArrow, CBUUID, CBService, CBPeripheral, CBCharacteristic;
 
 @protocol NSCopying, KESPLKV1connection, KESPLKUserSettings, KESPLKSkie_DispatcherDelegate, KESPLKPlatformLogger, KESPLKKotlinx_serialization_coreSerializersModuleCollector, KESPLKKotlinx_serialization_coreSerializationStrategy, KESPLKKotlinx_serialization_coreSerialDescriptor, KESPLKKotlinx_serialization_coreKSerializer, KESPLKKotlinx_serialization_coreEncoder, KESPLKKotlinx_serialization_coreDeserializationStrategy, KESPLKKotlinx_serialization_coreDecoder, KESPLKKotlinx_serialization_coreCompositeEncoder, KESPLKKotlinx_serialization_coreCompositeDecoder, KESPLKKotlinx_io_coreSource, KESPLKKotlinx_io_coreSink, KESPLKKotlinx_io_coreRawSource, KESPLKKotlinx_io_coreRawSink, KESPLKKotlinx_coroutines_coreStateFlow, KESPLKKotlinx_coroutines_coreSharedFlow, KESPLKKotlinx_coroutines_coreSelectInstance, KESPLKKotlinx_coroutines_coreSelectClause2, KESPLKKotlinx_coroutines_coreSelectClause1, KESPLKKotlinx_coroutines_coreSelectClause0, KESPLKKotlinx_coroutines_coreSelectClause, KESPLKKotlinx_coroutines_coreRunnable, KESPLKKotlinx_coroutines_coreParentJob, KESPLKKotlinx_coroutines_coreMutableStateFlow, KESPLKKotlinx_coroutines_coreMutableSharedFlow, KESPLKKotlinx_coroutines_coreJob, KESPLKKotlinx_coroutines_coreFlowCollector, KESPLKKotlinx_coroutines_coreFlow, KESPLKKotlinx_coroutines_coreDisposableHandle, KESPLKKotlinx_coroutines_coreDeferred, KESPLKKotlinx_coroutines_coreCoroutineScope, KESPLKKotlinx_coroutines_coreChildJob, KESPLKKotlinx_coroutines_coreChildHandle, KESPLKKotlinSequence, KESPLKKotlinLazy, KESPLKKotlinKDeclarationContainer, KESPLKKotlinKClassifier, KESPLKKotlinKClass, KESPLKKotlinKAnnotatedElement, KESPLKKotlinIterator, KESPLKKotlinCoroutineContextKey, KESPLKKotlinCoroutineContextElement, KESPLKKotlinCoroutineContext, KESPLKKotlinContinuationInterceptor, KESPLKKotlinContinuation, KESPLKKotlinComparator, KESPLKKotlinComparable, KESPLKKotlinAutoCloseable, KESPLKKotlinAnnotation, KESPLKKoin_coreScopeCallback, KESPLKKoin_coreResolutionExtension, KESPLKKoin_coreQualifier, KESPLKKoin_coreKoinScopeComponent, KESPLKKoin_coreKoinExtension, KESPLKKoin_coreKoinComponent, KESPLKIV1cScanner, KESPLKIESPClient, KESPLKIConnection, KESPLKESPResponse, KESPLKESPFailure, KESPLKESPCoreBluetoothEvent, KESPLKESPCBCharacteristicEvent;
 
@@ -2678,6 +2678,12 @@ __attribute__((swift_name("ESPResponseSuccess")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 
+
+/**
+ * Interface defining the contract for communicating with ESP capable devices.
+ * This interface contains properties and functions for reading state and communicating w/ all
+ * devices attached to the ESP bus.
+ */
 __attribute__((swift_name("IESPClient")))
 @protocol KESPLKIESPClient
 @required
@@ -2845,9 +2851,9 @@ __attribute__((swift_name("IESPClient")))
  * [ConnectionStrategy.LastThenStrongest].
  * @param scanDurationMillis The maximum duration to scan for devices. Defaults to
  * [defaultScanDuration].
- * @return A [Job] representing the asynchronous connection operation. You can use this job to
- * cancel the connection attempt or await its completion (though the connection status is
- * typically observed via [connectionStatus] flow).
+ * @return A [Deferred] which will resolve to `true` if the connection was successfully
+ * established, or `false` otherwise. You can `await()` this Deferred to get the result, or
+ * handle its completion in other ways.
  * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
  * supported on the device.
  * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
@@ -2857,7 +2863,7 @@ __attribute__((swift_name("IESPClient")))
  * @see defaultScanDuration For the default scanning time.
  * @see connectionStatus To observe the outcome of the connection attempt.
  */
-- (id<KESPLKKotlinx_coroutines_coreJob>)connectAsyncConnectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy scanDurationMillis:(int64_t)scanDurationMillis __attribute__((swift_name("connectAsync(connectionStrategy:scanDurationMillis:)")));
+- (id<KESPLKKotlinx_coroutines_coreDeferred>)connectAsyncConnectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy scanDurationMillis:(int64_t)scanDurationMillis __attribute__((swift_name("connectAsync(connectionStrategy:scanDurationMillis:)")));
 
 /**
  * Asynchronously attempts to connect to the specified [V1connection]. This function returns
@@ -2963,6 +2969,12 @@ __attribute__((swift_name("IESPClient")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)enableAlertTableEnable:(BOOL)enable timeout:(int64_t)timeout completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("enableAlertTable(enable:timeout:completionHandler:)")));
+
+/**
+ * The [V1connection] maintaining the active connection with the ESP bus.
+ * @return the connected [V1connection] if a connection is established (active), null otherwise.
+ */
+- (id<KESPLKV1connection> _Nullable)getConnectedDevice __attribute__((swift_name("getConnectedDevice()")));
 
 /**
  * Checks if there is a previously connected [V1connection] persisted.
@@ -3931,7 +3943,7 @@ __attribute__((swift_name("IESPClient")))
  * @param verifyBytes `true` if the client should read back the device's user bytes to
  * verify the values written were successfully set.
  * NOTE: When `destination` is [ESPDevice.ValentineOne], this verification may fail if the
- * [V18UserSettings.UserByte2.fForceLegacyDisplayDisabled] bit is set in the `userBytes`.
+ * [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set in the `userBytes`.
  * @param timeout The maximum duration the client should wait before timing out this operation.
  * Defaults to [defaultLongRequestTimeout] as V1 operations can sometimes take longer.
  *
@@ -3946,7 +3958,7 @@ __attribute__((swift_name("IESPClient")))
  *     [ESPFailure.NotSupported], etc.
  *
  * @see UserSettings For the structure of user settings.
- * @see V18UserSettings.UserByte2.fForceLegacyDisplayDisabled For the specific bit that can cause verification
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
  * failure with Valentine One devices.
  * @see ESPResponse For the sealed class representing the outcome of ESP operations.
  * @see ESPFailure For possible error types.
@@ -3963,7 +3975,7 @@ __attribute__((swift_name("IESPClient")))
  * @param userBytes Desired Valentine One user configuration.
  * @param verifyBytes `true` if the client should read back the Valentine One's user bytes to
  * verify the values written were set.
- * NOTE: This will fail if the [V18UserSettings.UserByte2.fForceLegacyDisplayDisabled] bit is set.
+ * NOTE: This will fail if the [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set.
  * @param timeout The timeout the client should wait before timing out this operation.
  *
  * @return An [ESPResponse] indicating the outcome:
@@ -3975,7 +3987,7 @@ __attribute__((swift_name("IESPClient")))
  * [ESPFailure.TimedOut], [ESPFailure.NotConnected], etc.
  *
  * @see UserSettings For the structure of user settings.
- * @see V18UserSettings.UserByte2.fForceLegacyDisplayDisabled For the specific bit that can cause verification
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
  * failure.
  * @see ESPResponse For the sealed class representing the outcome of ESP operations.
  * @see ESPFailure For possible error types.
@@ -4290,7 +4302,7 @@ __attribute__((swift_name("IESPClientCompanion")))
 - (id<KESPLKIESPClient>)getClientPreference:(KESPLKV1ConnectionTypePreference *)preference connectionScope:(id<KESPLKKotlinx_coroutines_coreCoroutineScope>)connectionScope __attribute__((swift_name("getClient(preference:connectionScope:)")));
 
 /**
- * Get a demo client.
+ * Returns a client setup for a "demo" connection.
  *
  * @param scope The coroutine scope to use.
  * @return The demo client.
@@ -4652,9 +4664,11 @@ __attribute__((swift_name("V1connectionScanResult")))
 
 
 /**
- * Interface defining the contract for a connection to an ESP device.
- * This interface provides properties and methods to manage the connection lifecycle,
- * send and receive data, and observe connection status and device information.
+ * Interface defining the contract for a connection to an ESP (Extended Serial Protocol) device.
+ *
+ * This interface provides properties and functions to manage the connection lifecycle,
+ * facilitate data exchange, and observe the real-time status and hardware details of the
+ * connected Valentine One device.
  */
 __attribute__((swift_name("IConnection")))
 @protocol KESPLKIConnection
@@ -4716,33 +4730,96 @@ __attribute__((swift_name("IConnection")))
 - (void)writeRequestRequest:(KESPLKESPRequest *)request waitForV1TypeDuration:(int64_t)waitForV1TypeDuration completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeRequest(request:waitForV1TypeDuration:completionHandler:)")));
 
 /**
- * Controls if the connection should track echo ESP data.
+ * Controls whether the connection should track echoed ESP data.
+ *
+ * When enabled, the connection maintains a queue of outgoing requests to match
+ * against incoming echo responses from the ESP bus.
  */
 @property BOOL canEchoQueue __attribute__((swift_name("canEchoQueue")));
+
+/**
+ * A [StateFlow] representing the currently connected [V1connection].
+ *
+ * A `null` value indicates that the [IConnection] is not currently connected to a device.
+ */
+@property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> connectedDevice __attribute__((swift_name("connectedDevice")));
+
+/**
+ * The [CoroutineScope] associated with this connection.
+ * This scope is used to manage asynchronous tasks related to the connection's lifecycle,
+ * such as data processing and monitoring.
+ */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreCoroutineScope> connectionScope __attribute__((swift_name("connectionScope")));
+
+/**
+ * A [StateFlow] representing the current [ESPConnectionStatus] of the connection.
+ */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> connectionStatus __attribute__((swift_name("connectionStatus")));
+
+/**
+ * The type of the connection, indicating the underlying communication protocol.
+ *
+ * This property specifies whether the connection is Bluetooth LE, legacy Bluetooth,
+ * or a demonstration/mock connection, as defined by the [V1cType] enum.
+ */
 @property (readonly) KESPLKV1cType *connectionType __attribute__((swift_name("connectionType")));
 
 /**
- * Stream of ESP data received from the connected [V1connection].
+ * A [Flow] of raw ESP data bytes received from the connected [V1connection].
  */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreFlow> espData __attribute__((swift_name("espData")));
+
+/**
+ * Indicates whether the connection has successfully identified the [ESPDevice.ValentineOne] of
+ * the connected Valentine One.
+ */
 @property (readonly) BOOL hasDeterminedV1Type __attribute__((swift_name("hasDeterminedV1Type")));
+
+/**
+ * Indicates whether the firmware version of the connected Valentine One device has been determined.
+ */
 @property (readonly) BOOL hasV1Version __attribute__((swift_name("hasV1Version")));
+
+/**
+ * A [StateFlow] indicating whether the Valentine One has enabled time-slicing on the ESP bus.
+ *
+ * When active, devices attached to the bus are only permitted to communicate during their
+ * respective assigned time-slices. This state is determined by observing the `TSHoldOff`
+ * bit within `InfDisplayData` packets.
+ *
+ * @see io.github.developrofthings.kespl.packet.data.displayData.isTimeSlicing
+ * @see io.github.developrofthings.kespl.packet.data.displayData.DisplayData.isTimeSlicing
+ */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> isTimeSlicing __attribute__((swift_name("isTimeSlicing")));
 
 /**
- * Stream of 'No Data' notifications that are emitted after [staleDataWatchDogTimeout]
- * milliseconds has passed without any ESP data being received from the connected [V1connection].
+ * A [Flow] of 'No Data' notifications that are emitted after [staleDataWatchDogTimeout]
+ * has passed without any ESP data being received from the connected [V1connection].
  */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreFlow> noData __attribute__((swift_name("noData")));
 
 /**
- * Stream of notifications received from the connected [V1connection].
+ * A [Flow] of notifications received from the connected [V1connection].
+ *
  * Note: this is presently only used by [DemoConnection].
  */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreFlow> notificationData __attribute__((swift_name("notificationData")));
+
+/**
+ * A [StateFlow] representing the specific [ESPDevice.ValentineOne] hardware type.
+ *
+ * The type is determined based on the device's capabilities, such as support for ESP and or
+ * checksums. __Note:__ the Valentine One may support checksums but if operating in "Legacy" the
+ * library will report [ESPDevice.ValentineOne.Legacy].
+ */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> v1Type __attribute__((swift_name("v1Type")));
+
+/**
+ * A [StateFlow] representing the firmware version of the connected Valentine One device.
+ *
+ * This value is determined through the ESP protocol and provides the specific
+ * version number (e.g., 3.8945) of the hardware.
+ */
 @property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> v1Version __attribute__((swift_name("v1Version")));
 @end
 
@@ -4755,10 +4832,10 @@ __attribute__((swift_name("IConnection")))
  */
 __attribute__((swift_name("BaseConnection")))
 @interface KESPLKBaseConnection : KESPLKBase <KESPLKIConnection>
-@property (readonly) id<KESPLKKotlinx_coroutines_coreMutableStateFlow> _connectionStatus __attribute__((swift_name("_connectionStatus")));
 @property (readonly) id<KESPLKKotlinx_coroutines_coreMutableSharedFlow> _espData __attribute__((swift_name("_espData")));
 @property (readonly) id<KESPLKKotlinx_coroutines_coreMutableSharedFlow> _notificationData __attribute__((swift_name("_notificationData")));
 @property BOOL canEchoQueue __attribute__((swift_name("canEchoQueue")));
+@property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> connectedDevice __attribute__((swift_name("connectedDevice")));
 @property (readonly) id<KESPLKKotlinx_coroutines_coreCoroutineScope> connectionScope __attribute__((swift_name("connectionScope")));
 @property (readonly) id<KESPLKKotlinx_coroutines_coreStateFlow> connectionStatus __attribute__((swift_name("connectionStatus")));
 @property (readonly) id<KESPLKKotlinx_coroutines_coreFlow> espData __attribute__((swift_name("espData")));
@@ -4837,10 +4914,6 @@ __attribute__((swift_name("BaseConnection")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)writeRequestRequest:(KESPLKESPRequest *)request waitForV1TypeDuration:(int64_t)waitForV1TypeDuration completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeRequest(request:waitForV1TypeDuration:completionHandler:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
@@ -5068,10 +5141,28 @@ __attribute__((swift_name("ESPScanMode")))
 + (KESPLKKotlinArray<KESPLKESPScanMode *> *)values __attribute__((swift_name("values()")));
 @end
 
+
+/**
+ * Interface defining the contract for scanning and discovering V1connection devices.
+ *
+ * Implementations provide the ability to search for specific Valentine One connection types
+ * (e.g., LE, Legacy, or Demo) and stream the discovery results.
+ */
 __attribute__((swift_name("IV1cScanner")))
 @protocol KESPLKIV1cScanner
 @required
+
+/**
+ * Starts scanning for V1connection devices based on the specified [scanMode].
+ *
+ * @param scanMode The power and performance settings to use for the scan. Defaults to [ESPScanMode.LowPower].
+ * @return A [Flow] emitting [V1connectionScanResult] as devices are discovered.
+ */
 - (id<KESPLKKotlinx_coroutines_coreFlow>)startScanScanMode:(KESPLKESPScanMode *)scanMode __attribute__((swift_name("startScan(scanMode:)")));
+
+/**
+ * The specific type of V1connection that this scanner is designed to discover.
+ */
 @property (readonly) KESPLKV1cType *scanType __attribute__((swift_name("scanType")));
 @end
 
@@ -5082,6 +5173,16 @@ __attribute__((swift_name("IV1cScannerCompanion")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
+
+/**
+ * Returns an instance of [IV1cScanner] for the specified [connType].
+ *
+ * This convenience method automatically retrieves the required [ESPContext]
+ * from the [ESPIsolatedKoinContext].
+ *
+ * @param connType The type of V1connection to scan for (e.g., LE, Legacy, or Demo).
+ * @return An implementation of [IV1cScanner] corresponding to the provided [connType].
+ */
 - (id<KESPLKIV1cScanner>)getScannerConnType:(KESPLKV1cType *)connType __attribute__((swift_name("getScanner(connType:)")));
 @end
 
@@ -5113,6 +5214,140 @@ __attribute__((swift_name("PlatformNativeModule")))
 @interface KESPLKPlatformNativeModule : KESPLKBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+
+/**
+ * Well structured data packet used for all ESP communication. A packet consist of 6 framing bytes
+ * and `0-N` payload bytes.
+ *
+ * There are two possible packet formats that all ESP-capable devices must
+ * support: **Checksum** and **Non-Checksum**. Packet format is established by the Valentine One
+ * controlling the bus.
+ *
+ * **Non-Checksum Packet Format**
+ *
+ * | Byte #          | Name | Value         | Description                           |
+ * |-----------------|------|---------------|---------------------------------------|
+ * | 0               | SOF  | $AA           | Start of Frame                        |
+ * | 1               | DI   | $D0 + Dest ID | Destination Identifier                |
+ * | 2               | OI   | $E0 + Send ID | Originator Identifier                 |
+ * | 3               | PI   | $XX           | Packet Identifier                     |
+ * | 4               | PL   | $XX           | Payload Length                        |
+ * | 5 : PL + 5 - 1  | PD   | $XX           | Payload Data (Not present if PL = 0)  |
+ * | 5 + PL          | EOF  | $AB           | End of Frame                          |
+ *
+ *
+ * **Checksum Packet Format**
+ *
+ * | Byte #         | Name | Value         | Description                          |
+ * |----------------|------|---------------|--------------------------------------|
+ * | 0              | SOF  | $AA           | Start of Frame                       |
+ * | 1              | DI   | $D0 + Dest ID | Destination Identifier               |
+ * | 2              | OI   | $E0 + Send ID | Originator Identifier                |
+ * | 3              | PI   | $XX           | Packet Identifier                    |
+ * | 4              | PL   | $XX           | Payload Length                       |
+ * | 5 : PL + 5 - 2 | PD   | $XX           | Payload Data (Not present if PL = 0) |
+ * | 5 + PL - 1     | CS   | $XX           | Packet Checksum                      |
+ * | 5 + PL         | EOF  | $AB           | End of Frame                         |
+ *
+ * __Thin-wrapper around [ByteArray]__
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ESPPacket")))
+@interface KESPLKESPPacket : KESPLKBase
+@property (readonly) KESPLKKotlinByteArray *bytes __attribute__((swift_name("bytes")));
+@property (readonly) int8_t checksum __attribute__((swift_name("checksum")));
+@property (readonly) KESPLKESPDevice *destinationIdentifier __attribute__((swift_name("destinationIdentifier")));
+@property (readonly) int8_t destinationIdentifierByte __attribute__((swift_name("destinationIdentifierByte")));
+@property (readonly) KESPLKESPDevice *originatorIdentifier __attribute__((swift_name("originatorIdentifier")));
+@property (readonly) int8_t originatorIdentifierByte __attribute__((swift_name("originatorIdentifierByte")));
+@property (readonly) KESPLKESPPacketId *packetIdentifier __attribute__((swift_name("packetIdentifier")));
+@property (readonly) int8_t packetIdentifierByte __attribute__((swift_name("packetIdentifierByte")));
+@property (readonly) int32_t payloadLength __attribute__((swift_name("payloadLength")));
+- (instancetype)initWithBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("init(bytes:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * Returns a deep-copy of ourself.
+ */
+- (KESPLKESPPacket *)doCopy __attribute__((swift_name("doCopy()")));
+- (KESPLKESPPacket *)doCopyBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("doCopy(bytes:)")));
+
+/**
+ * Copies the specified range of data from this packet into the [destination].
+ *
+ * @throws IndexOutOfBoundsException or [IllegalArgumentException] when [startIndex] or
+ * `startIndex + length` is out of range of this array indices.
+ * @throws IndexOutOfBoundsException when the subrange doesn't fit into the [destination] array
+ * starting at the specified [destinationOffset], or when that index is out of the [destination]
+ * array indices range.
+ *
+ * @return the destination array.
+ */
+- (KESPLKKotlinByteArray *)doCopyIntoDestination:(KESPLKKotlinByteArray *)destination destinationOffset:(int32_t)destinationOffset startIndex:(int32_t)startIndex length:(int32_t)length __attribute__((swift_name("doCopyInto(destination:destinationOffset:startIndex:length:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the data ([Byte]) at the specified index.
+ *
+ * @throws IndexOutOfBoundsException or [IllegalArgumentException] when [index] is out of range
+ * of this array indices.
+ *
+ * @return data at [index].
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Payload data of this packet (includes checksum).
+ *
+ * @return payload data.
+ */
+- (KESPLKKotlinByteArray *)payload __attribute__((swift_name("payload()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * 8 bit summations of all bytes from Start of Frame to Payload Data length minus 1.
+ *
+ * __NOTE:__ [ESPPacket] cannot itself determine if the ESP bus is
+ * operating in checksum mode so the value of this field can be inaccurate. It is the job of
+ * callers to determine if the attached Valentine One is operating in "checksum mode" before
+ * calling.
+ */
+
+/**
+ * The [ESPDevice] for which this packet is destined.
+ */
+
+/**
+ * [Byte] representation of this packet's destination identifier.
+ *
+ * @see ESPDevice
+ */
+
+/**
+ * The [ESPDevice] of the sender of this packet.
+ */
+
+/**
+ * [Byte] representation of this packet's originator identifier.
+ *
+ * @see ESPDevice
+ */
+
+/**
+ * The [ESPPacketId] for this packet.
+ */
+
+/**
+ * [Byte] representation of the this packet's packet identifier
+ *
+ * @see ESPPacketId
+ */
+
+/**
+ * 8-bit value indicating the length of this packet's payload (includes checksum).
+ */
 @end
 
 
@@ -5463,6 +5698,426 @@ __attribute__((swift_name("AlertBand.Companion")))
 
 
 /**
+ * This class represents the data for a single alert detected by a Valentine One..
+ *
+ * @property bytes The raw byte array containing the alert data.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AlertData")))
+@interface KESPLKAlertData : KESPLKBase
+@property (readonly) KESPLKAlertIndexCount *alertIndexCount __attribute__((swift_name("alertIndexCount")));
+@property (readonly) KESPLKAlertArrow *arrow __attribute__((swift_name("arrow")));
+@property (readonly) KESPLKAux0 *aux __attribute__((swift_name("aux")));
+@property (readonly) KESPLKAlertBand *band __attribute__((swift_name("band")));
+@property (readonly) KESPLKBandArrow *bandArrowDefinition __attribute__((swift_name("bandArrowDefinition")));
+@property (readonly) int32_t frequency __attribute__((swift_name("frequency")));
+@property (readonly) int32_t frontSignalStrength __attribute__((swift_name("frontSignalStrength")));
+@property (readonly) BOOL isJunk __attribute__((swift_name("isJunk")));
+@property (readonly) BOOL isPriority __attribute__((swift_name("isPriority")));
+@property (readonly) KESPLKPhotoRadar *photoRadar __attribute__((swift_name("photoRadar")));
+@property (readonly) int32_t rearSignalStrength __attribute__((swift_name("rearSignalStrength")));
+- (instancetype)initWithBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("init(bytes:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAlertData *)doCopyBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("doCopy(bytes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the byte at the specified index in the alert data.
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (KESPLKAlertBand *)getAlertBandSupportsPhoto:(BOOL)supportsPhoto __attribute__((swift_name("getAlertBand(supportsPhoto:)")));
+
+/**
+ * The [AlertBand] of this alert; includes photo radar types.
+ */
+- (KESPLKAlertBand *)getPhotoAwareBand __attribute__((swift_name("getPhotoAwareBand()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * This class represents the data for a single alert detected by a Valentine One..
+ *
+ * @property bytes The raw byte array containing the alert data.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * The alert index & count for this alert.
+ */
+
+/**
+ * The direction, in respect to the Valentine One's rear antenna, this alert was detected.
+ */
+
+/**
+ * The aux0 definition for this alert.
+ */
+
+/**
+ * The [AlertBand] of this alert; does not include [PhotoRadar] ie [AlertBand.Photo] will not be
+ * returned.
+ */
+
+/**
+ * The band arrow definition for this alert.
+ */
+
+/**
+ * The frequency in MHz of this alert.
+ */
+
+/**
+ * The detected signal strength in the front for this alert.
+ */
+
+/**
+ * Indicates if the alert has been determined to be false alert and will be removed from
+ * subsequent alert tables.
+ *
+ * @since V4.1032
+ */
+
+/**
+ * Indicates if the alert has the highest priority in the alert table.
+ */
+
+/**
+ * Photo Radar type of the current alert
+ *
+ * @since V4.1037
+ */
+
+/**
+ * The detected signal strength in the rear for this alert.
+ */
+@end
+
+
+/**
+ * Represents the alert index count data.
+ *
+ * This class provides access to the individual bits, count, and index of the alert index count.
+ *
+ * @property data The raw byte data representing the alert index count.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AlertIndexCount")))
+@interface KESPLKAlertIndexCount : KESPLKBase
+@property (readonly) int32_t count __attribute__((swift_name("count")));
+@property (readonly) int32_t index __attribute__((swift_name("index")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAlertIndexCount *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Represents the alert index count data.
+ *
+ * This class provides access to the individual bits, count, and index of the alert index count.
+ *
+ * @property data The raw byte data representing the alert index count.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the alert index count data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Represents the alert index count data.
+ *
+ * This class provides access to the individual bits, count, and index of the alert index count.
+ *
+ * @property data The raw byte data representing the alert index count.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Represents the alert index count data.
+ *
+ * This class provides access to the individual bits, count, and index of the alert index count.
+ *
+ * @property data The raw byte data representing the alert index count.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Number of alerts present in the alert table this [AlertIndexCount] corresponds to.
+ */
+
+/**
+ * The index of the alert this [AlertIndexCount] corresponds to inside of the alert table.
+ */
+@end
+
+
+/**
+ * Auxiliary data for an alert.
+ *
+ * This class provides access to the individual bits within the aux0 byte of an alert data packet.
+ * Each bit represents a specific flag or status related to the alert.
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Photo Radar Type B0
+ * |  |  |  |  |  |  \---- Photo Radar Type B1
+ * |  |  |  |  |  \------- Photo Radar Type B2
+ * |  |  |  |  \---------- Photo Radar Type B3
+ * |  |  |  \------------- Reserved
+ * |  |  \---------------- Reserved
+ * |  \------------------- Junk Alert
+ * \---------------------- Priority Alert
+ *
+ * Reference: ESP Specification v. 3.013
+ *
+ * @property data The raw byte value containing the aux0 data.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Aux0")))
+@interface KESPLKAux0 : KESPLKBase
+@property (readonly) BOOL junkAlert __attribute__((swift_name("junkAlert")));
+@property (readonly) BOOL photoRadarBit0 __attribute__((swift_name("photoRadarBit0")));
+@property (readonly) BOOL photoRadarBit1 __attribute__((swift_name("photoRadarBit1")));
+@property (readonly) BOOL photoRadarBit2 __attribute__((swift_name("photoRadarBit2")));
+@property (readonly) BOOL photoRadarBit3 __attribute__((swift_name("photoRadarBit3")));
+@property (readonly) KESPLKPhotoRadar *photoRadarType __attribute__((swift_name("photoRadarType")));
+@property (readonly) BOOL priorityAlert __attribute__((swift_name("priorityAlert")));
+@property (readonly) BOOL reserved5 __attribute__((swift_name("reserved5")));
+@property (readonly) BOOL reserved6 __attribute__((swift_name("reserved6")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAux0 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Auxiliary data for an alert.
+ *
+ * This class provides access to the individual bits within the aux0 byte of an alert data packet.
+ * Each bit represents a specific flag or status related to the alert.
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Photo Radar Type B0
+ * |  |  |  |  |  |  \---- Photo Radar Type B1
+ * |  |  |  |  |  \------- Photo Radar Type B2
+ * |  |  |  |  \---------- Photo Radar Type B3
+ * |  |  |  \------------- Reserved
+ * |  |  \---------------- Reserved
+ * |  \------------------- Junk Alert
+ * \---------------------- Priority Alert
+ *
+ * Reference: ESP Specification v. 3.013
+ *
+ * @property data The raw byte value containing the aux0 data.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the aux0 data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Auxiliary data for an alert.
+ *
+ * This class provides access to the individual bits within the aux0 byte of an alert data packet.
+ * Each bit represents a specific flag or status related to the alert.
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Photo Radar Type B0
+ * |  |  |  |  |  |  \---- Photo Radar Type B1
+ * |  |  |  |  |  \------- Photo Radar Type B2
+ * |  |  |  |  \---------- Photo Radar Type B3
+ * |  |  |  \------------- Reserved
+ * |  |  \---------------- Reserved
+ * |  \------------------- Junk Alert
+ * \---------------------- Priority Alert
+ *
+ * Reference: ESP Specification v. 3.013
+ *
+ * @property data The raw byte value containing the aux0 data.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Auxiliary data for an alert.
+ *
+ * This class provides access to the individual bits within the aux0 byte of an alert data packet.
+ * Each bit represents a specific flag or status related to the alert.
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Photo Radar Type B0
+ * |  |  |  |  |  |  \---- Photo Radar Type B1
+ * |  |  |  |  |  \------- Photo Radar Type B2
+ * |  |  |  |  \---------- Photo Radar Type B3
+ * |  |  |  \------------- Reserved
+ * |  |  \---------------- Reserved
+ * |  \------------------- Junk Alert
+ * \---------------------- Priority Alert
+ *
+ * Reference: ESP Specification v. 3.013
+ *
+ * @property data The raw byte value containing the aux0 data.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the alert has been determined to be false alert and will be removed from
+ * subsequent alert tables.
+ *
+ * @since V4.1032
+ */
+
+/**
+ * Photo Radar type bit 0.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Photo Radar type bit 1.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Photo Radar type bit 2.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Photo Radar type bit 3.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Photo Radar type of the current alert
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Indicates if the alert has the highest priority in the alert table.
+ */
+
+/**
+ * Reserved for future use.
+ */
+
+/**
+ * Reserved for future use.
+ */
+@end
+
+
+/**
+ * This class represents the band arrow data for a given alert within an alert table.
+ *
+ * It provides a convenient way to access the individual bits of the band arrow data,
+ * which indicate the signal band (Laser, Ka, K, X, Ku) and the direction of detection
+ * (front, side, rear) relative to the Valentine One device.
+ *
+ * @property data The raw byte data for the band arrow.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BandArrow")))
+@interface KESPLKBandArrow : KESPLKBase
+@property (readonly) KESPLKAlertArrow *arrow __attribute__((swift_name("arrow")));
+@property (readonly) KESPLKAlertBand *band __attribute__((swift_name("band")));
+@property (readonly) BOOL front __attribute__((swift_name("front")));
+@property (readonly) BOOL kBand __attribute__((swift_name("kBand")));
+@property (readonly) BOOL kaBand __attribute__((swift_name("kaBand")));
+@property (readonly) BOOL kuBand __attribute__((swift_name("kuBand")));
+@property (readonly) BOOL laser __attribute__((swift_name("laser")));
+@property (readonly) BOOL rear __attribute__((swift_name("rear")));
+@property (readonly) BOOL side __attribute__((swift_name("side")));
+@property (readonly) BOOL xBand __attribute__((swift_name("xBand")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKBandArrow *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * This class represents the band arrow data for a given alert within an alert table.
+ *
+ * It provides a convenient way to access the individual bits of the band arrow data,
+ * which indicate the signal band (Laser, Ka, K, X, Ku) and the direction of detection
+ * (front, side, rear) relative to the Valentine One device.
+ *
+ * @property data The raw byte data for the band arrow.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the band arrow data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * This class represents the band arrow data for a given alert within an alert table.
+ *
+ * It provides a convenient way to access the individual bits of the band arrow data,
+ * which indicate the signal band (Laser, Ka, K, X, Ku) and the direction of detection
+ * (front, side, rear) relative to the Valentine One device.
+ *
+ * @property data The raw byte data for the band arrow.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * This class represents the band arrow data for a given alert within an alert table.
+ *
+ * It provides a convenient way to access the individual bits of the band arrow data,
+ * which indicate the signal band (Laser, Ka, K, X, Ku) and the direction of detection
+ * (front, side, rear) relative to the Valentine One device.
+ *
+ * @property data The raw byte data for the band arrow.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * The direction, in respect to the Valentine One's rear antenna, this alert was detected.
+ */
+
+/**
+ * The alert band in which this alert was detected
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to is detected at the front of the
+ * Valentine One.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to a K band signal.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to a Ka band signal.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to a Ka band signal.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to a laser signal.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to is detected at the rear of the
+ * Valentine One.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to is detected at the side of the
+ * Valentine One.
+ */
+
+/**
+ * Indicates if the alert this [BandArrow] corresponds to a X band signal.
+ */
+@end
+
+
+/**
  * Represents possible Photo Radar types that the Valentine One Gen2 is capable of detecting.
  *  Reference: Table 9.7 ESP Specification v. 3.013
  *
@@ -5501,6 +6156,986 @@ __attribute__((swift_name("PhotoRadar.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (KESPLKPhotoRadar *)fromByteB:(int8_t)b __attribute__((swift_name("fromByte(b:)")));
+@end
+
+
+/**
+ * Aux0 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Soft
+ * |  |  |  |  |  |  \---- TS Holdoff
+ * |  |  |  |  |  \------- Sys. Status
+ * |  |  |  |  \---------- Display On
+ * |  |  |  \------------- Euro Mode
+ * |  |  \---------------- Custom Sweep
+ * |  \------------------- ESP/Legacy
+ * \---------------------- Display Active
+ *
+ * Reference: Table 8.3 of the ESP Specification v. 3.013
+ *
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Aux0_")))
+@interface KESPLKAux0_ : KESPLKBase
+@property (readonly) BOOL customSweep __attribute__((swift_name("customSweep")));
+@property (readonly) BOOL displayActive __attribute__((swift_name("displayActive")));
+@property (readonly) BOOL displayOn __attribute__((swift_name("displayOn")));
+@property (readonly) BOOL espLegacy __attribute__((swift_name("espLegacy")));
+@property (readonly) BOOL euroMode __attribute__((swift_name("euroMode")));
+@property (readonly) BOOL soft __attribute__((swift_name("soft")));
+@property (readonly) BOOL systemStatus __attribute__((swift_name("systemStatus")));
+@property (readonly) BOOL tsHoldOff __attribute__((swift_name("tsHoldOff")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAux0_ *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Aux0 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Soft
+ * |  |  |  |  |  |  \---- TS Holdoff
+ * |  |  |  |  |  \------- Sys. Status
+ * |  |  |  |  \---------- Display On
+ * |  |  |  \------------- Euro Mode
+ * |  |  \---------------- Custom Sweep
+ * |  \------------------- ESP/Legacy
+ * \---------------------- Display Active
+ *
+ * Reference: Table 8.3 of the ESP Specification v. 3.013
+ *
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the aux0 data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Aux0 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Soft
+ * |  |  |  |  |  |  \---- TS Holdoff
+ * |  |  |  |  |  \------- Sys. Status
+ * |  |  |  |  \---------- Display On
+ * |  |  |  \------------- Euro Mode
+ * |  |  \---------------- Custom Sweep
+ * |  \------------------- ESP/Legacy
+ * \---------------------- Display Active
+ *
+ * Reference: Table 8.3 of the ESP Specification v. 3.013
+ *
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Aux0 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Soft
+ * |  |  |  |  |  |  \---- TS Holdoff
+ * |  |  |  |  |  \------- Sys. Status
+ * |  |  |  |  \---------- Display On
+ * |  |  |  \------------- Euro Mode
+ * |  |  \---------------- Custom Sweep
+ * |  \------------------- ESP/Legacy
+ * \---------------------- Display Active
+ *
+ * Reference: Table 8.3 of the ESP Specification v. 3.013
+ *
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the Valentine One's currently has custom sweeps defined. `false` if custom
+ * sweeps have not been defined. `true` if Valentine One has custom sweeps defined and custom
+ * modes will be used if operating in Euro Mode.
+ */
+
+/**
+ * Indicates if the Valentine One's display status. `false` if the Valentine One's display is
+ * showing a mode or the resting display indicator. `true` if the display is actively showing an
+ * alert, volume or other  important information.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Indicates if the Valentine One's is turned on.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Legacy mode.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Euro Mode.
+ */
+
+/**
+ * Indicates if the Valentine One's audio is muted.
+ */
+
+/**
+ * Indicates if the Valentine One has successfully signed on and is actively searching for alerts.
+ */
+
+/**
+ * Indicates if the Valentine One is 'time slicing' (accessories will be given a "time slice" to
+ * communicate on the ESP bus).
+ */
+@end
+
+
+/**
+ * Aux1 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Reserved
+ * |  |  |  |  |  |  \---- Reserved
+ * |  |  |  |  |  \------- Mode B0 Note 2
+ * |  |  |  |  \---------- Mode B1 Note 2
+ * |  |  |  \------------- Auto Muted Note 2
+ * |  |  \---------------- Double Tap Active Note 2
+ * |  \------------------- Bluetooth Indicator Image 1 Note 1
+ * \---------------------- Bluetooth Indicator Image 2 Note 1
+ *
+ * Reference: Table 8.4 of the ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ * Note 2: This feature is only available on V4.1028 and higher
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Aux1")))
+@interface KESPLKAux1 : KESPLKBase
+@property (readonly) BOOL autoMuted __attribute__((swift_name("autoMuted")));
+@property (readonly) BOOL btIndicatorImage1 __attribute__((swift_name("btIndicatorImage1")));
+@property (readonly) BOOL btIndicatorImage2 __attribute__((swift_name("btIndicatorImage2")));
+@property (readonly) BOOL doubleTapActive __attribute__((swift_name("doubleTapActive")));
+@property (readonly) BOOL modeBit0 __attribute__((swift_name("modeBit0")));
+@property (readonly) BOOL modeBit2 __attribute__((swift_name("modeBit2")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAux1 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Aux1 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Reserved
+ * |  |  |  |  |  |  \---- Reserved
+ * |  |  |  |  |  \------- Mode B0 Note 2
+ * |  |  |  |  \---------- Mode B1 Note 2
+ * |  |  |  \------------- Auto Muted Note 2
+ * |  |  \---------------- Double Tap Active Note 2
+ * |  \------------------- Bluetooth Indicator Image 1 Note 1
+ * \---------------------- Bluetooth Indicator Image 2 Note 1
+ *
+ * Reference: Table 8.4 of the ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ * Note 2: This feature is only available on V4.1028 and higher
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the aux1 data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Aux1 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Reserved
+ * |  |  |  |  |  |  \---- Reserved
+ * |  |  |  |  |  \------- Mode B0 Note 2
+ * |  |  |  |  \---------- Mode B1 Note 2
+ * |  |  |  \------------- Auto Muted Note 2
+ * |  |  \---------------- Double Tap Active Note 2
+ * |  \------------------- Bluetooth Indicator Image 1 Note 1
+ * \---------------------- Bluetooth Indicator Image 2 Note 1
+ *
+ * Reference: Table 8.4 of the ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ * Note 2: This feature is only available on V4.1028 and higher
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Aux1 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Reserved
+ * |  |  |  |  |  |  \---- Reserved
+ * |  |  |  |  |  \------- Mode B0 Note 2
+ * |  |  |  |  \---------- Mode B1 Note 2
+ * |  |  |  \------------- Auto Muted Note 2
+ * |  |  \---------------- Double Tap Active Note 2
+ * |  \------------------- Bluetooth Indicator Image 1 Note 1
+ * \---------------------- Bluetooth Indicator Image 2 Note 1
+ *
+ * Reference: Table 8.4 of the ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ * Note 2: This feature is only available on V4.1028 and higher
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates the reason why the Valentine One's audio is muted. `True` - indicates that audio was
+ * muted by the user or the app. `False` - indicates that audio was internally muted using the
+ * Valentine One's logic.
+ *
+ * @since V4.1028
+ */
+
+/**
+ * State of the Valentine One's Bluetooth Indicator.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Alternate Valentine One's Bluetooth Indicator used to determine if the indicator is blinking.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Indicates whether or note the Valentine One double tap features is active.
+ *
+ * @since V4.1028
+ */
+
+/**
+ * Bit 0 of the V1 mode.
+ *
+ * @since V4.1028
+ */
+
+/**
+ * Bit 1 of the V1 mode.
+ *
+ * @since V4.1028
+ */
+@end
+
+
+/**
+ * Aux2 – Current Volume
+ * 07:04 03:00
+ * |       |
+ * |       \- Mute Volume B3, B2, B1, B0
+ * \--------- Main Volume B3, B2, B1, B0
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ * @since V4.1028
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Aux2")))
+@interface KESPLKAux2 : KESPLKBase
+@property (readonly) int32_t mainVolume __attribute__((swift_name("mainVolume")));
+@property (readonly) int32_t muteVolume __attribute__((swift_name("muteVolume")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKAux2 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Aux2 – Current Volume
+ * 07:04 03:00
+ * |       |
+ * |       \- Mute Volume B3, B2, B1, B0
+ * \--------- Main Volume B3, B2, B1, B0
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ * @since V4.1028
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the aux2 data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Aux2 – Current Volume
+ * 07:04 03:00
+ * |       |
+ * |       \- Mute Volume B3, B2, B1, B0
+ * \--------- Main Volume B3, B2, B1, B0
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ * @since V4.1028
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Aux2 – Current Volume
+ * 07:04 03:00
+ * |       |
+ * |       \- Mute Volume B3, B2, B1, B0
+ * \--------- Main Volume B3, B2, B1, B0
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ * @since V4.1028
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Main (unmuted) volume level of the Valentine One.
+ */
+
+/**
+ * Muted volume level of the Valentine One.
+ */
+@end
+
+
+/**
+ * Band and Arrow Indicator Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BandArrowIndicator")))
+@interface KESPLKBandArrowIndicator : KESPLKBase
+@property (readonly) int8_t data __attribute__((swift_name("data")));
+@property (readonly) BOOL front __attribute__((swift_name("front")));
+@property (readonly) BOOL kBand __attribute__((swift_name("kBand")));
+@property (readonly) BOOL kaBand __attribute__((swift_name("kaBand")));
+@property (readonly) BOOL laser __attribute__((swift_name("laser")));
+@property (readonly) BOOL mute __attribute__((swift_name("mute")));
+@property (readonly) BOOL rear __attribute__((swift_name("rear")));
+@property (readonly) BOOL side __attribute__((swift_name("side")));
+@property (readonly) BOOL xBand __attribute__((swift_name("xBand")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKBandArrowIndicator *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Band and Arrow Indicator Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the band arrow indicator data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Band and Arrow Indicator Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Band and Arrow Indicator Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the Front arrow indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the K alert indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the Ka alert indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the Laser alert indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the mute/soft indicator is lit on the Valentine One's display.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Indicates if the Rear arrow indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the Side arrow indicator is lit on the Valentine One's display.
+ */
+
+/**
+ * Indicates if the X alert indicator is lit on the Valentine One's display.
+ */
+@end
+
+
+/**
+ * Bogey Counter 7 Segment Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BogeyCounter7Segment")))
+@interface KESPLKBogeyCounter7Segment : KESPLKBase
+@property (readonly) BOOL decimalPoint __attribute__((swift_name("decimalPoint")));
+@property (readonly) int8_t raw __attribute__((swift_name("raw")));
+@property (readonly) BOOL segmentA __attribute__((swift_name("segmentA")));
+@property (readonly) BOOL segmentB __attribute__((swift_name("segmentB")));
+@property (readonly) BOOL segmentC __attribute__((swift_name("segmentC")));
+@property (readonly) BOOL segmentD __attribute__((swift_name("segmentD")));
+@property (readonly) BOOL segmentE __attribute__((swift_name("segmentE")));
+@property (readonly) BOOL segmentF __attribute__((swift_name("segmentF")));
+@property (readonly) BOOL segmentG __attribute__((swift_name("segmentG")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKBogeyCounter7Segment *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Bogey Counter 7 Segment Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the bogey counter data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Bogey Counter 7 Segment Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Bogey Counter 7 Segment Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the Valentine One's seven segment 'decimal point' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'a' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'b' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'c' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'd' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'e' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'f' indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's seven segment 'g' indicator is lit.
+ */
+@end
+
+
+/**
+ * Display information needed to rebuild the front panel display of a Valentine One.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DisplayData")))
+@interface KESPLKDisplayData : KESPLKBase
+@property (readonly) KESPLKAux0_ *aux0 __attribute__((swift_name("aux0")));
+@property (readonly) KESPLKAux1 *aux1 __attribute__((swift_name("aux1")));
+@property (readonly) KESPLKAux2 *aux2 __attribute__((swift_name("aux2")));
+@property (readonly) KESPLKBandArrowIndicator *bandArrowIndicatorImage1 __attribute__((swift_name("bandArrowIndicatorImage1")));
+@property (readonly) KESPLKBandArrowIndicator *bandArrowIndicatorImage2 __attribute__((swift_name("bandArrowIndicatorImage2")));
+@property (readonly) KESPLKBogeyCounter7Segment *bogeyCounter7SegmentImage1 __attribute__((swift_name("bogeyCounter7SegmentImage1")));
+@property (readonly) KESPLKBogeyCounter7Segment *bogeyCounter7SegmentImage2 __attribute__((swift_name("bogeyCounter7SegmentImage2")));
+@property (readonly) KESPLKV1Mode *bogeyCounterMode __attribute__((swift_name("bogeyCounterMode")));
+@property (readonly) BOOL btIndicatorImage1 __attribute__((swift_name("btIndicatorImage1")));
+@property (readonly) BOOL btIndicatorImage2 __attribute__((swift_name("btIndicatorImage2")));
+@property (readonly) KESPLKKotlinByteArray *bytes __attribute__((swift_name("bytes")));
+@property (readonly) BOOL isCustomSweep __attribute__((swift_name("isCustomSweep")));
+@property (readonly) BOOL isDisplayActive __attribute__((swift_name("isDisplayActive")));
+@property (readonly) BOOL isDisplayOn __attribute__((swift_name("isDisplayOn")));
+@property (readonly) BOOL isEuro __attribute__((swift_name("isEuro")));
+@property (readonly) BOOL isLegacy __attribute__((swift_name("isLegacy")));
+@property (readonly) BOOL isSearchingForAlerts __attribute__((swift_name("isSearchingForAlerts")));
+@property (readonly) BOOL isSoft __attribute__((swift_name("isSoft")));
+@property (readonly) BOOL isTimeSlicing __attribute__((swift_name("isTimeSlicing")));
+@property (readonly) KESPLKV1Mode *mode __attribute__((swift_name("mode")));
+@property (readonly) BOOL muteIndicatorImage1 __attribute__((swift_name("muteIndicatorImage1")));
+@property (readonly) BOOL muteIndicatorImage2 __attribute__((swift_name("muteIndicatorImage2")));
+@property (readonly) KESPLKSignalStrengthBarGraph *signalStrengthBarGraphImage __attribute__((swift_name("signalStrengthBarGraphImage")));
+- (instancetype)initWithBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("init(bytes:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKDisplayData *)doCopyBytes:(KESPLKKotlinByteArray *)bytes __attribute__((swift_name("doCopy(bytes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the byte at the specified index in the display data.
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Display information needed to rebuild the front panel display of a Valentine One.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Aux0 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Soft
+ * |  |  |  |  |  |  \---- TS Holdoff
+ * |  |  |  |  |  \------- Sys. Status
+ * |  |  |  |  \---------- Display On
+ * |  |  |  \------------- Euro Mode
+ * |  |  \---------------- Custom Sweep
+ * |  \------------------- ESP/Legacy
+ * \---------------------- Display Active
+ *
+ * Reference: Table 8.3 of the ESP Specification v. 3.013
+ */
+
+/**
+ * Aux1 Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Reserved
+ * |  |  |  |  |  |  \---- Reserved
+ * |  |  |  |  |  \------- Mode B0 Note 2
+ * |  |  |  |  \---------- Mode B1 Note 2
+ * |  |  |  \------------- Auto Muted Note 2
+ * |  |  \---------------- Double Tap Active Note 2
+ * |  \------------------- Bluetooth Indicator Image 1 Note 1
+ * \---------------------- Bluetooth Indicator Image 2 Note 1
+ *
+ * Reference: Table 8.4 of the ESP Specification v. 3.013
+ */
+
+/**
+ * Aux2 – Current Volume
+ * 07:04 03:00
+ * |       |
+ * |       \- Mute Volume B3, B2, B1, B0
+ * \--------- Main Volume B3, B2, B1, B0
+ */
+
+/**
+ * Band and Arrow Indicator "Image 1" Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.013
+ */
+
+/**
+ * Band and Arrow Indicator "Image 2" Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- LASER
+ * |  |  |  |  |  |  \---- Ka BAND
+ * |  |  |  |  |  \------- K BAND
+ * |  |  |  |  \---------- X BAND
+ * |  |  |  \------------- Mute Indicator Note 1
+ * |  |  \---------------- FRONT
+ * |  \------------------- SIDE
+ * \---------------------- REAR
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.013
+ */
+
+/**
+ * Bogey Counter 7 Segment "Image 2" Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.013
+ */
+
+/**
+ * Bogey Counter 7 Segment "Image 2" Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  |  |
+ * |  |  |  |  |  |  |  \- Seg a
+ * |  |  |  |  |  |  \---- Seg b
+ * |  |  |  |  |  \------- Seg c
+ * |  |  |  |  \---------- Seg d
+ * |  |  |  \------------- Seg e
+ * |  |  \---------------- Seg f
+ * |  \------------------- Seg g
+ * \---------------------- dp
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.013
+ */
+
+/**
+ * State of the Valentine One's Bluetooth Indicator.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Alternate Valentine One's Bluetooth Indicator used to determine if the indicator is blinking.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Indicates if the Valentine One's currently has custom sweeps defined. `false` if custom
+ * sweeps have not been defined. `true` if Valentine One has custom sweeps defined and custom
+ * modes will be used if operating in Euro Mode.
+ */
+
+/**
+ * Indicates if the Valentine One's display status. `false` if the Valentine One's display is
+ * showing a mode or the resting display indicator. `true` if the display is actively showing an
+ * alert, volume or other  important information.
+ *
+ * @since V4.1037
+ */
+
+/**
+ * Indicates if the Valentine One's is turned on.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Euro Mode.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Legacy mode.
+ */
+
+/**
+ * Indicates if the Valentine One has successfully signed on and is actively searching for alerts.
+ */
+
+/**
+ * Indicates if the Valentine One's audio is muted.
+ */
+
+/**
+ * Indicates if the Valentine One is "time slicing" (accessories will be given a "time slice" to communicate on the ESP bus).
+ */
+
+/**
+ * Current [V1Mode] the Valentine One is operating in
+ *
+ * @since V4.1028
+ */
+
+/**
+ * Indicates if the mute/soft indicator is lit on the Valentine One's display.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Indicates if the mute/soft indicator is lit on the Valentine One's display.
+ *
+ * @since V4.1018
+ */
+
+/**
+ * Signal Strength Bar Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  | |
+ * |  |  |  |  |  |  | \- b0(left)
+ * |  |  |  |  |  |  \--- b1
+ * |  |  |  |  |  \- ---- b2
+ * |  |  |  |  \- -- ---- b3
+ * |  |  |  \- -- -- ---- b4
+ * |  |  \- -- -- -- ---- b5
+ * |  \------------------ b6
+ * \--------------------- b7(right)
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.013
+ */
+@end
+
+
+/**
+ * Signal Strength Bar Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  | |
+ * |  |  |  |  |  |  | \- b0(left)
+ * |  |  |  |  |  |  \--- b1
+ * |  |  |  |  |  \- ---- b2
+ * |  |  |  |  \- -- ---- b3
+ * |  |  |  \- -- -- ---- b4
+ * |  |  \- -- -- -- ---- b5
+ * |  \------------------ b6
+ * \--------------------- b7(right)
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SignalStrengthBarGraph")))
+@interface KESPLKSignalStrengthBarGraph : KESPLKBase
+@property (readonly) BOOL b0 __attribute__((swift_name("b0")));
+@property (readonly) BOOL b1 __attribute__((swift_name("b1")));
+@property (readonly) BOOL b2 __attribute__((swift_name("b2")));
+@property (readonly) BOOL b3 __attribute__((swift_name("b3")));
+@property (readonly) BOOL b4 __attribute__((swift_name("b4")));
+@property (readonly) BOOL b5 __attribute__((swift_name("b5")));
+@property (readonly) BOOL b6 __attribute__((swift_name("b6")));
+@property (readonly) BOOL b7 __attribute__((swift_name("b7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKSignalStrengthBarGraph *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+
+/**
+ * Signal Strength Bar Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  | |
+ * |  |  |  |  |  |  | \- b0(left)
+ * |  |  |  |  |  |  \--- b1
+ * |  |  |  |  |  \- ---- b2
+ * |  |  |  |  \- -- ---- b3
+ * |  |  |  \- -- -- ---- b4
+ * |  |  \- -- -- -- ---- b5
+ * |  \------------------ b6
+ * \--------------------- b7(right)
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the signal strength bar graph data.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+
+/**
+ * Signal Strength Bar Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  | |
+ * |  |  |  |  |  |  | \- b0(left)
+ * |  |  |  |  |  |  \--- b1
+ * |  |  |  |  |  \- ---- b2
+ * |  |  |  |  \- -- ---- b3
+ * |  |  |  \- -- -- ---- b4
+ * |  |  \- -- -- -- ---- b5
+ * |  \------------------ b6
+ * \--------------------- b7(right)
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Signal Strength Bar Byte definition
+ *
+ * 07 06 05 04 03 02 01 00
+ * |  |  |  |  |  |  | |
+ * |  |  |  |  |  |  | \- b0(left)
+ * |  |  |  |  |  |  \--- b1
+ * |  |  |  |  |  \- ---- b2
+ * |  |  |  |  \- -- ---- b3
+ * |  |  |  \- -- -- ---- b4
+ * |  |  \- -- -- -- ---- b5
+ * |  \------------------ b6
+ * \--------------------- b7(right)
+ *
+ * Reference: InfDisplayData packet description ESP Specification v. 3.012
+ *
+ * Note 1: This feature is only available on V4.1018 and higher
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the Valentine One's bar graph 1 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 2 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 3 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 4 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 5 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 6 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 7 indicator is lit.
+ */
+
+/**
+ * Indicates if the Valentine One's bar graph 8 indicator is lit.
+ */
 @end
 
 
@@ -6071,6 +7706,1080 @@ __attribute__((swift_name("UserSettings")))
 @property (readonly) KESPLKKotlinByteArray *userBytes __attribute__((swift_name("userBytes")));
 @end
 
+
+/**
+ * Represents user configuration settings inside of a Tech display.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings")))
+@interface KESPLKTechDisplayUserSettings : KESPLKBase <KESPLKUserSettings>
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte0 *userByte0 __attribute__((swift_name("userByte0")));
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte1 *userByte1 __attribute__((swift_name("userByte1")));
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte2 *userByte2 __attribute__((swift_name("userByte2")));
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte3 *userByte3 __attribute__((swift_name("userByte3")));
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte4 *userByte4 __attribute__((swift_name("userByte4")));
+@property (readonly) KESPLKTechDisplayUserSettingsUserByte5 *userByte5 __attribute__((swift_name("userByte5")));
+@property (readonly) KESPLKKotlinByteArray *userBytes __attribute__((swift_name("userBytes")));
+- (instancetype)initWithUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("init(userBytes:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettings *)doCopyUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("doCopy(userBytes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the byte at the specified index in the user settings.
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Represents user configuration settings inside of a Tech display.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Returns the [UserByte0] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte1] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte2] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte3] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte4] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte5] of the user settings.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte0")))
+@interface KESPLKTechDisplayUserSettingsUserByte0 : KESPLKBase
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+@property (readonly) BOOL isExtendedFrequencyDisplayOff __attribute__((swift_name("isExtendedFrequencyDisplayOff")));
+@property (readonly) BOOL isExtendedRecallModeTimeoutOff __attribute__((swift_name("isExtendedRecallModeTimeoutOff")));
+@property (readonly) BOOL isRestingDisplayOn __attribute__((swift_name("isRestingDisplayOn")));
+@property (readonly) BOOL isTechDisplayOn __attribute__((swift_name("isTechDisplayOn")));
+@property (readonly) BOOL isV1DisplayOff __attribute__((swift_name("isV1DisplayOff")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte0 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Indicates if the extended frequency display is off.
+ */
+
+/**
+ * Indicates if extended recall mode is off.
+ */
+
+/**
+ * Indicates if display "resting" is on.
+ */
+
+/**
+ * Indicates if the tech should be turned on.
+ */
+
+/**
+ * Indicates if the Valentine One should be turned off.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte1")))
+@interface KESPLKTechDisplayUserSettingsUserByte1 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte1 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte2")))
+@interface KESPLKTechDisplayUserSettingsUserByte2 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte2 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte3")))
+@interface KESPLKTechDisplayUserSettingsUserByte3 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte3 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte4")))
+@interface KESPLKTechDisplayUserSettingsUserByte4 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte4 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TechDisplayUserSettings.UserByte5")))
+@interface KESPLKTechDisplayUserSettingsUserByte5 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKTechDisplayUserSettingsUserByte5 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte0")))
+@interface KESPLKUserByte0 : KESPLKBase
+@property (readonly) BOOL isBogeyLockLoudAfterMutingOn __attribute__((swift_name("isBogeyLockLoudAfterMutingOn")));
+@property (readonly) BOOL isKBandOn __attribute__((swift_name("isKBandOn")));
+@property (readonly) BOOL isKaBandOn __attribute__((swift_name("isKaBandOn")));
+@property (readonly) BOOL isKuBandOn __attribute__((swift_name("isKuBandOn")));
+@property (readonly) BOOL isLaserOn __attribute__((swift_name("isLaserOn")));
+@property (readonly) BOOL isMuteToMutedVolume __attribute__((swift_name("isMuteToMutedVolume")));
+@property (readonly) BOOL isXBandOn __attribute__((swift_name("isXBandOn")));
+@property (readonly) BOOL isXandKRearMuteInLogicModeOff __attribute__((swift_name("isXandKRearMuteInLogicModeOff")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte0 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if the bogey lock tone is loud after muting is on.
+ */
+
+/**
+ * Indicates if K band coverage is on.
+ */
+
+/**
+ * Indicates if Ka band coverage is on.
+ */
+
+/**
+ * Indicates if Ku band coverage is on.
+ */
+
+/**
+ * Indicates if Laser coverage is on.
+ */
+
+/**
+ * Indicates if mute to muted volume is on.
+ */
+
+/**
+ * Indicates if X band coverage is on.
+ */
+
+/**
+ * Indicates if X and K Band muting is in Logic or Advanced Logic mode is off.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte1")))
+@interface KESPLKUserByte1 : KESPLKBase
+@property (readonly) BOOL isCustomFrequenciesDisabled __attribute__((swift_name("isCustomFrequenciesDisabled")));
+@property (readonly) BOOL isEuroOn __attribute__((swift_name("isEuroOn")));
+@property (readonly) BOOL isFastLaserDetectionOn __attribute__((swift_name("isFastLaserDetectionOn")));
+@property (readonly) BOOL isKVerifierOn __attribute__((swift_name("isKVerifierOn")));
+@property (readonly) BOOL isKaAlwaysRadarPriorityOff __attribute__((swift_name("isKaAlwaysRadarPriorityOff")));
+@property (readonly) BOOL isRearLaserOn __attribute__((swift_name("isRearLaserOn")));
+@property (readonly) KESPLKBandSensitivity *kaSensitivity __attribute__((swift_name("kaSensitivity")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte1 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if custom frequencies are disabled.
+ */
+
+/**
+ * Indicates if Euro mode is on.
+ */
+
+/**
+ * Indicates if fast laser detection is on.
+ */
+
+/**
+ * Indicates if K-Verifier is on.
+ */
+
+/**
+ * Indicates if Ka always radar priority is off.
+ */
+
+/**
+ * Indicates if rear laser is on.
+ */
+
+/**
+ * Ka sensitivity level.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte2")))
+@interface KESPLKUserByte2 : KESPLKBase
+@property (readonly) KESPLKAutoMute *autoMute __attribute__((swift_name("autoMute")));
+@property (readonly) BOOL isBSMPlusOff __attribute__((swift_name("isBSMPlusOff")));
+@property (readonly) BOOL isMRCTPhotoRadarDisabled __attribute__((swift_name("isMRCTPhotoRadarDisabled")));
+@property (readonly) BOOL isRestingDisplayOn __attribute__((swift_name("isRestingDisplayOn")));
+@property (readonly) BOOL isStartupSequenceOn __attribute__((swift_name("isStartupSequenceOn")));
+@property (readonly) KESPLKBandSensitivity *kSensitivity __attribute__((swift_name("kSensitivity")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte2 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if BSM (Blind Spot Monitoring) Plus is off.
+ */
+
+/**
+ * Indicates if Resting display is enabled
+ */
+
+/**
+ * Indicates if the Valentine One's startup/sign-on sequence is on.
+ */
+
+/**
+ * K sensitivity level.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte3")))
+@interface KESPLKUserByte3 : KESPLKBase
+@property (readonly) BOOL isDriveSafe3DHDPhotoRadarOff __attribute__((swift_name("isDriveSafe3DHDPhotoRadarOff")));
+@property (readonly) BOOL isDriveSafe3DPhotoRadarOff __attribute__((swift_name("isDriveSafe3DPhotoRadarOff")));
+@property (readonly) BOOL isEkinPhotoRadarOff __attribute__((swift_name("isEkinPhotoRadarOff")));
+@property (readonly) BOOL isPhotoVerifierOff __attribute__((swift_name("isPhotoVerifierOff")));
+@property (readonly) BOOL isRedflexHaloPhotoRadarOff __attribute__((swift_name("isRedflexHaloPhotoRadarOff")));
+@property (readonly) BOOL isRedflexNK7PhotoRadarOff __attribute__((swift_name("isRedflexNK7PhotoRadarOff")));
+@property (readonly) KESPLKBandSensitivity *xSensitivity __attribute__((swift_name("xSensitivity")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte3 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if DriveSafe 3DHD Photo Radar detection is off.
+ */
+
+/**
+ * Indicates if DriveSafe 3D Photo Radar detection is off.
+ */
+
+/**
+ * Indicates if Ekin Photo Radar detection is off.
+ */
+
+/**
+ * Indicates if the Photo Radar verifier is off.
+ */
+
+/**
+ * Indicates if Redflex Halo Photo Radar detection is off.
+ */
+
+/**
+ * Indicates if Redflex NK7 Photo Radar detection is off.
+ */
+
+/**
+ * X sensitivity level.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte4")))
+@interface KESPLKUserByte4 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte4 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserByte5")))
+@interface KESPLKUserByte5 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKUserByte5 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+
+/**
+ * Represents user configuration settings inside of a Valentine One.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings")))
+@interface KESPLKV18UserSettings : KESPLKBase <KESPLKUserSettings>
+@property (readonly) KESPLKV18UserSettingsUserByte0 *userByte0 __attribute__((swift_name("userByte0")));
+@property (readonly) KESPLKV18UserSettingsUserByte1 *userByte1 __attribute__((swift_name("userByte1")));
+@property (readonly) KESPLKV18UserSettingsUserByte2 *userByte2 __attribute__((swift_name("userByte2")));
+@property (readonly) KESPLKV18UserSettingsUserByte3 *userByte3 __attribute__((swift_name("userByte3")));
+@property (readonly) KESPLKV18UserSettingsUserByte4 *userByte4 __attribute__((swift_name("userByte4")));
+@property (readonly) KESPLKV18UserSettingsUserByte5 *userByte5 __attribute__((swift_name("userByte5")));
+@property (readonly) KESPLKKotlinByteArray *userBytes __attribute__((swift_name("userBytes")));
+- (instancetype)initWithUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("init(userBytes:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettings *)doCopyUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("doCopy(userBytes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the byte at the specified index in the user settings.
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Represents user configuration settings inside of a Valentine One.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Returns the [UserByte0] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte1] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte2] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte3] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte4] of the user settings.
+ */
+
+/**
+ * Returns the [UserByte5] of the user settings.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte0")))
+@interface KESPLKV18UserSettingsUserByte0 : KESPLKBase
+@property (readonly) KESPLKBarGraphSensitive *barGraph __attribute__((swift_name("barGraph")));
+@property (readonly) BOOL barGraphBoolean __attribute__((swift_name("barGraphBoolean")));
+@property (readonly) BOOL kBand __attribute__((swift_name("kBand")));
+@property (readonly) BOOL kMuting __attribute__((swift_name("kMuting")));
+@property (readonly) BOOL kaBand __attribute__((swift_name("kaBand")));
+@property (readonly) BOOL kaFalseGuard __attribute__((swift_name("kaFalseGuard")));
+@property (readonly) BOOL laser __attribute__((swift_name("laser")));
+@property (readonly) KESPLKMuteVolumeControl *muteVolume __attribute__((swift_name("muteVolume")));
+@property (readonly) BOOL muteVolumeBoolean __attribute__((swift_name("muteVolumeBoolean")));
+@property (readonly) BOOL xBand __attribute__((swift_name("xBand")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte0 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Sensitivity of the Valentine One's bar graph.
+ */
+
+/**
+ * Indicates if the bar graph (signal strength meter) is "more responsive" for Ka band
+ * alerts only.
+ */
+
+/**
+ * Indicates if K band coverage is enabled.
+ */
+
+/**
+ * Indicates if initial K Band alerts are muted under certain circumstances.
+ */
+
+/**
+ * Indicates if Ka band coverage is enabled.
+ */
+
+/**
+ * Indicates if the Ka false guard is enabled.
+ */
+
+/**
+ * Indicates if Laser coverage is enabled.
+ */
+
+/**
+ * Control for muted audio volume.
+ */
+
+/**
+ * Indicates if the muted volume is controlled by the control lever.
+ */
+
+/**
+ * Indicates if X band coverage is enabled.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte1")))
+@interface KESPLKV18UserSettingsUserByte1 : KESPLKBase
+@property (readonly) BOOL kInitialUnmute4Lights __attribute__((swift_name("kInitialUnmute4Lights")));
+@property (readonly) BOOL kPersistentUnmute6Lights __attribute__((swift_name("kPersistentUnmute6Lights")));
+@property (readonly) BOOL kRearUnmuted __attribute__((swift_name("kRearUnmuted")));
+@property (readonly) KESPLKKTimer *kTimer __attribute__((swift_name("kTimer")));
+@property (readonly) BOOL kuBand __attribute__((swift_name("kuBand")));
+@property (readonly) BOOL postMuteBogeyLockVolume __attribute__((swift_name("postMuteBogeyLockVolume")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte1 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Indicates if muted K Band alerts are unmuted at four lights.
+ */
+
+/**
+ * Indicates if muted K Band alerts slowly rise to six lights are unmuted.
+ */
+
+/**
+ * Indicates if rear K Band alerts are unmuted.
+ */
+
+/**
+ * The time period of automatic muting at the onset of K Band alerts, in seconds.
+ */
+
+/**
+ * Indicates if Ku band coverage is enabled.
+ */
+
+/**
+ * Indicates if the volume of the bogey lock tone after your press mute is controlled by the
+ * control knob.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte2")))
+@interface KESPLKV18UserSettingsUserByte2 : KESPLKBase
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+@property (readonly) BOOL euroDisabled __attribute__((swift_name("euroDisabled")));
+@property (readonly) BOOL euroX __attribute__((swift_name("euroX")));
+@property (readonly) BOOL forceLegacyDisplayDisabled __attribute__((swift_name("forceLegacyDisplayDisabled")));
+@property (readonly) BOOL pop __attribute__((swift_name("pop")));
+@property (readonly) BOOL tmfJunkFilterDisabled __attribute__((swift_name("tmfJunkFilterDisabled")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte2 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Indicates if Euro mode is enabled.
+ */
+
+/**
+ * Indicates if Euro X coverage is enabled.
+ */
+
+/**
+ * Indicates if the forcing Legacy display is disabled.
+ */
+
+/**
+ * Indicates if POP is enabled.
+ */
+
+/**
+ * Indicates if Traffic Monitor Filter (TMF) and Junk-K fighter is disabled.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte3")))
+@interface KESPLKV18UserSettingsUserByte3 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte3 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte4")))
+@interface KESPLKV18UserSettingsUserByte4 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte4 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V18UserSettings.UserByte5")))
+@interface KESPLKV18UserSettingsUserByte5 : KESPLKBase
+@property (readonly) BOOL bit0 __attribute__((swift_name("bit0")));
+@property (readonly) BOOL bit1 __attribute__((swift_name("bit1")));
+@property (readonly) BOOL bit2 __attribute__((swift_name("bit2")));
+@property (readonly) BOOL bit3 __attribute__((swift_name("bit3")));
+@property (readonly) BOOL bit4 __attribute__((swift_name("bit4")));
+@property (readonly) BOOL bit5 __attribute__((swift_name("bit5")));
+@property (readonly) BOOL bit6 __attribute__((swift_name("bit6")));
+@property (readonly) BOOL bit7 __attribute__((swift_name("bit7")));
+- (instancetype)initWithData:(int8_t)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV18UserSettingsUserByte5 *)doCopyData:(int8_t)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the bit at the specified index in the user byte.
+ */
+- (BOOL)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+
+/**
+ * Unused; always 1.
+ */
+@end
+
+
+/***
+ * Represents user configuration settings inside of a Valentine One Gen2.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("V19UserSettings")))
+@interface KESPLKV19UserSettings : KESPLKBase <KESPLKUserSettings>
+@property (readonly) KESPLKUserByte0 *userByte0 __attribute__((swift_name("userByte0")));
+@property (readonly) KESPLKUserByte1 *userByte1 __attribute__((swift_name("userByte1")));
+@property (readonly) KESPLKUserByte2 *userByte2 __attribute__((swift_name("userByte2")));
+@property (readonly) KESPLKUserByte3 *userByte3 __attribute__((swift_name("userByte3")));
+@property (readonly) KESPLKUserByte4 *userByte4 __attribute__((swift_name("userByte4")));
+@property (readonly) KESPLKUserByte5 *userByte5 __attribute__((swift_name("userByte5")));
+@property (readonly) KESPLKKotlinByteArray *userBytes __attribute__((swift_name("userBytes")));
+- (instancetype)initWithUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("init(userBytes:)"))) __attribute__((objc_designated_initializer));
+- (KESPLKV19UserSettings *)doCopyUserBytes:(KESPLKKotlinByteArray *)userBytes __attribute__((swift_name("doCopy(userBytes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Returns the byte at the specified index in the user settings.
+ */
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/***
+ * Represents user configuration settings inside of a Valentine One Gen2.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
 __attribute__((swift_name("PlatformLogger")))
 @protocol KESPLKPlatformLogger
 @required
@@ -6207,6 +8916,40 @@ __attribute__((swift_name("_KSP_IoGithubDeveloprofthingsKesplPreferencesESPPrefe
 @property (readonly) BOOL isV1 __attribute__((swift_name("isV1")));
 @end
 
+@interface KESPLKIESPClientCompanion (Extensions)
+
+/**
+ * Get the client for the given [ESPContext] and [V1ConnectionTypePreference].
+ *
+ * This is a helper function that will create the client based on the preference.
+ *
+ * @param preference The preference to use.
+ * @return The client.
+ */
+- (id<KESPLKIESPClient>)getClientPreference:(KESPLKV1ConnectionTypePreference *)preference __attribute__((swift_name("getClient(preference:)")));
+
+/**
+ * Creates an ESPClient for the given [ESPContext] using a default implementation of
+ * [IConnection] determined by [connectionType].
+ *
+ * This version of the function is intended for internal use only and uses the default scope
+ * [defaultESPScope].
+ *
+ * @param connectionType The type of connection to establish (e.g., [V1cType.LE]).
+ * [defaultESPScope].
+ * @return An instance of [IESPClient] configured for the specified context and connection
+ * type.
+ */
+- (id<KESPLKIESPClient>)getClientConnectionType:(KESPLKV1cType *)connectionType __attribute__((swift_name("getClient(connectionType:)")));
+
+/**
+ * Return a client setup for a "demo" connection.
+ *
+ * @return The demo client.
+ */
+- (id<KESPLKIESPClient>)getDemoClient __attribute__((swift_name("getDemoClient()")));
+@end
+
 @interface KESPLKEspUUID (Extensions)
 @property (readonly) CBUUID *CLIENT_OUT_V1_IN_SHORT_CHARACTERISTIC_CBUUID __attribute__((swift_name("CLIENT_OUT_V1_IN_SHORT_CHARACTERISTIC_CBUUID")));
 @property (readonly) CBUUID *V1CONNECTION_LE_SERVICE_CBUUID __attribute__((swift_name("V1CONNECTION_LE_SERVICE_CBUUID")));
@@ -6221,6 +8964,112 @@ __attribute__((swift_name("_KSP_IoGithubDeveloprofthingsKesplPreferencesESPPrefe
 @property (readonly) KESPLKKoin_coreModule *module __attribute__((swift_name("module")));
 @end
 
+@interface KESPLKESPPacket (Extensions)
+@property (readonly) KESPLKV1Mode *bogeyCounterMode __attribute__((swift_name("bogeyCounterMode")));
+@property (readonly) BOOL isAlertData __attribute__((swift_name("isAlertData")));
+@property (readonly) BOOL isAllVolume __attribute__((swift_name("isAllVolume")));
+@property (readonly) BOOL isCustomSweep __attribute__((swift_name("isCustomSweep")));
+@property (readonly) BOOL isDataError __attribute__((swift_name("isDataError")));
+@property (readonly) BOOL isDisplayActive __attribute__((swift_name("isDisplayActive")));
+@property (readonly) BOOL isDisplayOn __attribute__((swift_name("isDisplayOn")));
+@property (readonly) BOOL isEuro __attribute__((swift_name("isEuro")));
+@property (readonly) BOOL isForMe __attribute__((swift_name("isForMe")));
+@property (readonly) BOOL isInfDisplayData __attribute__((swift_name("isInfDisplayData")));
+@property (readonly) BOOL isLegacy __attribute__((swift_name("isLegacy")));
+@property (readonly) BOOL isMaxSweepIndex __attribute__((swift_name("isMaxSweepIndex")));
+@property (readonly) BOOL isRequestNotProcessed __attribute__((swift_name("isRequestNotProcessed")));
+@property (readonly) BOOL isSearchingForAlerts __attribute__((swift_name("isSearchingForAlerts")));
+@property (readonly) BOOL isSoft __attribute__((swift_name("isSoft")));
+@property (readonly) BOOL isSweepSection __attribute__((swift_name("isSweepSection")));
+@property (readonly) BOOL isTimeSlicing __attribute__((swift_name("isTimeSlicing")));
+@property (readonly) BOOL isUnsupportedPacket __attribute__((swift_name("isUnsupportedPacket")));
+@property (readonly) BOOL isUserBytes __attribute__((swift_name("isUserBytes")));
+@property (readonly) BOOL isV1Busy __attribute__((swift_name("isV1Busy")));
+@property (readonly) BOOL isV1Version __attribute__((swift_name("isV1Version")));
+@property (readonly) BOOL isVersion __attribute__((swift_name("isVersion")));
+@property (readonly) BOOL isVolume __attribute__((swift_name("isVolume")));
+@property (readonly) int32_t maxSweepIndex __attribute__((swift_name("maxSweepIndex")));
+@property (readonly) KESPLKV1Mode *mode __attribute__((swift_name("mode")));
+@property (readonly) int32_t speed __attribute__((swift_name("speed")));
+@property (readonly) int32_t writeResult __attribute__((swift_name("writeResult")));
+- (KESPLKAlertData *)alertData __attribute__((swift_name("alertData()")));
+- (KESPLKV1Volumes *)allVolumes __attribute__((swift_name("allVolumes()")));
+- (NSString *)batteryVoltage __attribute__((swift_name("batteryVoltage()")));
+- (KESPLKKotlinByteArray *)busyPacketIdBytes __attribute__((swift_name("busyPacketIdBytes()")));
+
+/**
+ * Returns a [List] of [ESPPacketId] of pending requests to the Valentine One. An empty list
+ * is returned if the Valentine One has no pending requests.
+ */
+- (NSArray<KESPLKESPPacketId *> *)busyPacketIds __attribute__((swift_name("busyPacketIds()")));
+- (KESPLKV1Volume *)currentVolume __attribute__((swift_name("currentVolume()")));
+- (KESPLKDisplayData *)displayData __attribute__((swift_name("displayData()")));
+- (BOOL)isSerialNumberResponse __attribute__((swift_name("isSerialNumberResponse()")));
+- (KESPLKESPPacketId *)notProcessedPacketId __attribute__((swift_name("notProcessedPacketId()")));
+- (NSString *)serialNumber __attribute__((swift_name("serialNumber()")));
+- (KESPLKSAVVYStatus *)status __attribute__((swift_name("status()")));
+- (KESPLKSweepDefinition *)sweepDefinition __attribute__((swift_name("sweepDefinition()")));
+- (NSArray<KESPLKSweepSection *> *)sweepSections __attribute__((swift_name("sweepSections()")));
+- (id<KESPLKUserSettings>)techDisplayUserBytesVersion:(double)version __attribute__((swift_name("techDisplayUserBytes(version:)")));
+- (id<KESPLKUserSettings>)valentineOneUserBytesVersion:(double)version __attribute__((swift_name("valentineOneUserBytes(version:)")));
+- (NSString *)version __attribute__((swift_name("version()")));
+- (double)versionDouble __attribute__((swift_name("versionDouble()")));
+
+/**
+ * Indicates if custom sweeps have been defined and will be used when the Valentine One is
+ * operating in Euro mode i.e. [InfDisplayData.isEuro] `==` `true`.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Legacy mode.
+ */
+
+/**
+ * Indicates if the Valentine One's is turned on.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Euro Mode.
+ */
+
+/**
+ * Indicates if the Valentine One is operating in Legacy mode.
+ */
+
+/**
+ * Indicates if the Valentine One has successfully signed on and is actively searching for alerts.
+ */
+
+/**
+ * Indicates if the Valentine One's audio is muted.
+ */
+
+/**
+ * Indicates if the Valentine One is 'time slicing' (accessories will be given a "time slice" to
+ * communicate on the ESP bus).
+ */
+
+/**
+ * Maximum number of [SweepDefinition] the current Valentine One supports.
+ */
+
+/**
+ * Current [V1Mode] the Valentine One is operating in
+ *
+ * @since V4.1028
+ */
+
+/**
+ * Result of the [SweepDefinition] write operation.
+ *
+ * 0 = Sweep Write Successful
+ * Any Other Value = The number of the first sweep with invalid parameters.
+ * The error number returned will be the sweep index + 1, where sweep index is the index from the
+ * reqWriteSweepDefinition packet
+ *
+ */
+@end
+
 @interface KESPLKESPRequest (Extensions)
 
 /**
@@ -6231,6 +9080,34 @@ __attribute__((swift_name("_KSP_IoGithubDeveloprofthingsKesplPreferencesESPPrefe
 
 @interface KESPLKV1Volume (Extensions)
 - (KESPLKKotlinByteArray *)toPayloadProvideUserFeedback:(BOOL)provideUserFeedback skipFeedbackWhenNoChange:(BOOL)skipFeedbackWhenNoChange saveVolume:(BOOL)saveVolume __attribute__((swift_name("toPayload(provideUserFeedback:skipFeedbackWhenNoChange:saveVolume:)")));
+@end
+
+@interface KESPLKAlertData (Extensions)
+@property (readonly) int32_t count __attribute__((swift_name("count")));
+@property (readonly) int32_t index __attribute__((swift_name("index")));
+@property (readonly) int32_t indexZB __attribute__((swift_name("indexZB")));
+
+/**
+ * Non-zero based index of this alert in the corresponding alert table.
+ */
+
+/**
+ * Zero based index of this alert in the corresponding alert table.
+ */
+@end
+
+@interface KESPLKAux1 (Extensions)
+@property (readonly) KESPLKV1Mode *mode __attribute__((swift_name("mode")));
+
+/**
+ * Current [V1Mode] the Valentine One is operating in
+ *
+ * @since V4.1028
+ */
+@end
+
+@interface KESPLKBogeyCounter7Segment (Extensions)
+@property (readonly) KESPLKV1Mode *mode __attribute__((swift_name("mode")));
 @end
 
 @interface KESPLKSweepDefinition (Extensions)
@@ -6276,7 +9153,7 @@ __attribute__((swift_name("KotlinByteArray")))
 @property (readonly) int32_t payloadLength __attribute__((swift_name("payloadLength")));
 @property (readonly) int32_t speed __attribute__((swift_name("speed")));
 @property (readonly) int32_t writeResult __attribute__((swift_name("writeResult")));
-- (id)alertData __attribute__((swift_name("alertData()")));
+- (KESPLKAlertData *)alertData __attribute__((swift_name("alertData()")));
 - (KESPLKV1Volumes *)allVolumes __attribute__((swift_name("allVolumes()")));
 - (NSString *)batteryVoltage __attribute__((swift_name("batteryVoltage()")));
 
@@ -6290,7 +9167,7 @@ __attribute__((swift_name("KotlinByteArray")))
  */
 - (KESPLKKotlinByteArray *)busyPacketIdBytes __attribute__((swift_name("busyPacketIdBytes()")));
 - (KESPLKV1Volume *)currentVolume __attribute__((swift_name("currentVolume()")));
-- (id)displayData __attribute__((swift_name("displayData()")));
+- (KESPLKDisplayData *)displayData __attribute__((swift_name("displayData()")));
 - (NSString *)espPayloadToStringStringLength:(int32_t)stringLength __attribute__((swift_name("espPayloadToString(stringLength:)")));
 - (BOOL)isFromV1 __attribute__((swift_name("isFromV1()")));
 - (BOOL)isValidFramingData __attribute__((swift_name("isValidFramingData()")));
@@ -6428,11 +9305,7 @@ __attribute__((swift_name("Koin_coreModule")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AlertKt")))
 @interface KESPLKAlertKt : KESPLKBase
-@property (class, readonly) id emptyAlert __attribute__((swift_name("emptyAlert")));
-+ (int32_t)count:(id)receiver __attribute__((swift_name("count(_:)")));
-+ (int32_t)index:(id)receiver __attribute__((swift_name("index(_:)")));
-+ (int32_t)indexZB:(id)receiver __attribute__((swift_name("indexZB(_:)")));
-+ (id)alertData:(id)receiver __attribute__((swift_name("alertData(_:)")));
+@property (class, readonly) KESPLKAlertData *emptyAlert __attribute__((swift_name("emptyAlert")));
 + (id<KESPLKKotlinx_coroutines_coreFlow>)alertTable:(id<KESPLKKotlinx_coroutines_coreFlow>)receiver __attribute__((swift_name("alertTable(_:)")));
 + (NSArray<id> *)doCopy:(NSArray<id> *)receiver start:(int32_t)start count:(int32_t)count __attribute__((swift_name("doCopy(_:start:count:)")));
 @end
@@ -6444,23 +9317,11 @@ __attribute__((swift_name("ArraySupportKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Aux1Kt")))
-@interface KESPLKAux1Kt : KESPLKBase
-+ (KESPLKV1Mode *)mode:(int8_t)receiver __attribute__((swift_name("mode(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BandArrowIndicatorKt")))
 @interface KESPLKBandArrowIndicatorKt : KESPLKBase
 + (BOOL)front:(int8_t)receiver __attribute__((swift_name("front(_:)")));
 + (BOOL)rear:(int8_t)receiver __attribute__((swift_name("rear(_:)")));
 + (BOOL)side:(int8_t)receiver __attribute__((swift_name("side(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BatteryKt")))
-@interface KESPLKBatteryKt : KESPLKBase
-+ (NSString *)batteryVoltage:(id)receiver __attribute__((swift_name("batteryVoltage(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6492,7 +9353,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BogeyCounter7SegmentKt")))
 @interface KESPLKBogeyCounter7SegmentKt : KESPLKBase
 + (BOOL)decimalPoint:(int8_t)receiver __attribute__((swift_name("decimalPoint(_:)")));
-+ (KESPLKV1Mode *)mode:(int8_t)receiver __attribute__((swift_name("mode(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6613,6 +9473,19 @@ __attribute__((swift_name("DisplayDataKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Duration_iosKt")))
+@interface KESPLKDuration_iosKt : KESPLKBase
++ (int64_t)toDurationMicros:(int32_t)receiver __attribute__((swift_name("toDurationMicros(_:)")));
++ (int64_t)toDurationMicros_:(int64_t)receiver __attribute__((swift_name("toDurationMicros(__:)")));
++ (int64_t)toDurationMillis:(int32_t)receiver __attribute__((swift_name("toDurationMillis(_:)")));
++ (int64_t)toDurationMillis_:(int64_t)receiver __attribute__((swift_name("toDurationMillis(__:)")));
++ (int64_t)toDurationNanos:(int32_t)receiver __attribute__((swift_name("toDurationNanos(_:)")));
++ (int64_t)toDurationNanos_:(int64_t)receiver __attribute__((swift_name("toDurationNanos(__:)")));
++ (int64_t)toDurationSeconds:(int32_t)receiver __attribute__((swift_name("toDurationSeconds(_:)")));
++ (int64_t)toDurationSeconds_:(int64_t)receiver __attribute__((swift_name("toDurationSeconds(__:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ESPByteArrayFlowExtKt")))
 @interface KESPLKESPByteArrayFlowExtKt : KESPLKBase
 
@@ -6659,6 +9532,7 @@ __attribute__((swift_name("ESPCentralManagerDelegateKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ESPCoroutineScopeKt")))
 @interface KESPLKESPCoroutineScopeKt : KESPLKBase
+@property (class, readonly) id<KESPLKKotlinx_coroutines_coreCoroutineScope> defaultESPScope __attribute__((swift_name("defaultESPScope")));
 + (id<KESPLKKotlinx_coroutines_coreCoroutineScope>)getDefaultScopeDispatcher:(KESPLKKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher parent:(id<KESPLKKotlinx_coroutines_coreJob> _Nullable)parent __attribute__((swift_name("getDefaultScope(dispatcher:parent:)")));
 @end
 
@@ -6689,20 +9563,6 @@ __attribute__((swift_name("ESPPacketIdKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ESPPacketUtilsKt")))
 @interface KESPLKESPPacketUtilsKt : KESPLKBase
-+ (BOOL)isAlertData:(id)receiver __attribute__((swift_name("isAlertData(_:)")));
-+ (BOOL)isAllVolume:(id)receiver __attribute__((swift_name("isAllVolume(_:)")));
-+ (BOOL)isDataError:(id)receiver __attribute__((swift_name("isDataError(_:)")));
-+ (BOOL)isForMe:(id)receiver __attribute__((swift_name("isForMe(_:)")));
-+ (BOOL)isInfDisplayData:(id)receiver __attribute__((swift_name("isInfDisplayData(_:)")));
-+ (BOOL)isMaxSweepIndex:(id)receiver __attribute__((swift_name("isMaxSweepIndex(_:)")));
-+ (BOOL)isRequestNotProcessed:(id)receiver __attribute__((swift_name("isRequestNotProcessed(_:)")));
-+ (BOOL)isSweepSection:(id)receiver __attribute__((swift_name("isSweepSection(_:)")));
-+ (BOOL)isUnsupportedPacket:(id)receiver __attribute__((swift_name("isUnsupportedPacket(_:)")));
-+ (BOOL)isUserBytes:(id)receiver __attribute__((swift_name("isUserBytes(_:)")));
-+ (BOOL)isV1Busy:(id)receiver __attribute__((swift_name("isV1Busy(_:)")));
-+ (BOOL)isV1Version:(id)receiver __attribute__((swift_name("isV1Version(_:)")));
-+ (BOOL)isVersion:(id)receiver __attribute__((swift_name("isVersion(_:)")));
-+ (BOOL)isVolume:(id)receiver __attribute__((swift_name("isVolume(_:)")));
 + (KESPLKKotlinByteArray *)assemblePayloadUseChecksum:(BOOL)useChecksum destinationByte:(int8_t)destinationByte originIdByte:(int8_t)originIdByte packetIdByte:(int8_t)packetIdByte payload:(KESPLKKotlinByteArray *)payload __attribute__((swift_name("assemblePayload(useChecksum:destinationByte:originIdByte:packetIdByte:payload:)")));
 @end
 
@@ -6718,10 +9578,1603 @@ __attribute__((swift_name("ESPResponseKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IConnection_iosKt")))
+@interface KESPLKIConnection_iosKt : KESPLKBase
+
+/**
+ * Attempts to establish a connection with the provided [V1connection].
+ *
+ * @param v1c The [V1connection] to attempt a connection.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)connect:(id<KESPLKIConnection>)receiver v1c:(id<KESPLKV1connection>)v1c completionHandler:(void (^)(KESPLKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("connect(_:v1c:completionHandler:)")));
+
+/**
+ * Scans for nearby [V1connection]s based on the provided [scanMode].
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)scan:(id<KESPLKIConnection>)receiver completionHandler:(void (^)(id<KESPLKKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("scan(_:completionHandler:)")));
+
+/**
+ * Attempts to write [request] to the connected [V1connection].
+ * @param request The [ESPRequest] to be sent.
+ *
+ * @return [ESPResponse] indicating the success or failure of the request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeRequest:(id<KESPLKIConnection>)receiver request:(KESPLKESPRequest *)request completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeRequest(_:request:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("IConnectionKt")))
 @interface KESPLKIConnectionKt : KESPLKBase
 @property (class, readonly) int64_t defaultWriteTimeout __attribute__((swift_name("defaultWriteTimeout")));
 @property (class, readonly) int64_t staleDataWatchDogTimeout __attribute__((swift_name("staleDataWatchDogTimeout")));
+
+/**
+ * The default duration to wait for a write operation or prerequisite state (such as
+ * determining the V1 type) to complete before timing out.
+ */
+
+/**
+ * The duration of inactivity allowed before the connection is considered to have "no data."
+ *
+ * If no ESP data is received from the connected device within this timeframe,
+ * a notification is emitted via the [IConnection.noData] flow.
+ */
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IESPClient_iosKt")))
+@interface KESPLKIESPClient_iosKt : KESPLKBase
+
+/**
+ * Requests that the connected Valentine One stops waiting for silent period. This will
+ * result in the Valentine One playing audio for the primary alert sooner than it normally
+ * would.
+ *
+ * This function is only intended for use with the V1 Gen2. For older V1 models, this
+ * request is not be supported.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the V1.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support this command
+ *   (e.g., older V1 models).
+ *
+ * @since V4.1035
+ * @see ESPPacketId.ReqAbortAudioDelay For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)abortAudioDelay:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("abortAudioDelay(_:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One changes it's operating mode (e.g., All Bogeys, Logic,
+ * Advanced Logic).
+ *
+ * This function sends a request to the V1 to switch to the specified `mode`.
+ * It can optionally verify that the mode change was successful by reading back the V1's
+ * current mode from its display data.
+ *
+ * @param mode The desired [V1Mode] to set on the Valentine One.
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the mode was successfully changed (and verified,
+ *   if applicable).
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed. Possible
+ *   failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond or confirm the mode change within
+ *     the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support mode changes via ESP.
+ *   - [ESPFailure.ESPOperationFailed]: If `verifyMode` is `true` and the V1's mode did not
+ *     change to the requested `mode`.
+ *
+ * @see V1Mode For the different operating modes available.
+ * @see io.github.developrofthings.kespl.IESPClient.infDisplayDataMode For a flow of the V1's current operating mode.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqChangeMode For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)changeMode:(id<KESPLKIESPClient>)receiver mode:(KESPLKV1Mode *)mode completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("changeMode(_:mode:completionHandler:)")));
+
+/**
+ * Attempts to connect to a Valentine One device using the specified connection strategy and
+ * scan duration.
+ *
+ * @return `true` if a connection was successfully established, `false` otherwise.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)connect:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(KESPLKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("connect(_:completionHandler:)")));
+
+/**
+ * Attempts to connect to a Valentine One device using the specified connection strategy and
+ * scan duration.
+ *
+ * @param connectionStrategy The strategy to use when selecting a device to connect to
+ * (e.g., [ConnectionStrategy.LastThenStrongest], [ConnectionStrategy.First]).
+ * @return `true` if a connection was successfully established, `false` otherwise.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)connect:(id<KESPLKIESPClient>)receiver connectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy completionHandler:(void (^)(KESPLKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("connect(_:connectionStrategy:completionHandler:)")));
+
+/**
+ * Attempts to connect to the specified [V1connection].
+ *
+ * @param v1c The [V1connection] object representing the device to connect to.
+ *
+ * @return `true` if the connection was successfully established, `false` otherwise.
+ * @throws BTUnsupported If the connection type of `v1c` requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the connection type of `v1c` requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see V1connection For details on the connection object.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)connect:(id<KESPLKIESPClient>)receiver v1c:(id<KESPLKV1connection>)v1c completionHandler:(void (^)(KESPLKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("connect(_:v1c:completionHandler:)")));
+
+/**
+ * Attempts to connect to a Valentine One device using the specified connection strategy and
+ * scan duration.
+ *
+ * @param scanDurationMillis The maximum duration to scan for devices. Defaults to
+ * [defaultScanDuration].
+ * @return `true` if a connection was successfully established, `false` otherwise.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)connect:(id<KESPLKIESPClient>)receiver scanDurationMillis:(int64_t)scanDurationMillis completionHandler:(void (^)(KESPLKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("connect(_:scanDurationMillis:completionHandler:)")));
+
+/**
+ * Asynchronously attempts to connect to a [V1connection] using the specified connection
+ * strategy and scan duration. This function returns immediately with a [Job] that represents
+ * the asynchronous connection attempt.
+ *
+ * @return A [Deferred] which will resolve to `true` if the connection was successfully
+ * established, or `false` otherwise. You can `await()` this Deferred to get the result, or
+ * handle its completion in other ways.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ * @see io.github.developrofthings.kespl.IESPClient.connectionStatus To observe the outcome of the connection attempt.
+ */
++ (id<KESPLKKotlinx_coroutines_coreDeferred>)connectAsync:(id<KESPLKIESPClient>)receiver __attribute__((swift_name("connectAsync(_:)")));
+
+/**
+ * Asynchronously attempts to connect to a [V1connection] using the specified connection
+ * strategy and scan duration. This function returns immediately with a [Job] that represents
+ * the asynchronous connection attempt.
+ *
+ * @param connectionStrategy The strategy to use when selecting a device to connect to
+ * (e.g., [ConnectionStrategy.LastThenStrongest], [ConnectionStrategy.First]). Defaults to
+ * [ConnectionStrategy.LastThenStrongest].
+ * @return A [Deferred] which will resolve to `true` if the connection was successfully
+ * established, or `false` otherwise. You can `await()` this Deferred to get the result, or
+ * handle its completion in other ways.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ * @see io.github.developrofthings.kespl.IESPClient.connectionStatus To observe the outcome of the
+ * connection attempt.
+ */
++ (id<KESPLKKotlinx_coroutines_coreDeferred>)connectAsync:(id<KESPLKIESPClient>)receiver connectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy __attribute__((swift_name("connectAsync(_:connectionStrategy:)")));
+
+/**
+ * Asynchronously attempts to connect to the specified [V1connection]. This function returns
+ * immediately with a [Deferred] that will complete with the connection result.
+ *
+ * @param v1c The [V1connection] object representing the device to connect to.
+ *
+ * @return A [Deferred] which will resolve to `true` if the connection was successfully
+ * established, or `false` otherwise. You can `await()` this Deferred to get the result, or
+ * handle its completion in other ways.
+ * @throws BTUnsupported If the connection type of `v1c` requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the connection type of `v1c` requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see V1connection For details on the connection object.
+ * @see io.github.developrofthings.kespl.IESPClient.connectionStatus To observe the ongoing status
+ * of the connection attempt.
+ */
++ (id<KESPLKKotlinx_coroutines_coreDeferred>)connectAsync:(id<KESPLKIESPClient>)receiver v1c:(id<KESPLKV1connection>)v1c __attribute__((swift_name("connectAsync(_:v1c:)")));
+
+/**
+ * Asynchronously attempts to connect to a [V1connection] using the specified connection
+ * strategy and scan duration. This function returns immediately with a [Job] that represents
+ * the asynchronous connection attempt.
+ *
+ * @param connectionStrategy The strategy to use when selecting a device to connect to
+ * (e.g., [ConnectionStrategy.LastThenStrongest], [ConnectionStrategy.First]). Defaults to
+ * [ConnectionStrategy.LastThenStrongest].
+ * @param scanDurationMillis The maximum duration to scan for devices. Defaults to
+ * [defaultScanDuration].
+ * @return A [Deferred] which will resolve to `true` if the connection was successfully
+ * established, or `false` otherwise. You can `await()` this Deferred to get the result, or
+ * handle its completion in other ways.
+ * @throws BTUnsupported If the selected connection type requires Bluetooth Classic and it's not
+ * supported on the device.
+ * @throws LeUnsupported If the selected connection type requires Bluetooth Low Energy and it's
+ * not supported on the device.
+ *
+ * @see ConnectionStrategy For different approaches to selecting a device.
+ * @see defaultScanDuration For the default scanning time.
+ * @see connectionStatus To observe the outcome of the connection attempt.
+ */
++ (id<KESPLKKotlinx_coroutines_coreDeferred>)connectAsync:(id<KESPLKIESPClient>)receiver scanDurationMillis:(int64_t)scanDurationMillis __attribute__((swift_name("connectAsync(_:scanDurationMillis:)")));
+
+/**
+ * Requests that the connected Valentine One Gen2 display is current volume.
+ *
+ * This action is equivalent to tapping one of the volume buttons on a Valentine One Gen2.
+ * The behavior depends on the V1's current state:
+ * - If no alert is present, the main volume level will be displayed.
+ * - If an alert is currently active, the volume displayed will be either the main volume or
+ *   the mute volume, depending on the V1's mute status at that moment.
+ *
+ * This function is only intended for use with the V1 Gen2. For older V1 models, this
+ * request is not be supported.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the V1.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support this command
+ *   (e.g., older V1 models).
+ *
+ * @since V4.1036
+ * @see requestCurrentVolume To retrieve the current volume levels programmatically.
+ * @see writeVolume To set new volume levels on the V1.
+ * @see ESPPacketId.ReqDisplayCurrentVolume For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)displayCurrentVolume:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("displayCurrentVolume(_:completionHandler:)")));
+
+/**
+ * Enables or disables the transmission of alert table data from the Valentine One.
+ *
+ * When enabled, the V1 will send [ESPPacketId.RespAlertData] packets containing detailed
+ * information about detected alerts. This data can be observed via the
+ * [io.github.developrofthings.kespl.IESPClient.alertTable] or
+ * [io.github.developrofthings.kespl.IESPClient.alertTableClosable] flows.
+ *
+ * @param enable `true` to enable alert tables transmission, `false` to disable them.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` on success.
+ * - [ESPResponse.Failure] with an [ESPFailure] on error (e.g., timeout, device not connected).
+ *
+ * @see io.github.developrofthings.kespl.IESPClient.alertTable For a flow of the current alert data.
+ * @see io.github.developrofthings.kespl.IESPClient.alertTableClosable For a closable flow of the current alert data.
+ * @see ESPPacketId.ReqStartAlertData For the underlying ESP request to enable alert tables.
+ * @see ESPPacketId.ReqStopAlertData For the underlying ESP request to disable alert tables.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)enableAlertTable:(id<KESPLKIESPClient>)receiver enable:(BOOL)enable completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("enableAlertTable(_:enable:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One mutes it's audio.
+ *
+ * This function sends a request to the Valentine One to mute all alerts in its alert table
+ * (including Laser).
+ *
+ * It's a convenience function that internally calls [mute] with `muted = true`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the V1 was successfully muted.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support remote muting.
+ *
+ * @see mute To control both muting and unmuting with a boolean parameter.
+ * @see unmute To explicitly unmute the Valentine One.
+ * @see io.github.developrofthings.kespl.IESPClient.isSoft For a flow indicating the V1's current mute status.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqMuteOn For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)mute:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("mute(_:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One mutes or unmutes it's audio.
+ *
+ * This function sends a request to the Valentine One to either mute all alerts in its alert
+ * table (including Laser) or unmute alerts not muted by its internal logic.
+ *
+ * @param muted `true` to mute the Valentine One, `false` to unmute it.
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the V1 was successfully muted or unmuted.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support remote muting/unmuting.
+ *
+ * @see unmute For a convenience function to specifically unmute the Valentine One.
+ * @see io.github.developrofthings.kespl.IESPClient.isSoft For a flow indicating the V1's current mute status.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqMuteOn For the underlying ESP request.
+ * @see ESPPacketId.ReqMuteOff For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)mute:(id<KESPLKIESPClient>)receiver muted:(BOOL)muted completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("mute(_:muted:completionHandler:)")));
+
+/**
+ * Overrides the SAVVY's thumbwheel setting based on the provided [SAVVYThumbwheelOverride].
+ *
+ * The SAVVY device expects the speed threshold to be in **Kilometers Per Hour (KPH)**
+ * when a custom value is provided.
+ *
+ * - [SAVVYThumbwheelOverride.None]: Disables SAVVY muting functionality, bypassing the
+ *   SAVVY thumbwheel value. Corresponds to a speed value of `0`.
+ * - [SAVVYThumbwheelOverride.Auto]: Enables muting at all speeds, bypassing the SAVVY
+ *   thumbwheel value. Corresponds to a speed value of `255`.
+ * - [SAVVYThumbwheelOverride.Custom]: Sets a specific speed threshold. The provided `speed`
+ *   value (1-254 KPH) will be used.
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @param override The [SAVVYThumbwheelOverride] state to set on the SAVVY.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the SAVVY.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present.
+ *
+ * @see SAVVYThumbwheelOverride For the different override states and their meanings.
+ * @see requestSAVVYStatus To get the current status of SAVVY, including its thumbwheel setting.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)overrideSAVVYThumbWheel:(id<KESPLKIESPClient>)receiver override:(KESPLKSAVVYThumbwheelOverride *)override completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("overrideSAVVYThumbWheel(_:override:completionHandler:)")));
+
+/**
+ * Overrides the SAVVY's thumbwheel setting with a specific speed value.
+ *
+ * The SAVVY device expects the speed threshold to be in **Kilometers Per Hour (KPH)**.
+ *
+ * - A `speed` value of `0` (**None**) disables SAVVY muting functionality, bypassing the SAVVY
+ * thumbwheel value. Equivalent to [SAVVYThumbwheelOverride.None])
+ * - A `speed` value of `255`  (**Auto**) enables muting at all speeds, bypassing the SAVVY
+ * thumbwheel value. Equivalent to [SAVVYThumbwheelOverride.Auto])
+ * - Any other `speed` value (`1-254` KPH) sets a custom speed threshold. Equivalent to
+ * [SAVVYThumbwheelOverride.Custom])
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @param speed The desired speed threshold in KPH.
+ *  - `0` (****): Disables SAVVY override (equivalent to `None`) and disables SAVVY muting.
+ *  - `255` (**Auto**): Sets SAVVY to Auto mode.
+ *  - `1-254`: Sets a custom speed threshold in KPH. Values outside this range for custom speed
+ *  might lead to unexpected behavior.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the SAVVY.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present.
+ *
+ * @see SAVVYThumbwheelOverride For the different override states.
+ * @see requestSAVVYStatus To get the current status of SAVVY, including its thumbwheel setting.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)overrideSAVVYThumbWheel:(id<KESPLKIESPClient>)receiver speed:(int8_t)speed completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("overrideSAVVYThumbWheel(_:speed:completionHandler:)")));
+
+/**
+ * Overrides the SAVVY's thumbwheel setting with a specific speed value.
+ *
+ * The SAVVY device expects the speed threshold to be in **Kilometers Per Hour (KPH)**.
+ *
+ * - A `speed` value of `0` (**None**) disables SAVVY muting functionality, bypassing the SAVVY
+ * thumbwheel value. Equivalent to [SAVVYThumbwheelOverride.None])
+ * - A `speed` value of `255`  (**Auto**) enables muting at all speeds, bypassing the SAVVY
+ * thumbwheel value. Equivalent to [SAVVYThumbwheelOverride.Auto])
+ * - Any other `speed` value (`1-254` KPH) sets a custom speed threshold. Equivalent to
+ * [SAVVYThumbwheelOverride.Custom])
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @param speed The desired speed threshold in KPH.
+ *  - `0` (****): Disables SAVVY override (equivalent to `None`) and disables SAVVY muting.
+ *  - `255` (**Auto**): Sets SAVVY to Auto mode.
+ *  - `1-254`: Sets a custom speed threshold in KPH. Values outside this range for custom speed
+ *  might lead to unexpected behavior.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the SAVVY.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present.
+ *
+ * @see SAVVYThumbwheelOverride For the different override states.
+ * @see requestSAVVYStatus To get the current status of SAVVY, including its thumbwheel setting.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)overrideSAVVYThumbWheel:(id<KESPLKIESPClient>)receiver speed:(int32_t)speed completionHandler_:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("overrideSAVVYThumbWheel(_:speed:completionHandler_:)")));
+
+/**
+ * Request both the current and saved volume levels from the Valentine One.
+ *
+ * This function is only intended for use with the V1 Gen2. For older V1 models, this
+ * request is not be supported.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing a [V1Volumes] object with the current & saved main and
+ * muted volume levels if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting volume levels
+ *   (e.g., older V1 models).
+ *
+ * @see V1Volume For the structure of the volume information.
+ * @see V1Volumes For the structure of the current and saved volume information returned.
+ * @see writeVolume To set new volume levels on the V1.
+ * @see displayCurrentVolume To command the V1 to display its current volume.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqCurrentVolume For the underlying ESP request.
+ * @since V4.1026
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestAllVolumes:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestAllVolumes(_:completionHandler:)")));
+
+/**
+ * Requests the battery voltage from the connected Valentine One.
+ * This command is typically supported by these accessories, not directly by the Valentine One.
+ *
+ * The voltage is returned as a formatted string (e.g., "12.5V").
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the battery voltage as a [String] if the request is
+ * successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails or
+ * times out.
+ *
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqBatteryVoltage For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestBatteryVoltage:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestBatteryVoltage(_:completionHandler:)")));
+
+/**
+ * Requests the current main and muted volume levels from the Valentine One.
+ *
+ * This function is only intended for use with the V1 Gen2. For older V1 models, this
+ * request is not be supported.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing a [V1Volume] object with the current main and muted
+ *   volume levels if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting volume levels
+ *   (e.g., older V1 models).
+ *
+ * @see V1Volume For the structure of the volume information returned.
+ * @see writeVolume To set new volume levels on the V1.
+ * @see displayCurrentVolume To command the V1 to display its current volume.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqCurrentVolume For the underlying ESP request.
+ * @since V4.1026
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestCurrentVolume:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestCurrentVolume(_:completionHandler:)")));
+
+/**
+ * Requests the factory default [SweepDefinition]s from the connected Valentine One.
+ *
+ * This command retrieves the set of sweep definitions that the V1 would use if its custom
+ * sweeps were reset to factory defaults. This is useful for understanding the baseline
+ * behavior or for providing a starting point for users creating their own custom sweeps.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware).
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing a list of [SweepDefinition] objects representing the
+ *   factory default sweeps if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting default
+ *   sweep definitions.
+ *
+ * @see SweepDefinition For the structure of each sweep definition.
+ * @see requestSweepDefinitions To get the currently programmed custom sweep definitions.
+ * @see restoreDefaultSweeps To actually reset the V1's sweeps to their factory defaults.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqDefaultSweepDefinitions For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestDefaultSweepDefinitions:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestDefaultSweepDefinitions(_:completionHandler:)")));
+
+/**
+ * Requests the serial number from the specified ESP device.
+ *
+ * @param destination The [ESPDevice] from which to request the serial number. Supported devices
+ * typically include [ESPDevice.ValentineOne], [ESPDevice.RemoteDisplay], etc.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [SerialNumber] if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or the device does not support this request.
+ *
+ * @see SerialNumber For the structure of the serial number information returned.
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestV1SerialNumber For a convenience function specifically for the Valentine One.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestDeviceSerialNumber:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestDeviceSerialNumber(_:destination:completionHandler:)")));
+
+/**
+ * Requests the version information from the specified ESP device.
+ *
+ * @param destination The [ESPDevice] from which to request the version information.
+ * Supported devices typically include [ESPDevice.ValentineOne],[ESPDevice.RemoteDisplay], etc.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [Version] information if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails, times
+ * out, or the device does not support this request.
+ *
+ * @see Version For the structure of the version information returned.
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestV1Version For a convenience function specifically for the Valentine One.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestDeviceVersion:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestDeviceVersion(_:destination:completionHandler:)")));
+
+/**
+ * Requests the maximum sweep index supported by the connected Valentine One.
+ *
+ * The maximum sweep index indicates the largest index in the "array" of [SweepDefinition] that
+ * can be programmed into the V1. This value can vary depending on the V1 model and its
+ * firmware.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing an [Int] representing the maximum sweep index if the
+ *   request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting the
+ *   maximum sweep index.
+ *
+ * @see requestSweepDefinitions To get the current custom sweep definitions.
+ * @see writeSweepDefinitions To program new custom sweeps.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqMaxSweepIndex For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestMaxSweepIndex:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestMaxSweepIndex(_:completionHandler:)")));
+
+/**
+ * Requests the current status of the connected SAVVY.
+ *
+ * SAVVY is an accessory for the Valentine One that automatically adjusts the mute threshold
+ * based on vehicle speed. This function retrieves its current operational status,
+ * including whether it's enabled, the current speed threshold, and if it's currently
+ * overriding the V1's mute.
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [SAVVYStatus] if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present/responding.
+ *
+ * @see SAVVYStatus For the structure of the status information returned.
+ * @see requestVehicleSpeed To get the current vehicle speed as reported by SAVVY.
+ * @see overrideSAVVYThumbWheel To manually set the SAVVY's speed threshold.
+ * @see unmuteSAVVY To control SAVVY's unmuting behavior.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqSavvyStatus For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestSAVVYStatus:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestSAVVYStatus(_:completionHandler:)")));
+
+/**
+ * Requests the current [SweepData] from the connected Valentine One.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware).
+ *
+ * Due to the potentially larger size of sweep data and the time it might take for the V1 to
+ * compile and send it, this request uses a longer default timeout
+ * ([defaultLongRequestTimeout]).
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [SweepData] if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting sweep data.
+ *
+ * @see SweepData For the structure of the sweep data information.
+ * @see requestSweepDefinitions To get the custom sweep definitions.
+ * @see requestSweepSections To get the underlying sweep sections.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultLongRequestTimeout For the default timeout value used for this request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestSweepData:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestSweepData(_:completionHandler:)")));
+
+/**
+ * Requests the current list of [SweepDefinition] from the connected Valentine One.
+ *
+ * Sweep definitions allow users to define specific frequency ranges within a [SweepSection]
+ * that the Valentine One will report detected alerts.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware).
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing a list of [SweepDefinition] objects if the request is
+ *   successful. The list may be empty if no custom sweeps are defined.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting sweep
+ *   definitions (e.g., older models).
+ *
+ * @see SweepDefinition For the structure of each custom sweep definition.
+ * @see writeSweepDefinitions To program new custom sweeps to the V1.
+ * @see restoreDefaultSweeps To revert to the factory default sweep settings.
+ * @see requestDefaultSweepDefinitions To get the factory default sweep definitions.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqAllSweepDefinitions For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestSweepDefinitions:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestSweepDefinitions(_:completionHandler:)")));
+
+/**
+ * Requests the current list of custom [SweepSection] from the connected Valentine One.
+ *
+ * Sweep sections are the fundamental building blocks of custom sweeps. Each section defines a
+ * frequency range that the Valentine One can sweep. A [SweepDefinition] is a user configurable
+ * ranges within the sweep sections (end-inclusive) that the Valentine One will
+ * report detected alerts.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware).
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing a list of [SweepSection] objects if the request is
+ *   successful. The list may be empty if no custom sweeps are defined or if the V1
+ *   doesn't support this specific request type (some older custom sweep V1s might only
+ *   support [requestSweepDefinitions]).
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support requesting sweep
+ *   sections (e.g., older models or models without custom sweep capabilities).
+ *
+ * @see SweepSection For the structure of each sweep section.
+ * @see requestSweepDefinitions To get the higher-level custom sweep definitions.
+ * @see writeSweepDefinitions To program new custom sweeps to the V1.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqSweepSections For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestSweepSections:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestSweepSections(_:completionHandler:)")));
+
+/**
+ * Requests the raw user configuration settings (user bytes) as a [ByteArray] from the
+ * specified ESP device.
+ *
+ * This function is similar to [requestUserSettings] but returns the raw byte array
+ * directly without parsing it into a [UserSettings] object.
+ *
+ * @param destination The [ESPDevice] from which to request the raw user bytes. Typically
+ * [ESPDevice.ValentineOne] or [ESPDevice.RemoteDisplay]. Support for [ESPPacketId.ReqUserBytes]
+ * varies by device.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the raw [ByteArray] of user settings if the request is
+ * successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails, times
+ * out, or the device does not support user byte requests.
+ *
+ * @see requestUserSettings For requesting parsed [UserSettings].
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestUserBytes:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestUserBytes(_:destination:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the specified ESP device.
+ *
+ * @param destination The [ESPDevice] from which to request the user settings.
+ * Only [ESPDevice.RemoteDisplay] and [ESPDevice.ValentineOne] support
+ * [ESPPacketId.ReqUserBytes].
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful.
+ * The actual type of [UserSettings] will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ * times out, or the device does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPPacketId.ReqUserBytes For the underlying ESP request.
+ * @see requestV1UserSettings For requesting user bytes specifically from a Valentine One.
+ * @see defaultRequestTimeout For the default timeout duration.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestUserSettings:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestUserSettings(_:destination:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the specified ESP device.
+ *
+ * @param destination The [ESPDevice] from which to request the user settings.
+ * Only [ESPDevice.RemoteDisplay] and [ESPDevice.ValentineOne] support
+ * [ESPPacketId.ReqUserBytes].
+ * @param forceVersionRequest If `true`, the client will attempt to determine the version of the
+ * [destination] device before requesting its user bytes. This setting is only necessary
+ * when [destination] is [ESPDevice.ValentineOne]; all other [ESPDevice] types that support
+ * user byte requests will always have their version checked first. Defaults to `false`.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful.
+ * The actual type of [UserSettings] will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ * times out, or the device does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPPacketId.ReqUserBytes For the underlying ESP request.
+ * @see requestV1UserSettings For requesting user bytes specifically from a Valentine One.
+ * @see defaultRequestTimeout For the default timeout duration.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestUserSettings:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination forceVersionRequest:(BOOL)forceVersionRequest completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestUserSettings(_:destination:forceVersionRequest:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the specified ESP device.
+ *
+ * @param destination The [ESPDevice] from which to request the user settings.
+ * Only [ESPDevice.RemoteDisplay] and [ESPDevice.ValentineOne] support
+ * [ESPPacketId.ReqUserBytes].
+ * @param forceVersionRequest If `true`, the client will attempt to determine the version of the
+ * [destination] device before requesting its user bytes. This setting is only necessary
+ * when [destination] is [ESPDevice.ValentineOne]; all other [ESPDevice] types that support
+ * user byte requests will always have their version checked first. Defaults to `false`.
+ * @param timeout The maximum duration to wait for a response from the device. Defaults to
+ * [defaultRequestTimeout].
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful.
+ * The actual type of [UserSettings] will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ * times out, or the device does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPPacketId.ReqUserBytes For the underlying ESP request.
+ * @see requestV1UserSettings For requesting user bytes specifically from a Valentine One.
+ * @see defaultRequestTimeout For the default timeout duration.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestUserSettings:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestUserSettings(_:destination:timeout:completionHandler:)")));
+
+/**
+ * Requests the serial number from the connected Valentine One.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [SerialNumber] if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected]) if the request fails or times out.
+ *
+ * @see SerialNumber For the structure of the serial number information returned.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestDeviceSerialNumber To request serial number from a specific ESP device.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestV1SerialNumber:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestV1SerialNumber(_:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the connected Valentine One.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful. The
+ * specific type of [UserSettings] (e.g., [V18UserSettings]) will depend on the version of the
+ * connected Valentine One.
+ *
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails, times
+ * out, or the V1 does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see V18UserSettings For user settings specific to V1.8 and later models.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestUserSettings To request user bytes from a specific ESP device (not just V1).
+ * @see requestV1Version To understand how the V1 version is determined.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestV1UserSettings:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestV1UserSettings(_:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the connected Valentine One.
+ *
+ * @param forceVersionRequest If `true`, the client will request the V1's version
+ * before requesting the user bytes. Defaults to `false`.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful. The
+ * specific type of [UserSettings] (e.g., [V18UserSettings]) will depend on the version of the
+ * connected Valentine One.
+ *
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails, times
+ * out, or the V1 does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see V18UserSettings For user settings specific to V1.8 and later models.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestUserSettings To request user bytes from a specific ESP device (not just V1).
+ * @see requestV1Version To understand how the V1 version is determined.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestV1UserSettings:(id<KESPLKIESPClient>)receiver forceVersionRequest:(BOOL)forceVersionRequest completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestV1UserSettings(_:forceVersionRequest:completionHandler:)")));
+
+/**
+ * Requests the user configuration settings (user bytes) from the connected Valentine One.
+ *
+ * @param timeout The maximum duration to wait for a response from the Valentine One. Defaults
+ * to [defaultRequestTimeout].
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [UserSettings] if the request is successful. The
+ * specific type of [UserSettings] (e.g., [V18UserSettings]) will depend on the version of the
+ * connected Valentine One.
+ *
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails, times
+ * out, or the V1 does not support user byte requests.
+ *
+ * @see UserSettings For the base class of user settings information.
+ * @see V18UserSettings For user settings specific to V1.8 and later models.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestUserSettings To request user bytes from a specific ESP device (not just V1).
+ * @see requestV1Version To understand how the V1 version is determined.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestV1UserSettings:(id<KESPLKIESPClient>)receiver timeout:(int64_t)timeout completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestV1UserSettings(_:timeout:completionHandler:)")));
+
+/**
+ * Requests the version information from the connected Valentine One.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the [Version] information if the request is successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ * [ESPFailure.NotConnected]) if the request fails or times out.
+ *
+ * @see Version For the structure of the version information returned.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see requestDeviceVersion To request version from a specific ESP device.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestV1Version:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestV1Version(_:completionHandler:)")));
+
+/**
+ * Requests the current vehicle speed from the connected SAVVY.
+ *
+ * The speed is typically reported in MPH or KM/H, depending on the SAVVY's configuration,
+ * but this function returns it as a raw integer value.
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] containing the vehicle speed as an [Int] if the request is
+ *   successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present.
+ *
+ * @see requestSAVVYStatus To get the overall status of
+ * the SAVVY.
+ * @see overrideSAVVYThumbWheel To manually set the SAVVY's speed threshold.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqVehicleSpeed For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)requestVehicleSpeed:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestVehicleSpeed(_:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One to restore its default sweep settings.
+ *
+ * This command instructs the V1 to revert any custom sweep configurations to their
+ * factory default values. After this operation, the V1 will use its standard,
+ * out-of-the-box frequency sweep patterns.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware). However, not all V1 versions that
+ * support custom sweeps may support this specific command. Library users should consult
+ * [V1CapabilityInfo.supportsDefaultSweepRequest] to determine if the connected V1
+ * supports this functionality before calling this function.
+ *
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the V1.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support restoring default
+ *   sweeps (e.g., older models, models without custom sweep capabilities, or models that
+ *   support custom sweeps but not this specific command).
+ *
+ * @see V1CapabilityInfo.supportsDefaultSweepRequest To check if the connected V1 supports this
+ * command.
+ * @see requestSweepDefinitions To get the current custom sweep definitions.
+ * @see writeSweepDefinitions To program new custom sweeps to the V1.
+ * @see requestDefaultSweepDefinitions To get the factory default sweep definitions without
+ * actually restoring them.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)restoreDefaultSweeps:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("restoreDefaultSweeps(_:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One to restore its default sweep settings.
+ *
+ * This command instructs the V1 to revert any custom sweep configurations to their
+ * factory default values. After this operation, the V1 will use its standard,
+ * out-of-the-box frequency sweep patterns.
+ *
+ * This command is typically only supported by V1 devices that have custom sweep capabilities
+ * (e.g., V1 Gen2 or V1.8 with appropriate firmware). However, not all V1 versions that
+ * support custom sweeps may support this specific command. Library users should consult
+ * [V1CapabilityInfo.supportsDefaultSweepRequest] to determine if the connected V1
+ * supports this functionality before calling this function.
+ *
+ * @param verify `true` if the client should read back the Valentine One's current sweep
+ * definitions to verify they were set back to default values.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the V1.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the request fails or times out.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support restoring default
+ *   sweeps (e.g., older models, models without custom sweep capabilities, or models that
+ *   support custom sweeps but not this specific command).
+ *
+ * @see V1CapabilityInfo.supportsDefaultSweepRequest To check if the connected V1 supports this
+ * command.
+ * @see requestSweepDefinitions To get the current custom sweep definitions.
+ * @see writeSweepDefinitions To program new custom sweeps to the V1.
+ * @see requestDefaultSweepDefinitions To get the factory default sweep definitions without
+ * actually restoring them.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)restoreDefaultSweeps:(id<KESPLKIESPClient>)receiver verify:(BOOL)verify completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("restoreDefaultSweeps(_:verify:completionHandler:)")));
+
+/**
+ * Requests that the the specified ESP device restore its factory default settings.
+ * This operation typically resets user-configurable parameters to their original,
+ * out-of-the-box state.
+ *
+ * Note: Not all ESP devices may support this command.
+ *
+ * @param destination The [ESPDevice] to which the restore factory defaults command should be
+ * sent. Common targets might include [ESPDevice.ValentineOne] or other configurable
+ * accessories.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed. Possible
+ *   failures include:
+ *   - [ESPFailure.TimedOut]: The device did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: No ESP device is currently connected.
+ *   - [ESPFailure.NotSupported]: The `destination` device does not support the restore
+ *   factory defaults command.
+ *   - Other communication errors.
+ *
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqFactoryDefault For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)restoreFactoryDefaults:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("restoreFactoryDefaults(_:destination:completionHandler:)")));
+
+/**
+ * Requests that the the specified ESP device restore its factory default settings.
+ * This operation typically resets user-configurable parameters to their original,
+ * out-of-the-box state.
+ *
+ * Note: Not all ESP devices may support this command.
+ *
+ * @param destination The [ESPDevice] to which the restore factory defaults command should be
+ * sent. Common targets might include [ESPDevice.ValentineOne] or other configurable
+ * accessories.
+ * @param verify `true` if the client should read back the Valentine One's user settings and
+ * verify they were set back to default values.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed. Possible
+ *   failures include:
+ *   - [ESPFailure.TimedOut]: The device did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: No ESP device is currently connected.
+ *   - [ESPFailure.NotSupported]: The `destination` device does not support the restore
+ *   factory defaults command.
+ *   - Other communication errors.
+ *
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqFactoryDefault For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)restoreFactoryDefaults:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination verify:(BOOL)verify completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("restoreFactoryDefaults(_:destination:verify:completionHandler:)")));
+
+/**
+ * Requests that the the specified ESP device restore its factory default settings.
+ * This operation typically resets user-configurable parameters to their original,
+ * out-of-the-box state.
+ *
+ * Note: Not all ESP devices may support this command.
+ *
+ * @param destination The [ESPDevice] to which the restore factory defaults command should be
+ * sent. Common targets might include [ESPDevice.ValentineOne] or other configurable
+ * accessories.
+ * @param timeout The maximum duration to wait for the device to acknowledge the command.
+ * Defaults to [defaultRequestTimeout].
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed. Possible
+ *   failures include:
+ *   - [ESPFailure.TimedOut]: The device did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: No ESP device is currently connected.
+ *   - [ESPFailure.NotSupported]: The `destination` device does not support the restore
+ *   factory defaults command.
+ *   - Other communication errors.
+ *
+ * @see ESPDevice For the different types of ESP devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqFactoryDefault For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)restoreFactoryDefaults:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("restoreFactoryDefaults(_:destination:timeout:completionHandler:)")));
+
+/**
+ * Set the display to be on or off.
+ *
+ * _Important information about changing the display state:_ By default, all Valentine Ones turn
+ * off the main display when a Remote Display is connected and turn it back on when the
+ * Concealed Display is disconnected. The reqTurnOffMainDisplay and reqTurnOnMainDisplay packets
+ * change the current display state, but do not disable this feature.
+ *
+ * @param on `true` to turn the display on, `false` to turn it off.
+ * @return An [ESPResponse] object. If the operation is successful, the `success` field will
+ *   contain `Unit`. If it fails, the `failure` field will hold an [ESPFailure] object detailing
+ *   the error.
+ *
+ * @see turnOnMainDisplay For a convenience function to specifically turn on the Valentine One's
+ * main display.
+ * @see turnOffMainDisplay For a convenience function to specifically turn off the Valentine
+ * One's main display.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqTurnOnMainDisplay For the underlying ESP request.
+ * @see ESPPacketId.ReqTurnOffMainDisplay For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)setMainDisplay:(id<KESPLKIESPClient>)receiver on:(BOOL)on completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("setMainDisplay(_:on:completionHandler:)")));
+
+/**
+ * Request the connected Valentine One to turn off it's main display.
+ *
+ * _Important information about changing the display state:_ By default, all Valentine Ones turn
+ * off the main display when a Remote Display is connected and turn it back on when the
+ * Concealed Display is disconnected. The reqTurnOffMainDisplay and reqTurnOnMainDisplay packets
+ * change the current display state, but do not disable this feature.
+ *
+ * It's a convenience function that internally calls [setMainDisplay] with `on = false`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the V1 display was successfully turned off.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support toggling its display state.
+ *
+ * @see turnOnMainDisplay For a convenience function to specifically turn on the Valentine One's
+ * main display.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqTurnOnMainDisplay For the underlying ESP request.
+ * @see ESPPacketId.ReqTurnOffMainDisplay For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)turnOffMainDisplay:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("turnOffMainDisplay(_:completionHandler:)")));
+
+/**
+ * Request the connected Valentine One to turn on it's main display.
+ *
+ * _Important information about changing the display state:_ By default, all Valentine Ones turn
+ * off the main display when a Remote Display is connected and turn it back on when the
+ * Concealed Display is disconnected. The reqTurnOffMainDisplay and reqTurnOnMainDisplay packets
+ * change the current display state, but do not disable this feature.
+ *
+ * It's a convenience function that internally calls [setMainDisplay] with `on = true`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the V1 display was successfully turned on.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.NotSupported]: The connected V1 does not support toggling it's display state.
+ *
+ * @see setMainDisplay For a convenience function to specifically turn off the Valentine One's
+ * main display.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqTurnOnMainDisplay For the underlying ESP request.
+ * @see ESPPacketId.ReqTurnOffMainDisplay For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)turnOnMainDisplay:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("turnOnMainDisplay(_:completionHandler:)")));
+
+/**
+ * Requests the connected Valentine One unmutes it's audio.
+ *
+ * This function sends a request to the Valentine One to mute all alerts in its alert table
+ * (including Laser) that were not muted by it's internal logic.
+ *
+ * This is a convenience function that calls [mute] with `muted = false`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `Unit` if the V1 was successfully unmuted.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed (e.g.,
+ *   timeout, device not connected).
+ *
+ * @see mute To control both muting and unmuting with a boolean parameter.
+ * @see io.github.developrofthings.kespl.IESPClient.isSoft For a flow indicating the V1's current mute status.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqMuteOff For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)unmute:(id<KESPLKIESPClient>)receiver completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("unmute(_:completionHandler:)")));
+
+/**
+ * Controls the unmuting behavior of an attached SAVVY device.
+ *
+ * SAVVY can automatically unmute the Valentine One when the vehicle's speed drops below
+ * a certain threshold. This function allows enabling or disabling this automatic unmuting
+ * feature of the attached SAVVY.
+ *
+ * This command is only relevant if a SAVVY is attached to the ESP bus.
+ *
+ * @param enableUnmuting `true` to enable the SAVVY's unmuting functionality, `false` to disable
+ * it.
+ * @return An [ESPResponse] which will be:
+ * - [ESPResponse.Success] with `Unit` if the command was successfully sent and acknowledged
+ *   by the SAVVY.
+ * - [ESPResponse.Failure] containing an [ESPFailure] (e.g., [ESPFailure.TimedOut],
+ *   [ESPFailure.NotConnected], [ESPFailure.NotSupported]) if the request fails,
+ *   times out, or no SAVVY is present/responding.
+ *
+ * @see requestSAVVYStatus To get the current status of SAVVY, including its unmuting state.
+ * @see overrideSAVVYThumbWheel To set the speed threshold for SAVVY.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see [ESPPacketId.ReqSetSavvyUnmuteEnable] For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)unmuteSAVVY:(id<KESPLKIESPClient>)receiver enableUnmuting:(BOOL)enableUnmuting completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("unmuteSAVVY(_:enableUnmuting:completionHandler:)")));
+
+/**
+ * Attempts to write specified list of [SweepDefinition] to the Valentine One.
+ *
+ * @param sweepDefinitions The list of sweep definitions to write.
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] with `0` if the custom sweeps write was successful.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   Possible failures include:
+ *   - [ESPFailure.TimedOut]: The V1 did not respond within the specified `timeout`.
+ *   - [ESPFailure.NotConnected]: The client isn't connected to a [V1connection].
+ *   - [ESPFailure.V1NotDetermined]: The client has not determined the Valentine One in charge
+ *   of the ESP bus.
+ *   - [ESPFailure.InvalidSweep]: with the sweep number of the first invalid [SweepDefinition].
+ *
+ * @see defaultRequestTimeout For the default timeout value.
+ * @see ESPPacketId.ReqWriteSweepDefinition For the underlying ESP request.
+ * @see ESPPacketId.RespSweepWriteResult For the underlying ESP request.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeSweepDefinitions:(id<KESPLKIESPClient>)receiver sweepDefinitions:(NSArray<KESPLKSweepDefinition *> *)sweepDefinitions completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeSweepDefinitions(_:sweepDefinitions:completionHandler:)")));
+
+/**
+ * Attempts to write [userBytes] to update the user configuration settings inside target
+ * [ESPDevice].
+ *
+ * @param destination The [ESPDevice] who's user configuration settings you would like to write.
+ * Only [ESPDevice.ValentineOne] and [ESPDevice.RemoteDisplay] support
+ * [ESPPacketId.ReqWriteUserBytes].
+ * @param userBytes Desired user configuration byte array. For [ESPDevice.ValentineOne], this
+ * typically represents the Valentine One's user settings.
+ * @param verifyBytes `true` if the client should read back the device's user bytes to
+ * verify the values written were successfully set.
+ * NOTE: When `destination` is [ESPDevice.ValentineOne], this verification may fail if the
+ * [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set in the `userBytes`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] containing the updated [UserSettings] if the operation was
+ * successful (and verification passed, if enabled). The actual type of [UserSettings]
+ * returned will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   - If `verifyBytes` is `true` and the user bytes read back from `destination` do not match
+ *     `userBytes`, an [ESPFailure.ESPOperationFailed] will be returned.
+ *   - Other possible failures include [ESPFailure.TimedOut], [ESPFailure.NotConnected],
+ *     [ESPFailure.NotSupported], etc.
+ *
+ * @see UserSettings For the structure of user settings.
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
+ * failure with Valentine One devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeUserBytes:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeUserBytes(_:destination:userBytes:completionHandler:)")));
+
+/**
+ * Attempts to write [userBytes] to update the user configuration settings inside target
+ * [ESPDevice].
+ *
+ * @param destination The [ESPDevice] who's user configuration settings you would like to write.
+ * Only [ESPDevice.ValentineOne] and [ESPDevice.RemoteDisplay] support
+ * [ESPPacketId.ReqWriteUserBytes].
+ * @param userBytes Desired user configuration byte array. For [ESPDevice.ValentineOne], this
+ * typically represents the Valentine One's user settings.
+ * @param verifyBytes `true` if the client should read back the device's user bytes to
+ * verify the values written were successfully set.
+ * NOTE: When `destination` is [ESPDevice.ValentineOne], this verification may fail if the
+ * [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set in the `userBytes`.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] containing the updated [UserSettings] if the operation was
+ * successful (and verification passed, if enabled). The actual type of [UserSettings]
+ * returned will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   - If `verifyBytes` is `true` and the user bytes read back from `destination` do not match
+ *     `userBytes`, an [ESPFailure.ESPOperationFailed] will be returned.
+ *   - Other possible failures include [ESPFailure.TimedOut], [ESPFailure.NotConnected],
+ *     [ESPFailure.NotSupported], etc.
+ *
+ * @see UserSettings For the structure of user settings.
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
+ * failure with Valentine One devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeUserBytes:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeUserBytes(_:destination:userBytes:verifyBytes:completionHandler:)")));
+
+/**
+ * Attempts to write [userBytes] to update the user configuration settings inside target
+ * [ESPDevice].
+ *
+ * @param destination The [ESPDevice] who's user configuration settings you would like to write.
+ * Only [ESPDevice.ValentineOne] and [ESPDevice.RemoteDisplay] support
+ * [ESPPacketId.ReqWriteUserBytes].
+ * @param userBytes Desired user configuration byte array. For [ESPDevice.ValentineOne], this
+ * typically represents the Valentine One's user settings.
+ * NOTE: When `destination` is [ESPDevice.ValentineOne], this verification may fail if the
+ * [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set in the `userBytes`.
+ * @param timeout The maximum duration the client should wait before timing out this operation.
+ * Defaults to [defaultLongRequestTimeout] as V1 operations can sometimes take longer.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] containing the updated [UserSettings] if the operation was
+ * successful (and verification passed, if enabled). The actual type of [UserSettings]
+ * returned will depend on the `destination` device.
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed.
+ *   - If `verifyBytes` is `true` and the user bytes read back from `destination` do not match
+ *     `userBytes`, an [ESPFailure.ESPOperationFailed] will be returned.
+ *   - Other possible failures include [ESPFailure.TimedOut], [ESPFailure.NotConnected],
+ *     [ESPFailure.NotSupported], etc.
+ *
+ * @see UserSettings For the structure of user settings.
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
+ * failure with Valentine One devices.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeUserBytes:(id<KESPLKIESPClient>)receiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes timeout:(int64_t)timeout completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeUserBytes(_:destination:userBytes:timeout:completionHandler:)")));
+
+/**
+ * Attempts to write [userBytes] to update the user configuration settings inside the Valentine
+ * One.
+ *
+ * @param userBytes Desired Valentine One user configuration.
+ * @param verifyBytes `true` if the client should read back the Valentine One's user bytes to
+ * verify the values written were set.
+ * NOTE: This will fail if the [V18UserSettings.UserByte2.forceLegacyDisplayDisabled] bit is set.
+ *
+ * @return An [ESPResponse] indicating the outcome:
+ * - [ESPResponse.Success] containing the updated [UserSettings] if the operation was
+ * successful (and verification passed, if enabled).
+ * - [ESPResponse.Failure] containing an [ESPFailure] if the operation failed. If `verifyBytes`
+ * is `true` and the user bytes read back from the Valentine One don't match `userBytes`,
+ * an [ESPFailure.ESPOperationFailed] will be returned. Other failures include
+ * [ESPFailure.TimedOut], [ESPFailure.NotConnected], etc.
+ *
+ * @see UserSettings For the structure of user settings.
+ * @see V18UserSettings.UserByte2.forceLegacyDisplayDisabled For the specific bit that can cause verification
+ * failure.
+ * @see ESPResponse For the sealed class representing the outcome of ESP operations.
+ * @see ESPFailure For possible error types.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeV1UserBytes:(id<KESPLKIESPClient>)receiver userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeV1UserBytes(_:userBytes:verifyBytes:completionHandler:)")));
+
+/**
+ * Updates the main and muted volume levels inside of the Valentine One Gen2.
+ *
+ * This function is safe to call in rapid succession. The Valentine One will overwrite any
+ * existing [ESPPacketId.ReqWriteVolume] commands in its processing queue to ensure that
+ * only the last requested volume setting is applied. This prevents unintended intermediate
+ * volume changes if multiple requests are sent quickly.
+ *
+ * The behavior of audio and visual feedback from the Valentine One Gen2 during this operation
+ * depends on the `provideUserFeedback` and `skipFeedbackWhenNoChange` parameters, as well as
+ * the current alert status:
+ *
+ * - **Feedback Control ([provideUserFeedback]):**
+ *   - If `true`, the V1 will provide audio and visual feedback for the volume change.
+ *   - If both main and muted volume levels are changed, the V1's feedback will typically
+ *     toggle to indicate both new levels (e.g., displaying main volume then mute volume).
+ *   - If `false`, no feedback will be provided, regardless of volume changes (unless an alert
+ *     is active, see below).
+ *
+ * - **Skipping Feedback on No Change ([skipFeedbackWhenNoChange]):**
+ *   - If `true` and `provideUserFeedback` is also `true`, feedback will be skipped if the new
+ *     `volume` levels are identical to the V1's current volume levels.
+ *   - If `false` (or if `provideUserFeedback` is `false`), this parameter has no effect.
+ *
+ * - **Behavior During an Alert:**
+ *   - If an alert is actively being displayed by the Valentine One, the `provideUserFeedback`
+ *     flag is ignored. The audio level will change *immediately* to reflect the new `volume`
+ *     setting.
+ *
+ * @param volume The [V1Volume] object containing the desired main and muted volume levels
+ *               to write to the Valentine One.
+ * @param provideUserFeedback Enables visual & audio feedback.
+ * @param skipFeedbackWhenNoChange Skips visual & audio feedback when written volume is the same
+ * as the current volume.
+ * @see ESPPacketId.ReqWriteVolume For the underlying ESP request.
+ * @see requestCurrentVolume To retrieve the current volume levels programmatically.
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)writeVolume:(id<KESPLKIESPClient>)receiver volume:(KESPLKV1Volume *)volume provideUserFeedback:(BOOL)provideUserFeedback skipFeedbackWhenNoChange:(BOOL)skipFeedbackWhenNoChange completionHandler:(void (^)(id<KESPLKESPResponse> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("writeVolume(_:volume:provideUserFeedback:skipFeedbackWhenNoChange:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6730,34 +11183,6 @@ __attribute__((swift_name("IESPClientKt")))
 @property (class, readonly) int64_t defaultLongRequestTimeout __attribute__((swift_name("defaultLongRequestTimeout")));
 @property (class, readonly) int64_t defaultRequestTimeout __attribute__((swift_name("defaultRequestTimeout")));
 @property (class, readonly) int64_t defaultScanDuration __attribute__((swift_name("defaultScanDuration")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InfDisplayDataKt")))
-@interface KESPLKInfDisplayDataKt : KESPLKBase
-+ (KESPLKV1Mode *)bogeyCounterMode:(id)receiver __attribute__((swift_name("bogeyCounterMode(_:)")));
-+ (BOOL)isCustomSweep:(id)receiver __attribute__((swift_name("isCustomSweep(_:)")));
-+ (BOOL)isDisplayActive:(id)receiver __attribute__((swift_name("isDisplayActive(_:)")));
-+ (BOOL)isDisplayOn:(id)receiver __attribute__((swift_name("isDisplayOn(_:)")));
-+ (BOOL)isEuro:(id)receiver __attribute__((swift_name("isEuro(_:)")));
-+ (BOOL)isLegacy:(id)receiver __attribute__((swift_name("isLegacy(_:)")));
-+ (BOOL)isSearchingForAlerts:(id)receiver __attribute__((swift_name("isSearchingForAlerts(_:)")));
-+ (BOOL)isSoft:(id)receiver __attribute__((swift_name("isSoft(_:)")));
-+ (BOOL)isTimeSlicing:(id)receiver __attribute__((swift_name("isTimeSlicing(_:)")));
-+ (KESPLKV1Mode *)mode:(id)receiver __attribute__((swift_name("mode(_:)")));
-+ (id)displayData:(id)receiver __attribute__((swift_name("displayData(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InfV1BusyKt")))
-@interface KESPLKInfV1BusyKt : KESPLKBase
-+ (KESPLKKotlinByteArray *)busyPacketIdBytes:(id)receiver __attribute__((swift_name("busyPacketIdBytes(_:)")));
-
-/**
- * Returns a [List] of [ESPPacketId] of pending requests to the Valentine One. An empty list
- * is returned if the Valentine One has no pending requests.
- */
-+ (NSArray<KESPLKESPPacketId *> *)busyPacketIds:(id)receiver __attribute__((swift_name("busyPacketIds(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6786,12 +11211,6 @@ __attribute__((swift_name("Logger_iosKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NotProcessedKt")))
-@interface KESPLKNotProcessedKt : KESPLKBase
-+ (KESPLKESPPacketId *)notProcessedPacketId:(id)receiver __attribute__((swift_name("notProcessedPacketId(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformNativeModuleGenio_github_developrofthings_kespl_diKt")))
 @interface KESPLKPlatformNativeModuleGenio_github_developrofthings_kespl_diKt : KESPLKBase
 @property (class, readonly) KESPLKKoin_coreModule *io_github_developrofthings_kespl_di_PlatformNativeModule __attribute__((swift_name("io_github_developrofthings_kespl_di_PlatformNativeModule")));
@@ -6800,38 +11219,14 @@ __attribute__((swift_name("PlatformNativeModuleGenio_github_developrofthings_kes
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SavvyKt")))
 @interface KESPLKSavvyKt : KESPLKBase
-+ (KESPLKSAVVYStatus *)status:(id)receiver __attribute__((swift_name("status(_:)")));
 + (int32_t)toKPH:(int32_t)receiver __attribute__((swift_name("toKPH(_:)")));
 + (int32_t)toMPH:(int32_t)receiver __attribute__((swift_name("toMPH(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SerialKt")))
-@interface KESPLKSerialKt : KESPLKBase
-+ (BOOL)isSerialNumberResponse:(id)receiver __attribute__((swift_name("isSerialNumberResponse(_:)")));
-+ (NSString *)serialNumber:(id)receiver __attribute__((swift_name("serialNumber(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SweepDefinitionKt")))
-@interface KESPLKSweepDefinitionKt : KESPLKBase
-+ (int32_t)maxSweepIndex:(id)receiver __attribute__((swift_name("maxSweepIndex(_:)")));
-+ (int32_t)writeResult:(id)receiver __attribute__((swift_name("writeResult(_:)")));
-+ (KESPLKSweepDefinition *)sweepDefinition:(id)receiver __attribute__((swift_name("sweepDefinition(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SweepSectionKt")))
 @interface KESPLKSweepSectionKt : KESPLKBase
 + (KESPLKSweepSection *)SweepSectionIndex:(int32_t)index count:(int32_t)count lowerEdge:(int32_t)lowerEdge upperEdge:(int32_t)upperEdge __attribute__((swift_name("SweepSection(index:count:lowerEdge:upperEdge:)")));
-+ (NSArray<KESPLKSweepSection *> *)sweepSections:(id)receiver __attribute__((swift_name("sweepSections(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserSettingsKt")))
-@interface KESPLKUserSettingsKt : KESPLKBase
-+ (id<KESPLKUserSettings>)techDisplayUserBytes:(id)receiver version:(double)version __attribute__((swift_name("techDisplayUserBytes(_:version:)")));
-+ (id<KESPLKUserSettings>)valentineOneUserBytes:(id)receiver version:(double)version __attribute__((swift_name("valentineOneUserBytes(_:version:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6872,120 +11267,158 @@ __attribute__((swift_name("V1cTypeKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("VehicleSpeedKt")))
-@interface KESPLKVehicleSpeedKt : KESPLKBase
-+ (int32_t)speed:(id)receiver __attribute__((swift_name("speed(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("VersionKt")))
 @interface KESPLKVersionKt : KESPLKBase
 + (double)asDouble:(NSString *)receiver __attribute__((swift_name("asDouble(_:)")));
-+ (NSString *)version:(id)receiver __attribute__((swift_name("version(_:)")));
-+ (double)versionDouble:(id)receiver __attribute__((swift_name("versionDouble(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("VolumeKt")))
-@interface KESPLKVolumeKt : KESPLKBase
-+ (KESPLKV1Volumes *)allVolumes:(id)receiver __attribute__((swift_name("allVolumes(_:)")));
-+ (KESPLKV1Volume *)currentVolume:(id)receiver __attribute__((swift_name("currentVolume(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("__SkieSuspendWrappersKt")))
 @interface KESPLK__SkieSuspendWrappersKt : KESPLKBase
-+ (void)Skie_Suspend__0__waitForMatchingInfDisplayDataObserveRequestFeedbackExtensionReceiver:(id<KESPLKKotlinx_coroutines_coreFlow>)extensionReceiver requestDestination:(KESPLKESPDevice *)requestDestination requestPacketId:(KESPLKESPPacketId *)requestPacketId v1:(KESPLKESPDeviceValentineOne *)v1 timeout:(int64_t)timeout maxBusyPackets:(int32_t)maxBusyPackets infDisplayDataPredicate:(KESPLKBoolean *(^)(KESPLKKotlinByteArray *))infDisplayDataPredicate suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__0__waitForMatchingInfDisplayDataObserveRequestFeedback(extensionReceiver:requestDestination:requestPacketId:v1:timeout:maxBusyPackets:infDisplayDataPredicate:suspendHandler:)")));
-+ (void)Skie_Suspend__10__disconnectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__10__disconnect(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__11__displayCurrentVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__11__displayCurrentVolume(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__12__enableAlertTableDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver enable:(BOOL)enable timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__12__enableAlertTable(dispatchReceiver:enable:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__13__hasPreviousV1connectionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__13__hasPreviousV1connection(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__14__muteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver muted:(BOOL)muted timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__14__mute(dispatchReceiver:muted:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__15__muteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__15__mute(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__16__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver speed:(int32_t)speed timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__16__overrideSAVVYThumbWheel(dispatchReceiver:speed:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__17__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver speed:(int8_t)speed timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__17__overrideSAVVYThumbWheel(dispatchReceiver:speed:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__18__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver override:(KESPLKSAVVYThumbwheelOverride *)override timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__18__overrideSAVVYThumbWheel(dispatchReceiver:override:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__19__requestAllVolumesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__19__requestAllVolumes(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__1__hasNextDispatchReceiver:(KESPLKSkieColdFlowIterator<id> *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__1__hasNext(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__20__requestBatteryVoltageDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__20__requestBatteryVoltage(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__21__requestCurrentVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__21__requestCurrentVolume(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__22__requestDefaultSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__22__requestDefaultSweepDefinitions(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__23__requestDeviceSerialNumberDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__23__requestDeviceSerialNumber(dispatchReceiver:destination:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__24__requestDeviceVersionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__24__requestDeviceVersion(dispatchReceiver:destination:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__25__requestMaxSweepIndexDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__25__requestMaxSweepIndex(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__26__requestSAVVYStatusDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__26__requestSAVVYStatus(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__27__requestSweepDataDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__27__requestSweepData(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__28__requestSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__28__requestSweepDefinitions(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__29__requestSweepSectionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__29__requestSweepSections(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__2__collectDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreFlow>)dispatchReceiver collector:(id<KESPLKKotlinx_coroutines_coreFlowCollector>)collector suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__2__collect(dispatchReceiver:collector:suspendHandler:)")));
-+ (void)Skie_Suspend__30__requestUserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__30__requestUserBytes(dispatchReceiver:destination:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__31__requestUserSettingsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination forceVersionRequest:(BOOL)forceVersionRequest timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__31__requestUserSettings(dispatchReceiver:destination:forceVersionRequest:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__32__requestV1SerialNumberDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__32__requestV1SerialNumber(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__33__requestV1UserSettingsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver forceVersionRequest:(BOOL)forceVersionRequest timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__33__requestV1UserSettings(dispatchReceiver:forceVersionRequest:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__34__requestV1VersionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__34__requestV1Version(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__35__requestVehicleSpeedDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__35__requestVehicleSpeed(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__36__restoreDefaultSweepsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver verify:(BOOL)verify timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__36__restoreDefaultSweeps(dispatchReceiver:verify:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__37__restoreFactoryDefaultsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination verify:(BOOL)verify timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__37__restoreFactoryDefaults(dispatchReceiver:destination:verify:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__38__setMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver on:(BOOL)on timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__38__setMainDisplay(dispatchReceiver:on:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__39__turnOffMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__39__turnOffMainDisplay(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__3__emitDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreFlowCollector>)dispatchReceiver value:(id _Nullable)value suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__3__emit(dispatchReceiver:value:suspendHandler:)")));
-+ (void)Skie_Suspend__40__turnOnMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__40__turnOnMainDisplay(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__41__unmuteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__41__unmute(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__42__unmuteSAVVYDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver enableUnmuting:(BOOL)enableUnmuting timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__42__unmuteSAVVY(dispatchReceiver:enableUnmuting:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__43__writeSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver sweepDefinitions:(NSArray<KESPLKSweepDefinition *> *)sweepDefinitions timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__43__writeSweepDefinitions(dispatchReceiver:sweepDefinitions:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__44__writeUserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__44__writeUserBytes(dispatchReceiver:destination:userBytes:verifyBytes:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__45__writeV1UserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__45__writeV1UserBytes(dispatchReceiver:userBytes:verifyBytes:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__46__writeVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver volume:(KESPLKV1Volume *)volume provideUserFeedback:(BOOL)provideUserFeedback skipFeedbackWhenNoChange:(BOOL)skipFeedbackWhenNoChange saveVolume:(BOOL)saveVolume timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__46__writeVolume(dispatchReceiver:volume:provideUserFeedback:skipFeedbackWhenNoChange:saveVolume:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__47__joinDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreJob>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__47__join(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__48__awaitDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreDeferred>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__48__await(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__49__querySystemBluetoothLESupportDispatchReceiver:(KESPLKIESPClientCompanion *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__49__querySystemBluetoothLESupport(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__4__abortAudioDelayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__4__abortAudioDelay(dispatchReceiver:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__50__querySystemBluetoothSupportDispatchReceiver:(KESPLKIESPClientCompanion *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__50__querySystemBluetoothSupport(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__51__fromInputStreamDispatchReceiver:(KESPLKV1connectionDemoCompanion *)dispatchReceiver is:(id<KESPLKKotlinx_io_coreRawSource>)is suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__51__fromInputStream(dispatchReceiver:is:suspendHandler:)")));
++ (void)Skie_Suspend__0__abortAudioDelayExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__0__abortAudioDelay(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__100__joinDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreJob>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__100__join(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__101__awaitDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreDeferred>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__101__await(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__102__querySystemBluetoothLESupportDispatchReceiver:(KESPLKIESPClientCompanion *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__102__querySystemBluetoothLESupport(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__103__querySystemBluetoothSupportDispatchReceiver:(KESPLKIESPClientCompanion *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__103__querySystemBluetoothSupport(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__104__fromInputStreamDispatchReceiver:(KESPLKV1connectionDemoCompanion *)dispatchReceiver is:(id<KESPLKKotlinx_io_coreRawSource>)is suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__104__fromInputStream(dispatchReceiver:is:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__52__cleanupForDisconnectionDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__52__cleanupForDisconnection(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__105__cleanupForDisconnectionDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__105__cleanupForDisconnection(dispatchReceiver:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__53__onConnectionLostDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__53__onConnectionLost(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__106__onConnectionLostDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__106__onConnectionLost(dispatchReceiver:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__54__onDisconnectedDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__54__onDisconnected(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__107__onDisconnectedDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__107__onDisconnected(dispatchReceiver:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__55__performConnectionDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__55__performConnection(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
++ (void)Skie_Suspend__108__performConnectionDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__108__performConnection(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__56__performDisconnectDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__56__performDisconnect(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__109__performDisconnectDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__109__performDisconnect(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__10__overrideSAVVYThumbWheelExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver speed:(int32_t)speed suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__10__overrideSAVVYThumbWheel(extensionReceiver:speed:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__57__processESPDataDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver espData:(KESPLKKotlinByteArray *)espData suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__57__processESPData(dispatchReceiver:espData:suspendHandler:)")));
++ (void)Skie_Suspend__110__processESPDataDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver espData:(KESPLKKotlinByteArray *)espData suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__110__processESPData(dispatchReceiver:espData:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__58__writeBytesDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver bytes:(KESPLKKotlinByteArray *)bytes suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__58__writeBytes(dispatchReceiver:bytes:suspendHandler:)")));
-+ (void)Skie_Suspend__59__connectDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__59__connect(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
-+ (void)Skie_Suspend__5__canPersistLastDevicesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver persist:(BOOL)persist suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__5__canPersistLastDevices(dispatchReceiver:persist:suspendHandler:)")));
-+ (void)Skie_Suspend__60__disconnectDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__60__disconnect(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__61__scanDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver scanMode:(KESPLKESPScanMode *)scanMode suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__61__scan(dispatchReceiver:scanMode:suspendHandler:)")));
-+ (void)Skie_Suspend__62__writeRequestDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver request:(KESPLKESPRequest *)request waitForV1TypeDuration:(int64_t)waitForV1TypeDuration suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__62__writeRequest(dispatchReceiver:request:waitForV1TypeDuration:suspendHandler:)")));
-+ (void)Skie_Suspend__6__changeModeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver mode:(KESPLKV1Mode *)mode timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__6__changeMode(dispatchReceiver:mode:timeout:suspendHandler:)")));
-+ (void)Skie_Suspend__7__clearPersistedLastDevicesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__7__clearPersistedLastDevices(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__8__connectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver connectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy scanDurationMillis:(int64_t)scanDurationMillis suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__8__connect(dispatchReceiver:connectionStrategy:scanDurationMillis:suspendHandler:)")));
-+ (void)Skie_Suspend__9__connectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__9__connect(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
++ (void)Skie_Suspend__111__writeBytesDispatchReceiver:(KESPLKBaseConnection *)dispatchReceiver bytes:(KESPLKKotlinByteArray *)bytes suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__111__writeBytes(dispatchReceiver:bytes:suspendHandler:)")));
++ (void)Skie_Suspend__112__connectDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__112__connect(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
++ (void)Skie_Suspend__113__disconnectDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__113__disconnect(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__114__scanDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver scanMode:(KESPLKESPScanMode *)scanMode suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__114__scan(dispatchReceiver:scanMode:suspendHandler:)")));
++ (void)Skie_Suspend__115__writeRequestDispatchReceiver:(id<KESPLKIConnection>)dispatchReceiver request:(KESPLKESPRequest *)request waitForV1TypeDuration:(int64_t)waitForV1TypeDuration suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__115__writeRequest(dispatchReceiver:request:waitForV1TypeDuration:suspendHandler:)")));
++ (void)Skie_Suspend__11__overrideSAVVYThumbWheelExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver speed:(int8_t)speed suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__11__overrideSAVVYThumbWheel(extensionReceiver:speed:suspendHandler:)")));
++ (void)Skie_Suspend__12__overrideSAVVYThumbWheelExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver override:(KESPLKSAVVYThumbwheelOverride *)override suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__12__overrideSAVVYThumbWheel(extensionReceiver:override:suspendHandler:)")));
++ (void)Skie_Suspend__13__requestAllVolumesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__13__requestAllVolumes(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__14__requestBatteryVoltageExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__14__requestBatteryVoltage(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__15__requestCurrentVolumeExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__15__requestCurrentVolume(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__16__requestDefaultSweepDefinitionsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__16__requestDefaultSweepDefinitions(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__17__requestDeviceSerialNumberExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__17__requestDeviceSerialNumber(extensionReceiver:destination:suspendHandler:)")));
++ (void)Skie_Suspend__18__requestDeviceVersionExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__18__requestDeviceVersion(extensionReceiver:destination:suspendHandler:)")));
++ (void)Skie_Suspend__19__requestMaxSweepIndexExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__19__requestMaxSweepIndex(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__1__changeModeExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver mode:(KESPLKV1Mode *)mode suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__1__changeMode(extensionReceiver:mode:suspendHandler:)")));
++ (void)Skie_Suspend__20__requestSAVVYStatusExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__20__requestSAVVYStatus(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__21__requestSweepDataExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__21__requestSweepData(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__22__requestSweepDefinitionsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__22__requestSweepDefinitions(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__23__requestSweepSectionsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__23__requestSweepSections(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__24__requestUserBytesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__24__requestUserBytes(extensionReceiver:destination:suspendHandler:)")));
++ (void)Skie_Suspend__25__requestUserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__25__requestUserSettings(extensionReceiver:destination:suspendHandler:)")));
++ (void)Skie_Suspend__26__requestUserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination forceVersionRequest:(BOOL)forceVersionRequest suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__26__requestUserSettings(extensionReceiver:destination:forceVersionRequest:suspendHandler:)")));
++ (void)Skie_Suspend__27__requestUserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__27__requestUserSettings(extensionReceiver:destination:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__28__requestV1SerialNumberExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__28__requestV1SerialNumber(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__29__requestV1UserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__29__requestV1UserSettings(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__2__connectExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__2__connect(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__30__requestV1UserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__30__requestV1UserSettings(extensionReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__31__requestV1UserSettingsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver forceVersionRequest:(BOOL)forceVersionRequest suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__31__requestV1UserSettings(extensionReceiver:forceVersionRequest:suspendHandler:)")));
++ (void)Skie_Suspend__32__requestV1VersionExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__32__requestV1Version(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__33__requestVehicleSpeedExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__33__requestVehicleSpeed(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__34__restoreDefaultSweepsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__34__restoreDefaultSweeps(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__35__restoreDefaultSweepsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver verify:(BOOL)verify suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__35__restoreDefaultSweeps(extensionReceiver:verify:suspendHandler:)")));
++ (void)Skie_Suspend__36__restoreFactoryDefaultsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__36__restoreFactoryDefaults(extensionReceiver:destination:suspendHandler:)")));
++ (void)Skie_Suspend__37__restoreFactoryDefaultsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__37__restoreFactoryDefaults(extensionReceiver:destination:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__38__restoreFactoryDefaultsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination verify:(BOOL)verify suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__38__restoreFactoryDefaults(extensionReceiver:destination:verify:suspendHandler:)")));
++ (void)Skie_Suspend__39__setMainDisplayExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver on:(BOOL)on suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__39__setMainDisplay(extensionReceiver:on:suspendHandler:)")));
++ (void)Skie_Suspend__3__connectExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver connectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__3__connect(extensionReceiver:connectionStrategy:suspendHandler:)")));
++ (void)Skie_Suspend__40__turnOffMainDisplayExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__40__turnOffMainDisplay(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__41__turnOnMainDisplayExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__41__turnOnMainDisplay(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__42__unmuteExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__42__unmute(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__43__unmuteSAVVYExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver enableUnmuting:(BOOL)enableUnmuting suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__43__unmuteSAVVY(extensionReceiver:enableUnmuting:suspendHandler:)")));
++ (void)Skie_Suspend__44__writeSweepDefinitionsExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver sweepDefinitions:(NSArray<KESPLKSweepDefinition *> *)sweepDefinitions suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__44__writeSweepDefinitions(extensionReceiver:sweepDefinitions:suspendHandler:)")));
++ (void)Skie_Suspend__45__writeUserBytesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__45__writeUserBytes(extensionReceiver:destination:userBytes:suspendHandler:)")));
++ (void)Skie_Suspend__46__writeUserBytesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__46__writeUserBytes(extensionReceiver:destination:userBytes:verifyBytes:suspendHandler:)")));
++ (void)Skie_Suspend__47__writeUserBytesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__47__writeUserBytes(extensionReceiver:destination:userBytes:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__48__writeV1UserBytesExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__48__writeV1UserBytes(extensionReceiver:userBytes:verifyBytes:suspendHandler:)")));
++ (void)Skie_Suspend__49__writeVolumeExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver volume:(KESPLKV1Volume *)volume provideUserFeedback:(BOOL)provideUserFeedback skipFeedbackWhenNoChange:(BOOL)skipFeedbackWhenNoChange suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__49__writeVolume(extensionReceiver:volume:provideUserFeedback:skipFeedbackWhenNoChange:suspendHandler:)")));
++ (void)Skie_Suspend__4__connectExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver scanDurationMillis:(int64_t)scanDurationMillis suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__4__connect(extensionReceiver:scanDurationMillis:suspendHandler:)")));
++ (void)Skie_Suspend__50__connectExtensionReceiver:(id<KESPLKIConnection>)extensionReceiver v1c:(id<KESPLKV1connection>)v1c suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__50__connect(extensionReceiver:v1c:suspendHandler:)")));
++ (void)Skie_Suspend__51__scanExtensionReceiver:(id<KESPLKIConnection>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__51__scan(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__52__writeRequestExtensionReceiver:(id<KESPLKIConnection>)extensionReceiver request:(KESPLKESPRequest *)request suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__52__writeRequest(extensionReceiver:request:suspendHandler:)")));
++ (void)Skie_Suspend__53__waitForMatchingInfDisplayDataObserveRequestFeedbackExtensionReceiver:(id<KESPLKKotlinx_coroutines_coreFlow>)extensionReceiver requestDestination:(KESPLKESPDevice *)requestDestination requestPacketId:(KESPLKESPPacketId *)requestPacketId v1:(KESPLKESPDeviceValentineOne *)v1 timeout:(int64_t)timeout maxBusyPackets:(int32_t)maxBusyPackets infDisplayDataPredicate:(KESPLKBoolean *(^)(KESPLKKotlinByteArray *))infDisplayDataPredicate suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__53__waitForMatchingInfDisplayDataObserveRequestFeedback(extensionReceiver:requestDestination:requestPacketId:v1:timeout:maxBusyPackets:infDisplayDataPredicate:suspendHandler:)")));
++ (void)Skie_Suspend__54__hasNextDispatchReceiver:(KESPLKSkieColdFlowIterator<id> *)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__54__hasNext(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__55__collectDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreFlow>)dispatchReceiver collector:(id<KESPLKKotlinx_coroutines_coreFlowCollector>)collector suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__55__collect(dispatchReceiver:collector:suspendHandler:)")));
++ (void)Skie_Suspend__56__emitDispatchReceiver:(id<KESPLKKotlinx_coroutines_coreFlowCollector>)dispatchReceiver value:(id _Nullable)value suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__56__emit(dispatchReceiver:value:suspendHandler:)")));
++ (void)Skie_Suspend__57__abortAudioDelayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__57__abortAudioDelay(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__58__canPersistLastDevicesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver persist:(BOOL)persist suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__58__canPersistLastDevices(dispatchReceiver:persist:suspendHandler:)")));
++ (void)Skie_Suspend__59__changeModeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver mode:(KESPLKV1Mode *)mode timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__59__changeMode(dispatchReceiver:mode:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__5__connectExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver v1c:(id<KESPLKV1connection>)v1c suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__5__connect(extensionReceiver:v1c:suspendHandler:)")));
++ (void)Skie_Suspend__60__clearPersistedLastDevicesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__60__clearPersistedLastDevices(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__61__connectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver connectionStrategy:(KESPLKConnectionStrategy *)connectionStrategy scanDurationMillis:(int64_t)scanDurationMillis suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__61__connect(dispatchReceiver:connectionStrategy:scanDurationMillis:suspendHandler:)")));
++ (void)Skie_Suspend__62__connectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver v1c:(id<KESPLKV1connection>)v1c directConnect:(BOOL)directConnect suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__62__connect(dispatchReceiver:v1c:directConnect:suspendHandler:)")));
++ (void)Skie_Suspend__63__disconnectDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__63__disconnect(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__64__displayCurrentVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__64__displayCurrentVolume(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__65__enableAlertTableDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver enable:(BOOL)enable timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__65__enableAlertTable(dispatchReceiver:enable:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__66__hasPreviousV1connectionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__66__hasPreviousV1connection(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__67__muteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver muted:(BOOL)muted timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__67__mute(dispatchReceiver:muted:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__68__muteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__68__mute(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__69__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver speed:(int32_t)speed timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__69__overrideSAVVYThumbWheel(dispatchReceiver:speed:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__6__displayCurrentVolumeExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__6__displayCurrentVolume(extensionReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__70__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver speed:(int8_t)speed timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__70__overrideSAVVYThumbWheel(dispatchReceiver:speed:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__71__overrideSAVVYThumbWheelDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver override:(KESPLKSAVVYThumbwheelOverride *)override timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__71__overrideSAVVYThumbWheel(dispatchReceiver:override:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__72__requestAllVolumesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__72__requestAllVolumes(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__73__requestBatteryVoltageDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__73__requestBatteryVoltage(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__74__requestCurrentVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__74__requestCurrentVolume(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__75__requestDefaultSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__75__requestDefaultSweepDefinitions(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__76__requestDeviceSerialNumberDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__76__requestDeviceSerialNumber(dispatchReceiver:destination:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__77__requestDeviceVersionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__77__requestDeviceVersion(dispatchReceiver:destination:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__78__requestMaxSweepIndexDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__78__requestMaxSweepIndex(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__79__requestSAVVYStatusDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__79__requestSAVVYStatus(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__7__enableAlertTableExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver enable:(BOOL)enable suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__7__enableAlertTable(extensionReceiver:enable:suspendHandler:)")));
++ (void)Skie_Suspend__80__requestSweepDataDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__80__requestSweepData(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__81__requestSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__81__requestSweepDefinitions(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__82__requestSweepSectionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__82__requestSweepSections(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__83__requestUserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__83__requestUserBytes(dispatchReceiver:destination:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__84__requestUserSettingsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination forceVersionRequest:(BOOL)forceVersionRequest timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__84__requestUserSettings(dispatchReceiver:destination:forceVersionRequest:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__85__requestV1SerialNumberDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__85__requestV1SerialNumber(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__86__requestV1UserSettingsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver forceVersionRequest:(BOOL)forceVersionRequest timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__86__requestV1UserSettings(dispatchReceiver:forceVersionRequest:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__87__requestV1VersionDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__87__requestV1Version(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__88__requestVehicleSpeedDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__88__requestVehicleSpeed(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__89__restoreDefaultSweepsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver verify:(BOOL)verify timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__89__restoreDefaultSweeps(dispatchReceiver:verify:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__8__muteExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver muted:(BOOL)muted suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__8__mute(extensionReceiver:muted:suspendHandler:)")));
++ (void)Skie_Suspend__90__restoreFactoryDefaultsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination verify:(BOOL)verify timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__90__restoreFactoryDefaults(dispatchReceiver:destination:verify:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__91__setMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver on:(BOOL)on timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__91__setMainDisplay(dispatchReceiver:on:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__92__turnOffMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__92__turnOffMainDisplay(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__93__turnOnMainDisplayDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__93__turnOnMainDisplay(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__94__unmuteDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__94__unmute(dispatchReceiver:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__95__unmuteSAVVYDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver enableUnmuting:(BOOL)enableUnmuting timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__95__unmuteSAVVY(dispatchReceiver:enableUnmuting:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__96__writeSweepDefinitionsDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver sweepDefinitions:(NSArray<KESPLKSweepDefinition *> *)sweepDefinitions timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__96__writeSweepDefinitions(dispatchReceiver:sweepDefinitions:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__97__writeUserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver destination:(KESPLKESPDevice *)destination userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__97__writeUserBytes(dispatchReceiver:destination:userBytes:verifyBytes:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__98__writeV1UserBytesDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver userBytes:(KESPLKKotlinByteArray *)userBytes verifyBytes:(BOOL)verifyBytes timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__98__writeV1UserBytes(dispatchReceiver:userBytes:verifyBytes:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__99__writeVolumeDispatchReceiver:(id<KESPLKIESPClient>)dispatchReceiver volume:(KESPLKV1Volume *)volume provideUserFeedback:(BOOL)provideUserFeedback skipFeedbackWhenNoChange:(BOOL)skipFeedbackWhenNoChange saveVolume:(BOOL)saveVolume timeout:(int64_t)timeout suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__99__writeVolume(dispatchReceiver:volume:provideUserFeedback:skipFeedbackWhenNoChange:saveVolume:timeout:suspendHandler:)")));
++ (void)Skie_Suspend__9__muteExtensionReceiver:(id<KESPLKIESPClient>)extensionReceiver suspendHandler:(KESPLKSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__9__mute(extensionReceiver:suspendHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -7700,6 +12133,11 @@ __attribute__((swift_name("Kotlinx_serialization_coreStructureKind.OBJECT")))
 + (instancetype)oBJECT __attribute__((swift_name("init()")));
 @end
 
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
+@protocol KESPLKKotlinx_coroutines_coreSelectClause1 <KESPLKKotlinx_coroutines_coreSelectClause>
+@required
+@end
+
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
 @protocol KESPLKKotlinx_coroutines_coreDisposableHandle
 @required
@@ -7757,11 +12195,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
 
 __attribute__((swift_name("KotlinCoroutineContextKey")))
 @protocol KESPLKKotlinCoroutineContextKey
-@required
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
-@protocol KESPLKKotlinx_coroutines_coreSelectClause1 <KESPLKKotlinx_coroutines_coreSelectClause>
 @required
 @end
 
